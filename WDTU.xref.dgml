@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Title="ALXRef" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+	<Nodes>
+		<Node Id="Playlist Item Rate Test@@Page" Label="Playlist Item Rate Test" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="1@12" Group="Compact" />
+		<Node Id="Playlist Item Rate Test@@Table" Label="Playlist Item Rate Test" Category="Table" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50050.PlaylistItemRateTest.al" Position="1@13" Group="Compact" />
+		<Node Id="Content@Playlist Item Rate Test@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="10@14" Group="Compact" />
+		<Node Id="Group@Content@Control" Label="Group" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="12@22" Group="Compact" />
+		<Node Id="No.@Group@Control" Label="No." Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="14@23" Group="Compact" />
+		<Node Id="No.@Playlist Item Rate Test@Field" Label="No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50050.PlaylistItemRateTest.al" Position="5@18" />
+		<Node Id="Rec@Playlist Item Rate Test@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Name@Group@Control" Label="Name" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="15@23" Group="Compact" />
+		<Node Id="Name@Playlist Item Rate Test@Field" Label="Name" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50050.PlaylistItemRateTest.al" Position="6@18" />
+		<Node Id="Description@Group@Control" Label="Description" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="16@23" Group="Compact" />
+		<Node Id="Description@Playlist Item Rate Test@Field" Label="Description" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50050.PlaylistItemRateTest.al" Position="7@18" />
+		<Node Id="Score@Group@Control" Label="Score" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="17@23" Group="Compact" />
+		<Node Id="Score@Playlist Item Rate Test@Field" Label="Score" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50050.PlaylistItemRateTest.al" Position="8@18" Group="Compact" />
+		<Node Id="Group2@Content@Control" Label="Group2" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="20@22" Group="Compact" />
+		<Node Id="No.2@Group2@Control" Label="No.2" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="22@23" Group="Compact" />
+		<Node Id="Name2@Group2@Control" Label="Name2" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="23@23" Group="Compact" />
+		<Node Id="Description2@Group2@Control" Label="Description2" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="24@23" Group="Compact" />
+		<Node Id="Score2@Group2@Control" Label="Score2" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="25@23" Group="Compact" />
+		<Node Id="Group3@Content@Control" Label="Group3" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="28@19" Group="Compact" />
+		<Node Id="No.3@Group3@Control" Label="No.3" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="30@23" Group="Compact" />
+		<Node Id="Name3@Group3@Control" Label="Name3" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="31@23" Group="Compact" />
+		<Node Id="Description3@Group3@Control" Label="Description3" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="32@23" Group="Compact" />
+		<Node Id="Score3@Group3@Control" Label="Score3" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="33@23" Group="Compact" />
+		<Node Id="OnAction@ActionName@Method" Label="OnAction" Category="Method" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50050.PlaylistItemRateTest.al" Position="46@25" Group="Compact" />
+		<Node Id="Radio Show List@@Page" Label="Radio Show List" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="1@12" Group="Compact" />
+		<Node Id="Radio Show@@Table" Label="Radio Show" Category="Table" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="1@13" Group="Compact" />
+		<Node Id="Radio Show Card@@Page" Label="Radio Show Card" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="1@12" Group="Compact" />
+		<Node Id="Content@Radio Show List@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="11@14" Group="Compact" />
+		<Node Id="No.@Radio Show@Field" Label="No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="6@18" />
+		<Node Id="Rec@Radio Show List@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Radio Show Type@Group@Control" Label="Radio Show Type" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="16@23" Group="Compact" />
+		<Node Id="Radio Show Type@Radio Show@Field" Label="Radio Show Type" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="18@18" />
+		<Node Id="Name@Radio Show@Field" Label="Name" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="19@18" />
+		<Node Id="Run Time@Group@Control" Label="Run Time" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="18@23" Group="Compact" />
+		<Node Id="Run Time@Radio Show@Field" Label="Run Time" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="20@18" />
+		<Node Id="Host Code@Group@Control" Label="Host Code" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="19@23" Group="Compact" />
+		<Node Id="Host Code@Radio Show@Field" Label="Host Code" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="21@18" />
+		<Node Id="Host Name@Group@Control" Label="Host Name" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="20@23" Group="Compact" />
+		<Node Id="Host Name@Radio Show@Field" Label="Host Name" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="22@18" />
+		<Node Id="Average Listeners@Group@Control" Label="Average Listeners" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="21@23" Group="Compact" />
+		<Node Id="Average Listeners@Radio Show@Field" Label="Average Listeners" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="23@18" />
+		<Node Id="Audience Share@Group@Control" Label="Audience Share" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="22@23" Group="Compact" />
+		<Node Id="Audience Share@Radio Show@Field" Label="Audience Share" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="30@18" />
+		<Node Id="Advertising Revenue@Group@Control" Label="Advertising Revenue" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="23@23" Group="Compact" />
+		<Node Id="Advertising Revenue@Radio Show@Field" Label="Advertising Revenue" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="37@18" />
+		<Node Id="Royalty Cost@Group@Control" Label="Royalty Cost" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="24@23" Group="Compact" />
+		<Node Id="Royalty Cost@Radio Show@Field" Label="Royalty Cost" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="47@19" />
+		<Node Id="FactBoxes@Radio Show List@Control" Label="FactBoxes" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="28@14" Group="Compact" />
+		<Node Id="Fans@FactBoxes@Control" Label="Fans" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50100.RadioShowList.al" Position="30@18" Group="Compact" />
+		<Node Id="Radio Show Fan Factbox@@Page" Label="Radio Show Fan Factbox" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50109.RadioShowFanFactbox.al" Position="1@12" Group="Compact" />
+		<Node Id="Radio Show No.@Radio Show Fan@Field" Label="Radio Show No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50109.RadioShowFan.al" Position="8@18" />
+		<Node Id="Content@Radio Show Card@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="8@14" Group="Compact" />
+		<Node Id="General@Content@Control" Label="General" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="10@19" Group="Compact" />
+		<Node Id="No.@General@Control" Label="No." Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="12@23" Group="Compact" />
+		<Node Id="Rec@Radio Show Card@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Radio Show Type@General@Control" Label="Radio Show Type" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="13@23" Group="Compact" />
+		<Node Id="Name@General@Control" Label="Name" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="14@23" Group="Compact" />
+		<Node Id="Requeriments@Content@Control" Label="Requeriments" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="16@19" Group="Compact" />
+		<Node Id="Run Time@Requeriments@Control" Label="Run Time" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="18@23" Group="Compact" />
+		<Node Id="Host Code@Requeriments@Control" Label="Host Code" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="19@23" Group="Compact" />
+		<Node Id="Host Name@Requeriments@Control" Label="Host Name" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="20@23" Group="Compact" />
+		<Node Id="Stadistics@Content@Control" Label="Stadistics" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="22@19" Group="Compact" />
+		<Node Id="Average Listeners@Stadistics@Control" Label="Average Listeners" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="24@23" Group="Compact" />
+		<Node Id="Audience Share@Stadistics@Control" Label="Audience Share" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="25@23" Group="Compact" />
+		<Node Id="Advertising Revenue@Stadistics@Control" Label="Advertising Revenue" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="26@23" Group="Compact" />
+		<Node Id="Royalty Cost@Stadistics@Control" Label="Royalty Cost" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50101.RadioShowCard.al" Position="27@23" Group="Compact" />
+		<Node Id="Radio Show Type@@Page" Label="Radio Show Type" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50102.RadioShowType.al" Position="1@12" Group="Compact" />
+		<Node Id="Radio Show Type@@Table" Label="Radio Show Type" Category="Table" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50101.RadioShowType.al" Position="5@13" Group="Compact" />
+		<Node Id="Content@Radio Show Type@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50102.RadioShowType.al" Position="10@14" Group="Compact" />
+		<Node Id="Code@Group@Control" Label="Code" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50102.RadioShowType.al" Position="14@23" Group="Compact" />
+		<Node Id="Code@Radio Show Type@Field" Label="Code" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50101.RadioShowType.al" Position="12@18" />
+		<Node Id="Rec@Radio Show Type@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Description@Radio Show Type@Field" Label="Description" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50101.RadioShowType.al" Position="13@18" />
+		<Node Id="Playlist Document List@@Page" Label="Playlist Document List" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50103.PlaylistDocumentList.al" Position="1@12" Group="Compact" />
+		<Node Id="Playlist Header@@Table" Label="Playlist Header" Category="Table" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50102.PlaylistHeader.al" Position="1@13" Group="Compact" />
+		<Node Id="Content@Playlist Document List@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50103.PlaylistDocumentList.al" Position="10@14" Group="Compact" />
+		<Node Id="GroupName@Content@Control" Label="GroupName" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50103.PlaylistDocumentList.al" Position="12@22" Group="Compact" />
+		<Node Id="Name@GroupName@Control" Label="Name" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50103.PlaylistDocumentList.al" Position="14@23" Group="Compact" />
+		<Node Id="No.@Playlist Header@Field" Label="No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50102.PlaylistHeader.al" Position="6@18" />
+		<Node Id="Rec@Playlist Document List@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Playlist Item Rates@@Page" Label="Playlist Item Rates" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50104.PlaylistItemRates.al" Position="1@12" Group="Compact" />
+		<Node Id="Playlist Item Rate@@Table" Label="Playlist Item Rate" Category="Table" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50104.PlaylistItemRate.al" Position="1@13" Group="Compact" />
+		<Node Id="Content@Playlist Item Rates@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50104.PlaylistItemRates.al" Position="10@14" Group="Compact" />
+		<Node Id="Source Type@Playlist Item Rate@Field" Label="Source Type" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50104.PlaylistItemRate.al" Position="5@18" Group="Compact" />
+		<Node Id="Rec@Playlist Item Rates@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Radio Show Entries@@Page" Label="Radio Show Entries" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50105.RadioShowEntries.al" Position="1@12" Group="Compact" />
+		<Node Id="Radio Show Entry@@Table" Label="Radio Show Entry" Category="Table" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="1@13" Group="Compact" />
+		<Node Id="Content@Radio Show Entries@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50105.RadioShowEntries.al" Position="10@14" Group="Compact" />
+		<Node Id="Entry No.@Radio Show Entry@Field" Label="Entry No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="5@18" />
+		<Node Id="Rec@Radio Show Entries@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Listenership Entries@@Page" Label="Listenership Entries" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50106.ListenershipEntries.al" Position="1@12" Group="Compact" />
+		<Node Id="Listenership Entry@@Table" Label="Listenership Entry" Category="Table" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="1@13" Group="Compact" />
+		<Node Id="Content@Listenership Entries@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50106.ListenershipEntries.al" Position="10@14" Group="Compact" />
+		<Node Id="Entry No.@Listenership Entry@Field" Label="Entry No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="6@18" />
+		<Node Id="Rec@Listenership Entries@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Publishers@@Page" Label="Publishers" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50107.Publishers.al" Position="1@12" Group="Compact" />
+		<Node Id="Publisher@@Table" Label="Publisher" Category="Table" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50107.Publisher.al" Position="5@13" Group="Compact" />
+		<Node Id="Content@Publishers@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50107.Publishers.al" Position="10@14" Group="Compact" />
+		<Node Id="Code@GroupName@Control" Label="Code" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50107.Publishers.al" Position="14@23" Group="Compact" />
+		<Node Id="Code@Publisher@Field" Label="Code" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50107.Publisher.al" Position="9@18" />
+		<Node Id="Rec@Publishers@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Date Formula@@Page" Label="Date Formula" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50108.DateFormula.al" Position="1@12" Group="Compact" />
+		<Node Id="Date Formula@@Table" Label="Date Formula" Category="Table" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50108.DateFormula.al" Position="1@13" Group="Compact" />
+		<Node Id="Content@Date Formula@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50108.DateFormula.al" Position="10@14" Group="Compact" />
+		<Node Id="Primary Key@GroupName@Control" Label="Primary Key" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50108.DateFormula.al" Position="14@23" Group="Compact" />
+		<Node Id="Primary Key@Date Formula@Field" Label="Primary Key" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50108.DateFormula.al" Position="6@18" />
+		<Node Id="Rec@Date Formula@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Reference for Date Calculation@GroupName@Control" Label="Reference for Date Calculation" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50108.DateFormula.al" Position="15@23" Group="Compact" />
+		<Node Id="Reference for Date Calculation@Date Formula@Field" Label="Reference for Date Calculation" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50108.DateFormula.al" Position="7@18" />
+		<Node Id="Date Formula to Test@GroupName@Control" Label="Date Formula to Test" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50108.DateFormula.al" Position="16@23" Group="Compact" />
+		<Node Id="Date Formula to Test@Date Formula@Field" Label="Date Formula to Test" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50108.DateFormula.al" Position="14@18" />
+		<Node Id="Date Result@GroupName@Control" Label="Date Result" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50108.DateFormula.al" Position="17@23" Group="Compact" />
+		<Node Id="Date Result@Date Formula@Field" Label="Date Result" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50108.DateFormula.al" Position="21@18" />
+		<Node Id="Radio Show Fan@@Table" Label="Radio Show Fan" Category="Table" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50109.RadioShowFan.al" Position="1@13" Group="Compact" />
+		<Node Id="Content@Radio Show Fan Factbox@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50109.RadioShowFanFactbox.al" Position="10@14" Group="Compact" />
+		<Node Id="No.@GroupName@Control" Label="No." Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50109.RadioShowFanFactbox.al" Position="14@23" Group="Compact" />
+		<Node Id="No.@Radio Show Fan@Field" Label="No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50109.RadioShowFan.al" Position="7@18" />
+		<Node Id="Rec@Radio Show Fan Factbox@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Radio Show No.@GroupName@Control" Label="Radio Show No." Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50109.RadioShowFanFactbox.al" Position="15@23" Group="Compact" />
+		<Node Id="Name@Radio Show Fan@Field" Label="Name" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50109.RadioShowFan.al" Position="9@18" />
+		<Node Id="E-Mail@GroupName@Control" Label="E-Mail" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50109.RadioShowFanFactbox.al" Position="17@23" Group="Compact" />
+		<Node Id="E-Mail@Radio Show Fan@Field" Label="E-Mail" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50109.RadioShowFan.al" Position="10@18" />
+		<Node Id="Last Contacted@GroupName@Control" Label="Last Contacted" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50109.RadioShowFanFactbox.al" Position="18@23" Group="Compact" />
+		<Node Id="Last Contacted@Radio Show Fan@Field" Label="Last Contacted" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50109.RadioShowFan.al" Position="11@18" />
+		<Node Id="Radio Show Fans@@Page" Label="Radio Show Fans" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50110.RadioShowFans.al" Position="1@12" Group="Compact" />
+		<Node Id="Content@Radio Show Fans@Control" Label="Content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50110.RadioShowFans.al" Position="10@14" Group="Compact" />
+		<Node Id="Rec@Radio Show Fans@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Lot Avail. by Bin@@Page" Label="Lot Avail. by Bin" Category="Page" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50141.LotAvailbyBin.al" Position="1@12" Group="Compact" />
+		<Node Id="Warehouse Entry@@Table" Label="Warehouse Entry" Category="Table" Group="Compact" />
+		<Node Id="content@Lot Avail. by Bin@Control" Label="content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50141.LotAvailbyBin.al" Position="9@14" Group="Compact" />
+		<Node Id="Group@content@Control" Label="Group" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50141.LotAvailbyBin.al" Position="11@22" Group="Compact" />
+		<Node Id="Item No.@Group@Control" Label="Item No." Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50141.LotAvailbyBin.al" Position="13@23" Group="Compact" />
+		<Node Id="Item No.@Warehouse Entry@Field" Label="Item No." Category="Field" />
+		<Node Id="Rec@Lot Avail. by Bin@GlobalVariable" Label="Rec" Category="GlobalVariable" />
+		<Node Id="Location Code@Group@Control" Label="Location Code" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50141.LotAvailbyBin.al" Position="14@23" Group="Compact" />
+		<Node Id="Location Code@Warehouse Entry@Field" Label="Location Code" Category="Field" />
+		<Node Id="Bin Code@Group@Control" Label="Bin Code" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50141.LotAvailbyBin.al" Position="15@23" Group="Compact" />
+		<Node Id="Bin Code@Warehouse Entry@Field" Label="Bin Code" Category="Field" />
+		<Node Id="Serial No.@Group@Control" Label="Serial No." Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50141.LotAvailbyBin.al" Position="16@23" Group="Compact" />
+		<Node Id="Serial No.@Warehouse Entry@Field" Label="Serial No." Category="Field" />
+		<Node Id="Quantity@Group@Control" Label="Quantity" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50141.LotAvailbyBin.al" Position="17@23" Group="Compact" />
+		<Node Id="Quantity@Warehouse Entry@Field" Label="Quantity" Category="Field" />
+		<Node Id="OnOpenPage@Lot Avail. by Bin@Method" Label="OnOpenPage" Category="Method" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50141.LotAvailbyBin.al" Position="22@13" Group="Compact" />
+		<Node Id="LotAvail@Lot Avail. by Bin@LocalVariable" Label="LotAvail" Category="LocalVariable" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50141.LotAvailbyBin.al" Position="24@9" />
+		<Node Id="Lot Avail. by Bin@@Query" Label="Lot Avail. by Bin" Category="Query" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="1@13" Group="Compact" />
+		<Node Id="Open@QueryInstance@Method" Label="Open" Category="Method" Group="Compact" />
+		<Node Id="Read@QueryInstance@Method" Label="Read" Category="Method" Group="Compact" />
+		<Node Id="Init@Table@Method" Label="Init" Category="Method" Group="Compact" />
+		<Node Id="Item_No@Item_Ledger_Entry@QueryColumn" Label="Item_No" Category="QueryColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="9@20" />
+		<Node Id="Location_Code@Warehouse_Entry@QueryColumn" Label="Location_Code" Category="QueryColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="18@24" />
+		<Node Id="Bin_Code@Warehouse_Entry@QueryColumn" Label="Bin_Code" Category="QueryColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="20@24" />
+		<Node Id="Sum_Quantity@Warehouse_Entry@QueryColumn" Label="Sum_Quantity" Category="QueryColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="21@24" />
+		<Node Id="Insert@Table@Method" Label="Insert" Category="Method" Group="Compact" />
+		<Node Id="Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem" Label="Item_Ledger_Entry" Category="QueryDataItem" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="7@18" Group="Compact" />
+		<Node Id="Item Ledger Entry@@Table" Label="Item Ledger Entry" Category="Table" Group="Compact" />
+		<Node Id="Item No.@Item Ledger Entry@Field" Label="Item No." Category="Field" />
+		<Node Id="Lot_No@Item_Ledger_Entry@QueryColumn" Label="Lot_No" Category="QueryColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="10@20" />
+		<Node Id="Lot No.@Item Ledger Entry@Field" Label="Lot No." Category="Field" />
+		<Node Id="Warehouse_Entry@Item_Ledger_Entry@QueryDataItem" Label="Warehouse_Entry" Category="QueryDataItem" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="11@22" Group="Compact" />
+		<Node Id="Location Code@Item Ledger Entry@Field" Label="Location Code" Category="Field" />
+		<Node Id="Lot No.@Warehouse Entry@Field" Label="Lot No." Category="Field" />
+		<Node Id="Entry_No@Warehouse_Entry@QueryColumn" Label="Entry_No" Category="QueryColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="17@24" />
+		<Node Id="Entry No.@Warehouse Entry@Field" Label="Entry No." Category="Field" />
+		<Node Id="Zone_Code@Warehouse_Entry@QueryColumn" Label="Zone_Code" Category="QueryColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="19@24" />
+		<Node Id="Zone Code@Warehouse Entry@Field" Label="Zone Code" Category="Field" />
+		<Node Id="Bin@Warehouse_Entry@QueryDataItem" Label="Bin" Category="QueryDataItem" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="22@26" Group="Compact" />
+		<Node Id="Bin@@Table" Label="Bin" Category="Table" Group="Compact" />
+		<Node Id="Code@Bin@Field" Label="Code" Category="Field" />
+		<Node Id="Bin_Type@Bin@QueryDataItem" Label="Bin_Type" Category="QueryDataItem" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\query\Que50100.LotAvailbyBin.al" Position="25@30" Group="Compact" />
+		<Node Id="Bin Type@@Table" Label="Bin Type" Category="Table" Group="Compact" />
+		<Node Id="Code@Bin Type@Field" Label="Code" Category="Field" />
+		<Node Id="Pick@Bin Type@Field" Label="Pick" Category="Field" />
+		<Node Id="Radio Shows@@Report" Label="Radio Shows" Category="Report" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="1@14" />
+		<Node Id="Radio Show@Radio Shows@ReportDataItem" Label="Radio Show" Category="ReportDataItem" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="11@18" />
+		<Node Id="No_@Radio Show@ReportColumn" Label="No_" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="13@20" />
+		<Node Id="Radio_Show_Type@Radio Show@ReportColumn" Label="Radio_Show_Type" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="14@20" />
+		<Node Id="Name@Radio Show@ReportColumn" Label="Name" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="15@20" />
+		<Node Id="Run_Time@Radio Show@ReportColumn" Label="Run_Time" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="16@20" />
+		<Node Id="Host_Code@Radio Show@ReportColumn" Label="Host_Code" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="17@20" />
+		<Node Id="Host_Name@Radio Show@ReportColumn" Label="Host_Name" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="18@20" />
+		<Node Id="Average_Listeners@Radio Show@ReportColumn" Label="Average_Listeners" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="19@20" />
+		<Node Id="Audience_Share@Radio Show@ReportColumn" Label="Audience_Share" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="20@20" />
+		<Node Id="Advertising_Revenue@Radio Show@ReportColumn" Label="Advertising_Revenue" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="21@20" />
+		<Node Id="Royalty_Cost@Radio Show@ReportColumn" Label="Royalty_Cost" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50100.RadioShows.al" Position="22@20" />
+		<Node Id="Shows by Type@@Report" Label="Shows by Type" Category="Report" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="1@14" />
+		<Node Id="Radio Show Type@Shows by Type@ReportDataItem" Label="Radio Show Type" Category="ReportDataItem" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="9@18" />
+		<Node Id="UserComment@Radio Show Type@ReportColumn" Label="UserComment" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="11@20" />
+		<Node Id="UserComment@Shows by Type@GlobalVariable" Label="UserComment" Category="GlobalVariable" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="61@9" />
+		<Node Id="Code_RadioShowType@Radio Show Type@ReportColumn" Label="Code_RadioShowType" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="12@20" />
+		<Node Id="Description_RadioShowType@Radio Show Type@ReportColumn" Label="Description_RadioShowType" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="13@20" />
+		<Node Id="RadioShow@Radio Show Type@ReportDataItem" Label="RadioShow" Category="ReportDataItem" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="14@22" />
+		<Node Id="No_RadioShow@RadioShow@ReportColumn" Label="No_RadioShow" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="19@24" />
+		<Node Id="Name_RadioShow@RadioShow@ReportColumn" Label="Name_RadioShow" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="20@24" />
+		<Node Id="RunTime_RadioShow@RadioShow@ReportColumn" Label="RunTime_RadioShow" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="21@24" />
+		<Node Id="PlaylistHeader@RadioShow@ReportDataItem" Label="PlaylistHeader" Category="ReportDataItem" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="22@26" />
+		<Node Id="Radio Show No.@Playlist Header@Field" Label="Radio Show No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50102.PlaylistHeader.al" Position="7@18" />
+		<Node Id="PostingDate_PlaylistHeader@PlaylistHeader@ReportColumn" Label="PostingDate_PlaylistHeader" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="26@28" />
+		<Node Id="Broadcast Date@Playlist Header@Field" Label="Broadcast Date" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50102.PlaylistHeader.al" Position="9@18" />
+		<Node Id="StartTime_PlaylistHeader@PlaylistHeader@ReportColumn" Label="StartTime_PlaylistHeader" Category="ReportColumn" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="27@28" />
+		<Node Id="Start Time@Playlist Header@Field" Label="Start Time" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50102.PlaylistHeader.al" Position="11@18" />
+		<Node Id="content@RequestOptionsPage@Control" Label="content" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="37@18" Group="Compact" />
+		<Node Id="Options@content@Control" Label="Options" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="39@23" Group="Compact" />
+		<Node Id="UserComment@Options@Control" Label="UserComment" Category="Control" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="41@27" Group="Compact" />
+		<Node Id="ReportTitle@Shows by Type@ReportLabel" Label="ReportTitle" Category="ReportLabel" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="57@9" />
+		<Node Id="Demo@@Report" Label="Demo" Category="Report" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50102.Demo.al" Position="1@14" />
+		<Node Id="DataItem1@Demo@ReportDataItem" Label="DataItem1" Category="ReportDataItem" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50102.Demo.al" Position="5@18" />
+		<Node Id="DataItem2@DataItem1@ReportDataItem" Label="DataItem2" Category="ReportDataItem" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50102.Demo.al" Position="7@22" />
+		<Node Id="DataItem3@DataItem2@ReportDataItem" Label="DataItem3" Category="ReportDataItem" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50102.Demo.al" Position="9@26" />
+		<Node Id="OnInitReport@Demo@Method" Label="OnInitReport" Category="Method" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50102.Demo.al" Position="29@13" Group="Compact" />
+		<Node Id="OnPreReport@Demo@Method" Label="OnPreReport" Category="Method" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50102.Demo.al" Position="34@13" Group="Compact" />
+		<Node Id="OnPostReport@Demo@Method" Label="OnPostReport" Category="Method" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50102.Demo.al" Position="39@13" Group="Compact" />
+		<Node Id="Very Good@Option@Option" Label="Very Good" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50050.PlaylistItemRateTest.al" Position="8@51" />
+		<Node Id="Good@Option@Option" Label="Good" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50050.PlaylistItemRateTest.al" Position="8@51" />
+		<Node Id="Medium@Option@Option" Label="Medium" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50050.PlaylistItemRateTest.al" Position="8@51" />
+		<Node Id="Bad@Option@Option" Label="Bad" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50050.PlaylistItemRateTest.al" Position="8@51" />
+		<Node Id="PK@Playlist Item Rate Test@Key" Label="PK" Category="Key" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50050.PlaylistItemRateTest.al" Position="13@9" />
+		<Node Id="OnValidate@No.@Method" Label="OnValidate" Category="Method" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="8@21" Group="Compact" />
+		<Node Id="OnLookup@No.@Method" Label="OnLookup" Category="Method" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="13@21" Group="Compact" />
+		<Node Id="Listener Count@Listenership Entry@Field" Label="Listener Count" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="12@18" />
+		<Node Id="Radio Show No.@Listenership Entry@Field" Label="Radio Show No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="11@18" />
+		<Node Id="Posting Date@Listenership Entry@Field" Label="Posting Date" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="8@18" />
+		<Node Id="Date Filter@Radio Show@Field" Label="Date Filter" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="57@19" />
+		<Node Id="Audience Share@Listenership Entry@Field" Label="Audience Share" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="13@18" />
+		<Node Id="Fee Amount@Radio Show Entry@Field" Label="Fee Amount" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="14@19" />
+		<Node Id="Radio Show No.@Radio Show Entry@Field" Label="Radio Show No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="6@18" />
+		<Node Id="Data Format@Radio Show Entry@Field" Label="Data Format" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="9@18" Group="Compact" />
+		<Node Id="Advertisement@Option@Option" Label="Advertisement" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="9@59" />
+		<Node Id="Frecuency@Radio Show@Field" Label="Frecuency" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="48@19" Group="Compact" />
+		<Node Id="Hourly@Option@Option" Label="Hourly" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="48@58" />
+		<Node Id="Daily@Option@Option" Label="Daily" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="48@58" />
+		<Node Id="Weekly@Option@Option" Label="Weekly" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="48@58" />
+		<Node Id="Monthly@Option@Option" Label="Monthly" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="48@58" />
+		<Node Id="PSA Planned Quantity@Radio Show@Field" Label="PSA Planned Quantity" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="49@19" />
+		<Node Id="Ads Planned Quantity@Radio Show@Field" Label="Ads Planned Quantity" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="50@19" />
+		<Node Id="News Required@Radio Show@Field" Label="News Required" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="51@19" />
+		<Node Id="News Duration@Radio Show@Field" Label="News Duration" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="52@19" />
+		<Node Id="Sports Required@Radio Show@Field" Label="Sports Required" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="53@19" />
+		<Node Id="Sports Duration@Radio Show@Field" Label="Sports Duration" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="54@19" />
+		<Node Id="Weather Required@Radio Show@Field" Label="Weather Required" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="55@19" />
+		<Node Id="Weather Duration@Radio Show@Field" Label="Weather Duration" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="56@19" />
+		<Node Id="PK@Radio Show@Key" Label="PK" Category="Key" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="61@9" />
+		<Node Id="Name@Radio Show@Key" Label="Name" Category="Key" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="62@9" />
+		<Node Id="HostName@Radio Show@Key" Label="HostName" Category="Key" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="63@9" />
+		<Node Id="DropDown@Radio Show@FieldGroup" Label="DropDown" Category="FieldGroup" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="67@9" />
+		<Node Id="Brick@Radio Show@FieldGroup" Label="Brick" Category="FieldGroup" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50100.RadioShow.al" Position="68@9" />
+		<Node Id="Description@Playlist Header@Field" Label="Description" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50102.PlaylistHeader.al" Position="8@18" />
+		<Node Id="Duration@Playlist Header@Field" Label="Duration" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50102.PlaylistHeader.al" Position="10@18" />
+		<Node Id="End Time@Playlist Header@Field" Label="End Time" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50102.PlaylistHeader.al" Position="12@18" />
+		<Node Id="Playlist Line@@Table" Label="Playlist Line" Category="Table" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="1@13" Group="Compact" />
+		<Node Id="Document No.@Playlist Line@Field" Label="Document No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="6@18" />
+		<Node Id="Line No.@Playlist Line@Field" Label="Line No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="7@18" />
+		<Node Id="Type@Playlist Line@Field" Label="Type" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="8@18" Group="Compact" />
+		<Node Id="Resource@Option@Option" Label="Resource" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="8@50" />
+		<Node Id="Show@Option@Option" Label="Show" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="8@50" />
+		<Node Id="Item@Option@Option" Label="Item" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="8@50" />
+		<Node Id="No.@Playlist Line@Field" Label="No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="9@18" />
+		<Node Id="No.@Resource@Field" Label="No." Category="Field" />
+		<Node Id="Resource@@Table" Label="Resource" Category="Table" Group="Compact" />
+		<Node Id="No.@Item@Field" Label="No." Category="Field" />
+		<Node Id="Item@@Table" Label="Item" Category="Table" Group="Compact" />
+		<Node Id="Data Format@Playlist Line@Field" Label="Data Format" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="17@18" Group="Compact" />
+		<Node Id="Vinyl@Option@Option" Label="Vinyl" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="17@59" />
+		<Node Id="CD@Option@Option" Label="CD" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="17@59" />
+		<Node Id="MP3@Option@Option" Label="MP3" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="17@59" />
+		<Node Id="PSA@Option@Option" Label="PSA" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="17@59" />
+		<Node Id="Publisher@Playlist Line@Field" Label="Publisher" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="18@18" />
+		<Node Id="Description@Playlist Line@Field" Label="Description" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="19@18" />
+		<Node Id="Duration@Playlist Line@Field" Label="Duration" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="20@18" />
+		<Node Id="Start Time@Playlist Line@Field" Label="Start Time" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="21@18" />
+		<Node Id="End Time@Playlist Line@Field" Label="End Time" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="22@19" />
+		<Node Id="PK@Playlist Line@Key" Label="PK" Category="Key" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50103.PlaylistLine.al" Position="27@9" />
+		<Node Id="Vendor@Option@Option" Label="Vendor" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50104.PlaylistItemRate.al" Position="5@59" />
+		<Node Id="Customer@Option@Option" Label="Customer" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50104.PlaylistItemRate.al" Position="5@59" />
+		<Node Id="Source No.@Playlist Item Rate@Field" Label="Source No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50104.PlaylistItemRate.al" Position="6@18" />
+		<Node Id="Item No.@Playlist Item Rate@Field" Label="Item No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50104.PlaylistItemRate.al" Position="7@18" />
+		<Node Id="Start Time@Playlist Item Rate@Field" Label="Start Time" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50104.PlaylistItemRate.al" Position="8@18" />
+		<Node Id="End Time@Playlist Item Rate@Field" Label="End Time" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50104.PlaylistItemRate.al" Position="9@18" />
+		<Node Id="Rate Amount@Playlist Item Rate@Field" Label="Rate Amount" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50104.PlaylistItemRate.al" Position="10@18" />
+		<Node Id="Publisher Code@Playlist Item Rate@Field" Label="Publisher Code" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50104.PlaylistItemRate.al" Position="11@18" />
+		<Node Id="Type@Radio Show Entry@Field" Label="Type" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="7@18" Group="Compact" />
+		<Node Id="No.@Radio Show Entry@Field" Label="No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="8@18" />
+		<Node Id="Description@Radio Show Entry@Field" Label="Description" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="10@18" />
+		<Node Id="Date@Radio Show Entry@Field" Label="Date" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="11@18" />
+		<Node Id="Time@Radio Show Entry@Field" Label="Time" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="12@18" />
+		<Node Id="Duration@Radio Show Entry@Field" Label="Duration" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="13@18" />
+		<Node Id="ACSAP ID@Radio Show Entry@Field" Label="ACSAP ID" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="15@19" />
+		<Node Id="Publisher Code@Radio Show Entry@Field" Label="Publisher Code" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="16@19" />
+		<Node Id="PK@Radio Show Entry@Key" Label="PK" Category="Key" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="20@9" />
+		<Node Id="Reporting@Radio Show Entry@Key" Label="Reporting" Category="Key" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="21@9" />
+		<Node Id="Reporting2@Radio Show Entry@Key" Label="Reporting2" Category="Key" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50105.RadioShowEntry.al" Position="22@9" />
+		<Node Id="Ratings Source Entry No.@Listenership Entry@Field" Label="Ratings Source Entry No." Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="7@18" />
+		<Node Id="Start Time@Listenership Entry@Field" Label="Start Time" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="9@18" />
+		<Node Id="End Time@Listenership Entry@Field" Label="End Time" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="10@18" />
+		<Node Id="Age Demographic@Listenership Entry@Field" Label="Age Demographic" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="14@18" Group="Compact" />
+		<Node Id="0-12@Option@Option" Label="0-12" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="14@63" />
+		<Node Id="13-18@Option@Option" Label="13-18" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="14@63" />
+		<Node Id="19-34@Option@Option" Label="19-34" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="14@63" />
+		<Node Id="35-50@Option@Option" Label="35-50" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="14@63" />
+		<Node Id="51+@Option@Option" Label="51+" Category="Option" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="14@63" />
+		<Node Id="PK@Listenership Entry@Key" Label="PK" Category="Key" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="19@9" />
+		<Node Id="Reporting@Listenership Entry@Key" Label="Reporting" Category="Key" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50106.ListenershipEntry.al" Position="20@9" />
+		<Node Id="Description@Publisher@Field" Label="Description" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50107.Publisher.al" Position="10@18" />
+		<Node Id="OnValidate@Reference for Date Calculation@Method" Label="OnValidate" Category="Method" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50108.DateFormula.al" Position="9@21" Group="Compact" />
+		<Node Id="CalculateNewDate@Date Formula@Method" Label="CalculateNewDate" Category="Method" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50108.DateFormula.al" Position="25@21" Group="Compact" />
+		<Node Id="OnValidate@Date Formula to Test@Method" Label="OnValidate" Category="Method" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\table\Tab50108.DateFormula.al" Position="16@21" Group="Compact" />
+		<Node Id="CalcDate@System@Method" Label="CalcDate" Category="Method" Group="Compact" />
+		<Node Id="Item@@TableExtension" Label="Item" Category="TableExtension" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\tableextension\Tab-Ext50100.Item.al" Position="1@22" Group="Compact" />
+		<Node Id="Publisher Code@Item@Field" Label="Publisher Code" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\tableextension\Tab-Ext50100.Item.al" Position="5@22" />
+		<Node Id="ACSAP ID@Item@Field" Label="ACSAP ID" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\tableextension\Tab-Ext50100.Item.al" Position="6@22" />
+		<Node Id="Duration@Item@Field" Label="Duration" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\tableextension\Tab-Ext50100.Item.al" Position="7@22" />
+		<Node Id="Data Format@Item@Field" Label="Data Format" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\tableextension\Tab-Ext50100.Item.al" Position="8@22" Group="Compact" />
+		<Node Id="MP3 Location@Item@Field" Label="MP3 Location" Category="Field" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\tableextension\Tab-Ext50100.Item.al" Position="9@22" />
+		<Node Id="Playlist Item Rate Test@@Record" Label="Playlist Item Rate Test" Category="Record" />
+		<Node Id="Radio Show@@Record" Label="Radio Show" Category="Record" />
+		<Node Id="Radio Show Type@@Record" Label="Radio Show Type" Category="Record" />
+		<Node Id="Playlist Header@@Record" Label="Playlist Header" Category="Record" />
+		<Node Id="Playlist Item Rate@@Record" Label="Playlist Item Rate" Category="Record" />
+		<Node Id="Radio Show Entry@@Record" Label="Radio Show Entry" Category="Record" />
+		<Node Id="Listenership Entry@@Record" Label="Listenership Entry" Category="Record" />
+		<Node Id="Publisher@@Record" Label="Publisher" Category="Record" />
+		<Node Id="Date Formula@@Record" Label="Date Formula" Category="Record" />
+		<Node Id="Radio Show Fan@@Record" Label="Radio Show Fan" Category="Record" />
+		<Node Id="Warehouse Entry@@Record" Label="Warehouse Entry" Category="Record" />
+		<Node Id="WDTU@@Module" Label="WDTU" Category="Module" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\page\Pag50106.ListenershipEntries.al" Position="1@1" Group="Compact" />
+		<Node Id="Base Application@@Module" Label="Base Application" Category="Module" Group="Compact" />
+		<Node Id="QueryInstance@@Class" Label="QueryInstance" Category="Class" Group="Compact" />
+		<Node Id="System@@Module" Label="System" Category="Module" Group="Compact" />
+		<Node Id="Table@@Class" Label="Table" Category="Class" Group="Compact" />
+		<Node Id="RequestOptionsPage@Shows by Type@RequestPage" Label="RequestOptionsPage" Category="RequestPage" Reference="c:\Users\if\Desktop\OneDrive - TIPSA SL\Workspace\AL\WDTU\src\report\Rep50101.ShowsbyType.al" Position="33@5" />
+		<Node Id="System@@Class" Label="System" Category="Class" Group="Compact" />
+	</Nodes>
+	<Links>
+		<Link Source="No.@Group@Control" Target="No.@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="Rec@Playlist Item Rate Test@GlobalVariable" Target="Playlist Item Rate Test@@Record" Category="References" />
+		<Link Source="Name@Group@Control" Target="Name@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="Description@Group@Control" Target="Description@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="Score@Group@Control" Target="Score@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="No.2@Group2@Control" Target="No.@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="Name2@Group2@Control" Target="Name@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="Description2@Group2@Control" Target="Description@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="Score2@Group2@Control" Target="Score@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="No.3@Group3@Control" Target="No.@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="Name3@Group3@Control" Target="Name@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="Description3@Group3@Control" Target="Description@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="Score3@Group3@Control" Target="Score@Playlist Item Rate Test@Field" Category="References" />
+		<Link Source="No.@Group@Control" Target="No.@Radio Show@Field" Category="References" />
+		<Link Source="Rec@Radio Show List@GlobalVariable" Target="Radio Show@@Record" Category="References" />
+		<Link Source="Radio Show Type@Group@Control" Target="Radio Show Type@Radio Show@Field" Category="References" />
+		<Link Source="Name@Group@Control" Target="Name@Radio Show@Field" Category="References" />
+		<Link Source="Run Time@Group@Control" Target="Run Time@Radio Show@Field" Category="References" />
+		<Link Source="Host Code@Group@Control" Target="Host Code@Radio Show@Field" Category="References" />
+		<Link Source="Host Name@Group@Control" Target="Host Name@Radio Show@Field" Category="References" />
+		<Link Source="Average Listeners@Group@Control" Target="Average Listeners@Radio Show@Field" Category="References" />
+		<Link Source="Audience Share@Group@Control" Target="Audience Share@Radio Show@Field" Category="References" />
+		<Link Source="Advertising Revenue@Group@Control" Target="Advertising Revenue@Radio Show@Field" Category="References" />
+		<Link Source="Royalty Cost@Group@Control" Target="Royalty Cost@Radio Show@Field" Category="References" />
+		<Link Source="No.@General@Control" Target="No.@Radio Show@Field" Category="References" />
+		<Link Source="Rec@Radio Show Card@GlobalVariable" Target="Radio Show@@Record" Category="References" />
+		<Link Source="Radio Show Type@General@Control" Target="Radio Show Type@Radio Show@Field" Category="References" />
+		<Link Source="Name@General@Control" Target="Name@Radio Show@Field" Category="References" />
+		<Link Source="Run Time@Requeriments@Control" Target="Run Time@Radio Show@Field" Category="References" />
+		<Link Source="Host Code@Requeriments@Control" Target="Host Code@Radio Show@Field" Category="References" />
+		<Link Source="Host Name@Requeriments@Control" Target="Host Name@Radio Show@Field" Category="References" />
+		<Link Source="Average Listeners@Stadistics@Control" Target="Average Listeners@Radio Show@Field" Category="References" />
+		<Link Source="Audience Share@Stadistics@Control" Target="Audience Share@Radio Show@Field" Category="References" />
+		<Link Source="Advertising Revenue@Stadistics@Control" Target="Advertising Revenue@Radio Show@Field" Category="References" />
+		<Link Source="Royalty Cost@Stadistics@Control" Target="Royalty Cost@Radio Show@Field" Category="References" />
+		<Link Source="Code@Group@Control" Target="Code@Radio Show Type@Field" Category="References" />
+		<Link Source="Rec@Radio Show Type@GlobalVariable" Target="Radio Show Type@@Record" Category="References" />
+		<Link Source="Description@Group@Control" Target="Description@Radio Show Type@Field" Category="References" />
+		<Link Source="Name@GroupName@Control" Target="No.@Playlist Header@Field" Category="References" />
+		<Link Source="Rec@Playlist Document List@GlobalVariable" Target="Playlist Header@@Record" Category="References" />
+		<Link Source="Name@GroupName@Control" Target="Source Type@Playlist Item Rate@Field" Category="References" />
+		<Link Source="Rec@Playlist Item Rates@GlobalVariable" Target="Playlist Item Rate@@Record" Category="References" />
+		<Link Source="Name@GroupName@Control" Target="Entry No.@Radio Show Entry@Field" Category="References" />
+		<Link Source="Rec@Radio Show Entries@GlobalVariable" Target="Radio Show Entry@@Record" Category="References" />
+		<Link Source="Name@GroupName@Control" Target="Entry No.@Listenership Entry@Field" Category="References" />
+		<Link Source="Rec@Listenership Entries@GlobalVariable" Target="Listenership Entry@@Record" Category="References" />
+		<Link Source="Code@GroupName@Control" Target="Code@Publisher@Field" Category="References" />
+		<Link Source="Rec@Publishers@GlobalVariable" Target="Publisher@@Record" Category="References" />
+		<Link Source="Primary Key@GroupName@Control" Target="Primary Key@Date Formula@Field" Category="References" />
+		<Link Source="Rec@Date Formula@GlobalVariable" Target="Date Formula@@Record" Category="References" />
+		<Link Source="Reference for Date Calculation@GroupName@Control" Target="Reference for Date Calculation@Date Formula@Field" Category="References" />
+		<Link Source="Date Formula to Test@GroupName@Control" Target="Date Formula to Test@Date Formula@Field" Category="References" />
+		<Link Source="Date Result@GroupName@Control" Target="Date Result@Date Formula@Field" Category="References" />
+		<Link Source="No.@GroupName@Control" Target="No.@Radio Show Fan@Field" Category="References" />
+		<Link Source="Rec@Radio Show Fan Factbox@GlobalVariable" Target="Radio Show Fan@@Record" Category="References" />
+		<Link Source="Radio Show No.@GroupName@Control" Target="Radio Show No.@Radio Show Fan@Field" Category="References" />
+		<Link Source="Name@GroupName@Control" Target="Name@Radio Show Fan@Field" Category="References" />
+		<Link Source="E-Mail@GroupName@Control" Target="E-Mail@Radio Show Fan@Field" Category="References" />
+		<Link Source="Last Contacted@GroupName@Control" Target="Last Contacted@Radio Show Fan@Field" Category="References" />
+		<Link Source="Rec@Radio Show Fans@GlobalVariable" Target="Radio Show Fan@@Record" Category="References" />
+		<Link Source="Item No.@Group@Control" Target="Item No.@Warehouse Entry@Field" Category="References" />
+		<Link Source="Rec@Lot Avail. by Bin@GlobalVariable" Target="Warehouse Entry@@Record" Category="References" />
+		<Link Source="Location Code@Group@Control" Target="Location Code@Warehouse Entry@Field" Category="References" />
+		<Link Source="Bin Code@Group@Control" Target="Bin Code@Warehouse Entry@Field" Category="References" />
+		<Link Source="Serial No.@Group@Control" Target="Serial No.@Warehouse Entry@Field" Category="References" />
+		<Link Source="Quantity@Group@Control" Target="Quantity@Warehouse Entry@Field" Category="References" />
+		<Link Source="LotAvail@Lot Avail. by Bin@LocalVariable" Target="Lot Avail. by Bin@@Query" Category="References" />
+		<Link Source="Item_No@Item_Ledger_Entry@QueryColumn" Target="Item No.@Item Ledger Entry@Field" Category="References" />
+		<Link Source="Location_Code@Warehouse_Entry@QueryColumn" Target="Location Code@Warehouse Entry@Field" Category="References" />
+		<Link Source="Bin_Code@Warehouse_Entry@QueryColumn" Target="Bin Code@Warehouse Entry@Field" Category="References" />
+		<Link Source="Sum_Quantity@Warehouse_Entry@QueryColumn" Target="Quantity@Warehouse Entry@Field" Category="References" />
+		<Link Source="Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem" Target="Item Ledger Entry@@Table" Category="References" />
+		<Link Source="Lot_No@Item_Ledger_Entry@QueryColumn" Target="Lot No.@Item Ledger Entry@Field" Category="References" />
+		<Link Source="Warehouse_Entry@Item_Ledger_Entry@QueryDataItem" Target="Warehouse Entry@@Table" Category="References" />
+		<Link Source="Entry_No@Warehouse_Entry@QueryColumn" Target="Entry No.@Warehouse Entry@Field" Category="References" />
+		<Link Source="Zone_Code@Warehouse_Entry@QueryColumn" Target="Zone Code@Warehouse Entry@Field" Category="References" />
+		<Link Source="Bin@Warehouse_Entry@QueryDataItem" Target="Bin@@Table" Category="References" />
+		<Link Source="Bin_Type@Bin@QueryDataItem" Target="Bin Type@@Table" Category="References" />
+		<Link Source="CalculateNewDate@Date Formula@Method" Target="Date Result@Date Formula@Field" Category="References" />
+		<Link Source="CalculateNewDate@Date Formula@Method" Target="Date Formula to Test@Date Formula@Field" Category="References" />
+		<Link Source="CalculateNewDate@Date Formula@Method" Target="Reference for Date Calculation@Date Formula@Field" Category="References" />
+		<Link Source="CalculateNewDate@Date Formula@Method" Target="CalcDate@System@Method" Category="Calls" />
+		<Link Source="Item@@TableExtension" Target="Item@@Table" Category="Extends" />
+		<Link Source="Playlist Item Rate Test@@Page" Target="Playlist Item Rate Test@@Table" Category="SourceTable" />
+		<Link Source="Radio Show List@@Page" Target="Radio Show@@Table" Category="SourceTable" />
+		<Link Source="Radio Show Card@@Page" Target="Radio Show@@Table" Category="SourceTable" />
+		<Link Source="Radio Show Fan Factbox@@Page" Target="Radio Show Fan@@Table" Category="SourceTable" />
+		<Link Source="Radio Show Type@@Page" Target="Radio Show Type@@Table" Category="SourceTable" />
+		<Link Source="Playlist Document List@@Page" Target="Playlist Header@@Table" Category="SourceTable" />
+		<Link Source="Playlist Item Rates@@Page" Target="Playlist Item Rate@@Table" Category="SourceTable" />
+		<Link Source="Radio Show Entries@@Page" Target="Radio Show Entry@@Table" Category="SourceTable" />
+		<Link Source="Listenership Entries@@Page" Target="Listenership Entry@@Table" Category="SourceTable" />
+		<Link Source="Publishers@@Page" Target="Publisher@@Table" Category="SourceTable" />
+		<Link Source="Date Formula@@Page" Target="Date Formula@@Table" Category="SourceTable" />
+		<Link Source="Radio Show Fans@@Page" Target="Radio Show Fan@@Table" Category="SourceTable" />
+		<Link Source="Lot Avail. by Bin@@Page" Target="Warehouse Entry@@Table" Category="SourceTable" />
+		<Link Source="WDTU@@Module" Target="Playlist Item Rate Test@@Page" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Playlist Item Rate Test@@Table" Category="Contains" />
+		<Link Source="Playlist Item Rate Test@@Page" Target="Content@Playlist Item Rate Test@Control" Category="Contains" />
+		<Link Source="Content@Playlist Item Rate Test@Control" Target="Group@Content@Control" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="No.@Group@Control" Category="Contains" />
+		<Link Source="Playlist Item Rate Test@@Table" Target="No.@Playlist Item Rate Test@Field" Category="Contains" />
+		<Link Source="Playlist Item Rate Test@@Page" Target="Rec@Playlist Item Rate Test@GlobalVariable" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Name@Group@Control" Category="Contains" />
+		<Link Source="Playlist Item Rate Test@@Table" Target="Name@Playlist Item Rate Test@Field" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Description@Group@Control" Category="Contains" />
+		<Link Source="Playlist Item Rate Test@@Table" Target="Description@Playlist Item Rate Test@Field" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Score@Group@Control" Category="Contains" />
+		<Link Source="Playlist Item Rate Test@@Table" Target="Score@Playlist Item Rate Test@Field" Category="Contains" />
+		<Link Source="Content@Playlist Item Rate Test@Control" Target="Group2@Content@Control" Category="Contains" />
+		<Link Source="Group2@Content@Control" Target="No.2@Group2@Control" Category="Contains" />
+		<Link Source="Group2@Content@Control" Target="Name2@Group2@Control" Category="Contains" />
+		<Link Source="Group2@Content@Control" Target="Description2@Group2@Control" Category="Contains" />
+		<Link Source="Group2@Content@Control" Target="Score2@Group2@Control" Category="Contains" />
+		<Link Source="Content@Playlist Item Rate Test@Control" Target="Group3@Content@Control" Category="Contains" />
+		<Link Source="Group3@Content@Control" Target="No.3@Group3@Control" Category="Contains" />
+		<Link Source="Group3@Content@Control" Target="Name3@Group3@Control" Category="Contains" />
+		<Link Source="Group3@Content@Control" Target="Description3@Group3@Control" Category="Contains" />
+		<Link Source="Group3@Content@Control" Target="Score3@Group3@Control" Category="Contains" />
+		<Link Source="Playlist Item Rate Test@@Page" Target="OnAction@ActionName@Method" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Radio Show List@@Page" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Radio Show@@Table" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Radio Show Card@@Page" Category="Contains" />
+		<Link Source="Radio Show List@@Page" Target="Content@Radio Show List@Control" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="No.@Radio Show@Field" Category="Contains" />
+		<Link Source="Radio Show List@@Page" Target="Rec@Radio Show List@GlobalVariable" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Radio Show Type@Group@Control" Category="Contains" />
+		<Link Source="Content@Radio Show List@Control" Target="Group@Content@Control" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Radio Show Type@Radio Show@Field" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Name@Radio Show@Field" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Run Time@Group@Control" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Run Time@Radio Show@Field" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Host Code@Group@Control" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Host Code@Radio Show@Field" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Host Name@Group@Control" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Host Name@Radio Show@Field" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Average Listeners@Group@Control" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Average Listeners@Radio Show@Field" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Audience Share@Group@Control" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Audience Share@Radio Show@Field" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Advertising Revenue@Group@Control" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Advertising Revenue@Radio Show@Field" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Royalty Cost@Group@Control" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Royalty Cost@Radio Show@Field" Category="Contains" />
+		<Link Source="Radio Show List@@Page" Target="FactBoxes@Radio Show List@Control" Category="Contains" />
+		<Link Source="FactBoxes@Radio Show List@Control" Target="Fans@FactBoxes@Control" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Radio Show Fan Factbox@@Page" Category="Contains" />
+		<Link Source="Radio Show Fan@@Table" Target="Radio Show No.@Radio Show Fan@Field" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Radio Show Fan@@Table" Category="Contains" />
+		<Link Source="Radio Show Card@@Page" Target="Content@Radio Show Card@Control" Category="Contains" />
+		<Link Source="Content@Radio Show Card@Control" Target="General@Content@Control" Category="Contains" />
+		<Link Source="General@Content@Control" Target="No.@General@Control" Category="Contains" />
+		<Link Source="Radio Show Card@@Page" Target="Rec@Radio Show Card@GlobalVariable" Category="Contains" />
+		<Link Source="General@Content@Control" Target="Radio Show Type@General@Control" Category="Contains" />
+		<Link Source="General@Content@Control" Target="Name@General@Control" Category="Contains" />
+		<Link Source="Content@Radio Show Card@Control" Target="Requeriments@Content@Control" Category="Contains" />
+		<Link Source="Requeriments@Content@Control" Target="Run Time@Requeriments@Control" Category="Contains" />
+		<Link Source="Requeriments@Content@Control" Target="Host Code@Requeriments@Control" Category="Contains" />
+		<Link Source="Requeriments@Content@Control" Target="Host Name@Requeriments@Control" Category="Contains" />
+		<Link Source="Content@Radio Show Card@Control" Target="Stadistics@Content@Control" Category="Contains" />
+		<Link Source="Stadistics@Content@Control" Target="Average Listeners@Stadistics@Control" Category="Contains" />
+		<Link Source="Stadistics@Content@Control" Target="Audience Share@Stadistics@Control" Category="Contains" />
+		<Link Source="Stadistics@Content@Control" Target="Advertising Revenue@Stadistics@Control" Category="Contains" />
+		<Link Source="Stadistics@Content@Control" Target="Royalty Cost@Stadistics@Control" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Radio Show Type@@Page" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Radio Show Type@@Table" Category="Contains" />
+		<Link Source="Radio Show Type@@Page" Target="Content@Radio Show Type@Control" Category="Contains" />
+		<Link Source="Group@Content@Control" Target="Code@Group@Control" Category="Contains" />
+		<Link Source="Content@Radio Show Type@Control" Target="Group@Content@Control" Category="Contains" />
+		<Link Source="Radio Show Type@@Table" Target="Code@Radio Show Type@Field" Category="Contains" />
+		<Link Source="Radio Show Type@@Page" Target="Rec@Radio Show Type@GlobalVariable" Category="Contains" />
+		<Link Source="Radio Show Type@@Table" Target="Description@Radio Show Type@Field" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Playlist Document List@@Page" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Playlist Header@@Table" Category="Contains" />
+		<Link Source="Playlist Document List@@Page" Target="Content@Playlist Document List@Control" Category="Contains" />
+		<Link Source="Content@Playlist Document List@Control" Target="GroupName@Content@Control" Category="Contains" />
+		<Link Source="GroupName@Content@Control" Target="Name@GroupName@Control" Category="Contains" />
+		<Link Source="Playlist Header@@Table" Target="No.@Playlist Header@Field" Category="Contains" />
+		<Link Source="Playlist Document List@@Page" Target="Rec@Playlist Document List@GlobalVariable" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Playlist Item Rates@@Page" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Playlist Item Rate@@Table" Category="Contains" />
+		<Link Source="Playlist Item Rates@@Page" Target="Content@Playlist Item Rates@Control" Category="Contains" />
+		<Link Source="Playlist Item Rate@@Table" Target="Source Type@Playlist Item Rate@Field" Category="Contains" />
+		<Link Source="Playlist Item Rates@@Page" Target="Rec@Playlist Item Rates@GlobalVariable" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Radio Show Entries@@Page" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Radio Show Entry@@Table" Category="Contains" />
+		<Link Source="Radio Show Entries@@Page" Target="Content@Radio Show Entries@Control" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Entry No.@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entries@@Page" Target="Rec@Radio Show Entries@GlobalVariable" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Listenership Entries@@Page" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Listenership Entry@@Table" Category="Contains" />
+		<Link Source="Listenership Entries@@Page" Target="Content@Listenership Entries@Control" Category="Contains" />
+		<Link Source="Listenership Entry@@Table" Target="Entry No.@Listenership Entry@Field" Category="Contains" />
+		<Link Source="Listenership Entries@@Page" Target="Rec@Listenership Entries@GlobalVariable" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Publishers@@Page" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Publisher@@Table" Category="Contains" />
+		<Link Source="Publishers@@Page" Target="Content@Publishers@Control" Category="Contains" />
+		<Link Source="GroupName@Content@Control" Target="Code@GroupName@Control" Category="Contains" />
+		<Link Source="Content@Publishers@Control" Target="GroupName@Content@Control" Category="Contains" />
+		<Link Source="Publisher@@Table" Target="Code@Publisher@Field" Category="Contains" />
+		<Link Source="Publishers@@Page" Target="Rec@Publishers@GlobalVariable" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Date Formula@@Page" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Date Formula@@Table" Category="Contains" />
+		<Link Source="Date Formula@@Page" Target="Content@Date Formula@Control" Category="Contains" />
+		<Link Source="GroupName@Content@Control" Target="Primary Key@GroupName@Control" Category="Contains" />
+		<Link Source="Content@Date Formula@Control" Target="GroupName@Content@Control" Category="Contains" />
+		<Link Source="Date Formula@@Table" Target="Primary Key@Date Formula@Field" Category="Contains" />
+		<Link Source="Date Formula@@Page" Target="Rec@Date Formula@GlobalVariable" Category="Contains" />
+		<Link Source="GroupName@Content@Control" Target="Reference for Date Calculation@GroupName@Control" Category="Contains" />
+		<Link Source="Date Formula@@Table" Target="Reference for Date Calculation@Date Formula@Field" Category="Contains" />
+		<Link Source="GroupName@Content@Control" Target="Date Formula to Test@GroupName@Control" Category="Contains" />
+		<Link Source="Date Formula@@Table" Target="Date Formula to Test@Date Formula@Field" Category="Contains" />
+		<Link Source="GroupName@Content@Control" Target="Date Result@GroupName@Control" Category="Contains" />
+		<Link Source="Date Formula@@Table" Target="Date Result@Date Formula@Field" Category="Contains" />
+		<Link Source="Radio Show Fan Factbox@@Page" Target="Content@Radio Show Fan Factbox@Control" Category="Contains" />
+		<Link Source="GroupName@Content@Control" Target="No.@GroupName@Control" Category="Contains" />
+		<Link Source="Content@Radio Show Fan Factbox@Control" Target="GroupName@Content@Control" Category="Contains" />
+		<Link Source="Radio Show Fan@@Table" Target="No.@Radio Show Fan@Field" Category="Contains" />
+		<Link Source="Radio Show Fan Factbox@@Page" Target="Rec@Radio Show Fan Factbox@GlobalVariable" Category="Contains" />
+		<Link Source="GroupName@Content@Control" Target="Radio Show No.@GroupName@Control" Category="Contains" />
+		<Link Source="Radio Show Fan@@Table" Target="Name@Radio Show Fan@Field" Category="Contains" />
+		<Link Source="GroupName@Content@Control" Target="E-Mail@GroupName@Control" Category="Contains" />
+		<Link Source="Radio Show Fan@@Table" Target="E-Mail@Radio Show Fan@Field" Category="Contains" />
+		<Link Source="GroupName@Content@Control" Target="Last Contacted@GroupName@Control" Category="Contains" />
+		<Link Source="Radio Show Fan@@Table" Target="Last Contacted@Radio Show Fan@Field" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Radio Show Fans@@Page" Category="Contains" />
+		<Link Source="Radio Show Fans@@Page" Target="Content@Radio Show Fans@Control" Category="Contains" />
+		<Link Source="Radio Show Fans@@Page" Target="Rec@Radio Show Fans@GlobalVariable" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Lot Avail. by Bin@@Page" Category="Contains" />
+		<Link Source="Base Application@@Module" Target="Warehouse Entry@@Table" Category="Contains" />
+		<Link Source="Lot Avail. by Bin@@Page" Target="content@Lot Avail. by Bin@Control" Category="Contains" />
+		<Link Source="content@Lot Avail. by Bin@Control" Target="Group@content@Control" Category="Contains" />
+		<Link Source="Group@content@Control" Target="Item No.@Group@Control" Category="Contains" />
+		<Link Source="Warehouse Entry@@Table" Target="Item No.@Warehouse Entry@Field" Category="Contains" />
+		<Link Source="Lot Avail. by Bin@@Page" Target="Rec@Lot Avail. by Bin@GlobalVariable" Category="Contains" />
+		<Link Source="Group@content@Control" Target="Location Code@Group@Control" Category="Contains" />
+		<Link Source="Warehouse Entry@@Table" Target="Location Code@Warehouse Entry@Field" Category="Contains" />
+		<Link Source="Group@content@Control" Target="Bin Code@Group@Control" Category="Contains" />
+		<Link Source="Warehouse Entry@@Table" Target="Bin Code@Warehouse Entry@Field" Category="Contains" />
+		<Link Source="Group@content@Control" Target="Serial No.@Group@Control" Category="Contains" />
+		<Link Source="Warehouse Entry@@Table" Target="Serial No.@Warehouse Entry@Field" Category="Contains" />
+		<Link Source="Group@content@Control" Target="Quantity@Group@Control" Category="Contains" />
+		<Link Source="Warehouse Entry@@Table" Target="Quantity@Warehouse Entry@Field" Category="Contains" />
+		<Link Source="Lot Avail. by Bin@@Page" Target="OnOpenPage@Lot Avail. by Bin@Method" Category="Contains" />
+		<Link Source="OnOpenPage@Lot Avail. by Bin@Method" Target="LotAvail@Lot Avail. by Bin@LocalVariable" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Lot Avail. by Bin@@Query" Category="Contains" />
+		<Link Source="QueryInstance@@Class" Target="Open@QueryInstance@Method" Category="Contains" />
+		<Link Source="System@@Module" Target="QueryInstance@@Class" Category="Contains" />
+		<Link Source="QueryInstance@@Class" Target="Read@QueryInstance@Method" Category="Contains" />
+		<Link Source="Table@@Class" Target="Init@Table@Method" Category="Contains" />
+		<Link Source="System@@Module" Target="Table@@Class" Category="Contains" />
+		<Link Source="Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem" Target="Item_No@Item_Ledger_Entry@QueryColumn" Category="Contains" />
+		<Link Source="Lot Avail. by Bin@@Query" Target="Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem" Category="Contains" />
+		<Link Source="Warehouse_Entry@Item_Ledger_Entry@QueryDataItem" Target="Location_Code@Warehouse_Entry@QueryColumn" Category="Contains" />
+		<Link Source="Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem" Target="Warehouse_Entry@Item_Ledger_Entry@QueryDataItem" Category="Contains" />
+		<Link Source="Warehouse_Entry@Item_Ledger_Entry@QueryDataItem" Target="Bin_Code@Warehouse_Entry@QueryColumn" Category="Contains" />
+		<Link Source="Warehouse_Entry@Item_Ledger_Entry@QueryDataItem" Target="Sum_Quantity@Warehouse_Entry@QueryColumn" Category="Contains" />
+		<Link Source="Table@@Class" Target="Insert@Table@Method" Category="Contains" />
+		<Link Source="Base Application@@Module" Target="Item Ledger Entry@@Table" Category="Contains" />
+		<Link Source="Item Ledger Entry@@Table" Target="Item No.@Item Ledger Entry@Field" Category="Contains" />
+		<Link Source="Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem" Target="Lot_No@Item_Ledger_Entry@QueryColumn" Category="Contains" />
+		<Link Source="Item Ledger Entry@@Table" Target="Lot No.@Item Ledger Entry@Field" Category="Contains" />
+		<Link Source="Item Ledger Entry@@Table" Target="Location Code@Item Ledger Entry@Field" Category="Contains" />
+		<Link Source="Warehouse Entry@@Table" Target="Lot No.@Warehouse Entry@Field" Category="Contains" />
+		<Link Source="Warehouse_Entry@Item_Ledger_Entry@QueryDataItem" Target="Entry_No@Warehouse_Entry@QueryColumn" Category="Contains" />
+		<Link Source="Warehouse Entry@@Table" Target="Entry No.@Warehouse Entry@Field" Category="Contains" />
+		<Link Source="Warehouse_Entry@Item_Ledger_Entry@QueryDataItem" Target="Zone_Code@Warehouse_Entry@QueryColumn" Category="Contains" />
+		<Link Source="Warehouse Entry@@Table" Target="Zone Code@Warehouse Entry@Field" Category="Contains" />
+		<Link Source="Warehouse_Entry@Item_Ledger_Entry@QueryDataItem" Target="Bin@Warehouse_Entry@QueryDataItem" Category="Contains" />
+		<Link Source="Base Application@@Module" Target="Bin@@Table" Category="Contains" />
+		<Link Source="Bin@@Table" Target="Code@Bin@Field" Category="Contains" />
+		<Link Source="Bin@Warehouse_Entry@QueryDataItem" Target="Bin_Type@Bin@QueryDataItem" Category="Contains" />
+		<Link Source="Base Application@@Module" Target="Bin Type@@Table" Category="Contains" />
+		<Link Source="Bin Type@@Table" Target="Code@Bin Type@Field" Category="Contains" />
+		<Link Source="Bin Type@@Table" Target="Pick@Bin Type@Field" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Radio Shows@@Report" Category="Contains" />
+		<Link Source="Radio Shows@@Report" Target="Radio Show@Radio Shows@ReportDataItem" Category="Contains" />
+		<Link Source="Radio Show@Radio Shows@ReportDataItem" Target="No_@Radio Show@ReportColumn" Category="Contains" />
+		<Link Source="Radio Show@Radio Shows@ReportDataItem" Target="Radio_Show_Type@Radio Show@ReportColumn" Category="Contains" />
+		<Link Source="Radio Show@Radio Shows@ReportDataItem" Target="Name@Radio Show@ReportColumn" Category="Contains" />
+		<Link Source="Radio Show@Radio Shows@ReportDataItem" Target="Run_Time@Radio Show@ReportColumn" Category="Contains" />
+		<Link Source="Radio Show@Radio Shows@ReportDataItem" Target="Host_Code@Radio Show@ReportColumn" Category="Contains" />
+		<Link Source="Radio Show@Radio Shows@ReportDataItem" Target="Host_Name@Radio Show@ReportColumn" Category="Contains" />
+		<Link Source="Radio Show@Radio Shows@ReportDataItem" Target="Average_Listeners@Radio Show@ReportColumn" Category="Contains" />
+		<Link Source="Radio Show@Radio Shows@ReportDataItem" Target="Audience_Share@Radio Show@ReportColumn" Category="Contains" />
+		<Link Source="Radio Show@Radio Shows@ReportDataItem" Target="Advertising_Revenue@Radio Show@ReportColumn" Category="Contains" />
+		<Link Source="Radio Show@Radio Shows@ReportDataItem" Target="Royalty_Cost@Radio Show@ReportColumn" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Shows by Type@@Report" Category="Contains" />
+		<Link Source="Shows by Type@@Report" Target="Radio Show Type@Shows by Type@ReportDataItem" Category="Contains" />
+		<Link Source="Radio Show Type@Shows by Type@ReportDataItem" Target="UserComment@Radio Show Type@ReportColumn" Category="Contains" />
+		<Link Source="Shows by Type@@Report" Target="UserComment@Shows by Type@GlobalVariable" Category="Contains" />
+		<Link Source="Radio Show Type@Shows by Type@ReportDataItem" Target="Code_RadioShowType@Radio Show Type@ReportColumn" Category="Contains" />
+		<Link Source="Radio Show Type@Shows by Type@ReportDataItem" Target="Description_RadioShowType@Radio Show Type@ReportColumn" Category="Contains" />
+		<Link Source="Radio Show Type@Shows by Type@ReportDataItem" Target="RadioShow@Radio Show Type@ReportDataItem" Category="Contains" />
+		<Link Source="RadioShow@Radio Show Type@ReportDataItem" Target="No_RadioShow@RadioShow@ReportColumn" Category="Contains" />
+		<Link Source="RadioShow@Radio Show Type@ReportDataItem" Target="Name_RadioShow@RadioShow@ReportColumn" Category="Contains" />
+		<Link Source="RadioShow@Radio Show Type@ReportDataItem" Target="RunTime_RadioShow@RadioShow@ReportColumn" Category="Contains" />
+		<Link Source="RadioShow@Radio Show Type@ReportDataItem" Target="PlaylistHeader@RadioShow@ReportDataItem" Category="Contains" />
+		<Link Source="Playlist Header@@Table" Target="Radio Show No.@Playlist Header@Field" Category="Contains" />
+		<Link Source="PlaylistHeader@RadioShow@ReportDataItem" Target="PostingDate_PlaylistHeader@PlaylistHeader@ReportColumn" Category="Contains" />
+		<Link Source="Playlist Header@@Table" Target="Broadcast Date@Playlist Header@Field" Category="Contains" />
+		<Link Source="PlaylistHeader@RadioShow@ReportDataItem" Target="StartTime_PlaylistHeader@PlaylistHeader@ReportColumn" Category="Contains" />
+		<Link Source="Playlist Header@@Table" Target="Start Time@Playlist Header@Field" Category="Contains" />
+		<Link Source="RequestOptionsPage@Shows by Type@RequestPage" Target="content@RequestOptionsPage@Control" Category="Contains" />
+		<Link Source="Shows by Type@@Report" Target="RequestOptionsPage@Shows by Type@RequestPage" Category="Contains" />
+		<Link Source="content@RequestOptionsPage@Control" Target="Options@content@Control" Category="Contains" />
+		<Link Source="Options@content@Control" Target="UserComment@Options@Control" Category="Contains" />
+		<Link Source="Shows by Type@@Report" Target="ReportTitle@Shows by Type@ReportLabel" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Demo@@Report" Category="Contains" />
+		<Link Source="Demo@@Report" Target="DataItem1@Demo@ReportDataItem" Category="Contains" />
+		<Link Source="DataItem1@Demo@ReportDataItem" Target="DataItem2@DataItem1@ReportDataItem" Category="Contains" />
+		<Link Source="DataItem2@DataItem1@ReportDataItem" Target="DataItem3@DataItem2@ReportDataItem" Category="Contains" />
+		<Link Source="Demo@@Report" Target="OnInitReport@Demo@Method" Category="Contains" />
+		<Link Source="Demo@@Report" Target="OnPreReport@Demo@Method" Category="Contains" />
+		<Link Source="Demo@@Report" Target="OnPostReport@Demo@Method" Category="Contains" />
+		<Link Source="Score@Playlist Item Rate Test@Field" Target="Very Good@Option@Option" Category="Contains" />
+		<Link Source="Score@Playlist Item Rate Test@Field" Target="Good@Option@Option" Category="Contains" />
+		<Link Source="Score@Playlist Item Rate Test@Field" Target="Medium@Option@Option" Category="Contains" />
+		<Link Source="Score@Playlist Item Rate Test@Field" Target="Bad@Option@Option" Category="Contains" />
+		<Link Source="Playlist Item Rate Test@@Table" Target="PK@Playlist Item Rate Test@Key" Category="Contains" />
+		<Link Source="No.@Radio Show@Field" Target="OnValidate@No.@Method" Category="Contains" />
+		<Link Source="No.@Radio Show@Field" Target="OnLookup@No.@Method" Category="Contains" />
+		<Link Source="Listenership Entry@@Table" Target="Listener Count@Listenership Entry@Field" Category="Contains" />
+		<Link Source="Listenership Entry@@Table" Target="Radio Show No.@Listenership Entry@Field" Category="Contains" />
+		<Link Source="Listenership Entry@@Table" Target="Posting Date@Listenership Entry@Field" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Date Filter@Radio Show@Field" Category="Contains" />
+		<Link Source="Listenership Entry@@Table" Target="Audience Share@Listenership Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Fee Amount@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Radio Show No.@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Data Format@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Data Format@Radio Show Entry@Field" Target="Advertisement@Option@Option" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Frecuency@Radio Show@Field" Category="Contains" />
+		<Link Source="Frecuency@Radio Show@Field" Target="Hourly@Option@Option" Category="Contains" />
+		<Link Source="Frecuency@Radio Show@Field" Target="Daily@Option@Option" Category="Contains" />
+		<Link Source="Frecuency@Radio Show@Field" Target="Weekly@Option@Option" Category="Contains" />
+		<Link Source="Frecuency@Radio Show@Field" Target="Monthly@Option@Option" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="PSA Planned Quantity@Radio Show@Field" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Ads Planned Quantity@Radio Show@Field" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="News Required@Radio Show@Field" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="News Duration@Radio Show@Field" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Sports Required@Radio Show@Field" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Sports Duration@Radio Show@Field" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Weather Required@Radio Show@Field" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Weather Duration@Radio Show@Field" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="PK@Radio Show@Key" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Name@Radio Show@Key" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="HostName@Radio Show@Key" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="DropDown@Radio Show@FieldGroup" Category="Contains" />
+		<Link Source="Radio Show@@Table" Target="Brick@Radio Show@FieldGroup" Category="Contains" />
+		<Link Source="Playlist Header@@Table" Target="Description@Playlist Header@Field" Category="Contains" />
+		<Link Source="Playlist Header@@Table" Target="Duration@Playlist Header@Field" Category="Contains" />
+		<Link Source="Playlist Header@@Table" Target="End Time@Playlist Header@Field" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Playlist Line@@Table" Category="Contains" />
+		<Link Source="Playlist Line@@Table" Target="Document No.@Playlist Line@Field" Category="Contains" />
+		<Link Source="Playlist Line@@Table" Target="Line No.@Playlist Line@Field" Category="Contains" />
+		<Link Source="Playlist Line@@Table" Target="Type@Playlist Line@Field" Category="Contains" />
+		<Link Source="Type@Playlist Line@Field" Target="Resource@Option@Option" Category="Contains" />
+		<Link Source="Type@Playlist Line@Field" Target="Show@Option@Option" Category="Contains" />
+		<Link Source="Type@Playlist Line@Field" Target="Item@Option@Option" Category="Contains" />
+		<Link Source="Playlist Line@@Table" Target="No.@Playlist Line@Field" Category="Contains" />
+		<Link Source="Resource@@Table" Target="No.@Resource@Field" Category="Contains" />
+		<Link Source="Base Application@@Module" Target="Resource@@Table" Category="Contains" />
+		<Link Source="Item@@Table" Target="No.@Item@Field" Category="Contains" />
+		<Link Source="Base Application@@Module" Target="Item@@Table" Category="Contains" />
+		<Link Source="Playlist Line@@Table" Target="Data Format@Playlist Line@Field" Category="Contains" />
+		<Link Source="Data Format@Playlist Line@Field" Target="Vinyl@Option@Option" Category="Contains" />
+		<Link Source="Data Format@Playlist Line@Field" Target="CD@Option@Option" Category="Contains" />
+		<Link Source="Data Format@Playlist Line@Field" Target="MP3@Option@Option" Category="Contains" />
+		<Link Source="Data Format@Playlist Line@Field" Target="PSA@Option@Option" Category="Contains" />
+		<Link Source="Playlist Line@@Table" Target="Publisher@Playlist Line@Field" Category="Contains" />
+		<Link Source="Playlist Line@@Table" Target="Description@Playlist Line@Field" Category="Contains" />
+		<Link Source="Playlist Line@@Table" Target="Duration@Playlist Line@Field" Category="Contains" />
+		<Link Source="Playlist Line@@Table" Target="Start Time@Playlist Line@Field" Category="Contains" />
+		<Link Source="Playlist Line@@Table" Target="End Time@Playlist Line@Field" Category="Contains" />
+		<Link Source="Playlist Line@@Table" Target="PK@Playlist Line@Key" Category="Contains" />
+		<Link Source="Source Type@Playlist Item Rate@Field" Target="Vendor@Option@Option" Category="Contains" />
+		<Link Source="Source Type@Playlist Item Rate@Field" Target="Customer@Option@Option" Category="Contains" />
+		<Link Source="Playlist Item Rate@@Table" Target="Source No.@Playlist Item Rate@Field" Category="Contains" />
+		<Link Source="Playlist Item Rate@@Table" Target="Item No.@Playlist Item Rate@Field" Category="Contains" />
+		<Link Source="Playlist Item Rate@@Table" Target="Start Time@Playlist Item Rate@Field" Category="Contains" />
+		<Link Source="Playlist Item Rate@@Table" Target="End Time@Playlist Item Rate@Field" Category="Contains" />
+		<Link Source="Playlist Item Rate@@Table" Target="Rate Amount@Playlist Item Rate@Field" Category="Contains" />
+		<Link Source="Playlist Item Rate@@Table" Target="Publisher Code@Playlist Item Rate@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Type@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="No.@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Description@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Date@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Time@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Duration@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="ACSAP ID@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Publisher Code@Radio Show Entry@Field" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="PK@Radio Show Entry@Key" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Reporting@Radio Show Entry@Key" Category="Contains" />
+		<Link Source="Radio Show Entry@@Table" Target="Reporting2@Radio Show Entry@Key" Category="Contains" />
+		<Link Source="Listenership Entry@@Table" Target="Ratings Source Entry No.@Listenership Entry@Field" Category="Contains" />
+		<Link Source="Listenership Entry@@Table" Target="Start Time@Listenership Entry@Field" Category="Contains" />
+		<Link Source="Listenership Entry@@Table" Target="End Time@Listenership Entry@Field" Category="Contains" />
+		<Link Source="Listenership Entry@@Table" Target="Age Demographic@Listenership Entry@Field" Category="Contains" />
+		<Link Source="Age Demographic@Listenership Entry@Field" Target="0-12@Option@Option" Category="Contains" />
+		<Link Source="Age Demographic@Listenership Entry@Field" Target="13-18@Option@Option" Category="Contains" />
+		<Link Source="Age Demographic@Listenership Entry@Field" Target="19-34@Option@Option" Category="Contains" />
+		<Link Source="Age Demographic@Listenership Entry@Field" Target="35-50@Option@Option" Category="Contains" />
+		<Link Source="Age Demographic@Listenership Entry@Field" Target="51+@Option@Option" Category="Contains" />
+		<Link Source="Listenership Entry@@Table" Target="PK@Listenership Entry@Key" Category="Contains" />
+		<Link Source="Listenership Entry@@Table" Target="Reporting@Listenership Entry@Key" Category="Contains" />
+		<Link Source="Publisher@@Table" Target="Description@Publisher@Field" Category="Contains" />
+		<Link Source="Reference for Date Calculation@Date Formula@Field" Target="OnValidate@Reference for Date Calculation@Method" Category="Contains" />
+		<Link Source="Date Formula@@Table" Target="CalculateNewDate@Date Formula@Method" Category="Contains" />
+		<Link Source="Date Formula to Test@Date Formula@Field" Target="OnValidate@Date Formula to Test@Method" Category="Contains" />
+		<Link Source="System@@Class" Target="CalcDate@System@Method" Category="Contains" />
+		<Link Source="System@@Module" Target="System@@Class" Category="Contains" />
+		<Link Source="WDTU@@Module" Target="Item@@TableExtension" Category="Contains" />
+		<Link Source="Item@@TableExtension" Target="Publisher Code@Item@Field" Category="Contains" />
+		<Link Source="Item@@TableExtension" Target="ACSAP ID@Item@Field" Category="Contains" />
+		<Link Source="Item@@TableExtension" Target="Duration@Item@Field" Category="Contains" />
+		<Link Source="Item@@TableExtension" Target="Data Format@Item@Field" Category="Contains" />
+		<Link Source="Item@@TableExtension" Target="MP3 Location@Item@Field" Category="Contains" />
+	</Links>
+<Styles>
+	    <Style TargetType="Node" GroupLabel="Queries" ValueLabel="True">
+		    <Condition Expression="HasCategory('Query')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/Query.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Control adds" ValueLabel="True">
+		    <Condition Expression="HasCategory('Change')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/ControlAdd.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Code units" ValueLabel="True">
+		    <Condition Expression="HasCategory('Codeunit')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/CodeUnit.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Reports" ValueLabel="True">
+		    <Condition Expression="HasCategory('Report')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/Report.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="XML Ports" ValueLabel="True">
+		    <Condition Expression="HasCategory('XML Port')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/XMLPort.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Events" ValueLabel="True">
+		    <Condition Expression="HasCategory('Event')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/Event.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Tables" ValueLabel="True">
+		    <Condition Expression="HasCategory('Table')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/Table.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Table extensions" ValueLabel="True">
+		    <Condition Expression="HasCategory('TableExtension')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/TableExtension.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Page extensions" ValueLabel="True">
+		    <Condition Expression="HasCategory('PageExtension')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/PageExtension.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Page" ValueLabel="True">
+		    <Condition Expression="HasCategory('Page')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/Page.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Classes" ValueLabel="True">
+		    <Condition Expression="HasCategory('Class')" />
+		    <Setter Property="Icon" Value="CodeSchema_Class" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Methods" ValueLabel="True">
+		    <Condition Expression="HasCategory('Method')" />
+		    <Setter Property="Icon" Value="CodeSchema_Method" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Controls" ValueLabel="True">
+		    <Condition Expression="HasCategory('Control')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/Control.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Local variables" ValueLabel="True">
+		    <Condition Expression="HasCategory('LocalVariable')" />
+		    <Setter Property="Icon" Value="CodeSchema_Property" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Global variables" ValueLabel="True">
+		    <Condition Expression="HasCategory('GlobalVariable')" />
+		    <Setter Property="Icon" Value="CodeSchema_Property" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Modules" ValueLabel="True">
+		    <Condition Expression="HasCategory('Module')" />
+		    <Setter Property="Icon" Value="CodeSchema_Assembly" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Options" ValueLabel="True">
+		    <Condition Expression="HasCategory('Option')" />
+		    <Setter Property="Icon" Value="CodeSchema_Enum" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Fields" ValueLabel="True">
+		    <Condition Expression="HasCategory('Field')" />
+		    <Setter Property="Icon" Value="CodeSchema_Field" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Query data items" ValueLabel="True">
+		    <Condition Expression="HasCategory('QueryDataItem')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/QueryDataItem.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Query filters" ValueLabel="True">
+		    <Condition Expression="HasCategory('QueryFilter')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/QueryFilter.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Query columns" ValueLabel="True">
+		    <Condition Expression="HasCategory('QueryColumn')" />
+		    <Setter Property="Icon" Value="https://xrefstorage.blob.core.windows.net/xreficons/QueryColumn.png" />
+	    </Style>
+	    <Style TargetType="Node" GroupLabel="Option Types" ValueLabel="True">
+		    <Condition Expression="HasCategory('OptionType')" />
+		    <Setter Property="Icon" Value="CodeSchema_Field" />
+	    </Style>
+		<Style TargetType="Link" GroupLabel="Extends" ValueLabel="True">
+		  <Condition Expression="HasCategory('Extends')" />
+		  <Setter Property="Stroke" Value="#FF00A600" />
+		  <Setter Property="StrokeDashArray" Value="2 0" />
+		  <Setter Property="DrawArrow" Value="true" />
+		  <Setter Property="TargetDecorator" Value="OpenArrow" />
+		</Style>        
+	    <Style TargetType="Node" GroupLabel="Deprecated" ValueLabel="True">
+		    <Condition Expression="Deprecated='true'" />\
+		    <Setter Property="Background" Value="Yellow" />
+	    </Style>
+	    <Style TargetType="Link" GroupLabel="Subscribe to" ValueLabel="True">
+		  <Condition Expression="HasCategory('SubscribeTo')" />
+		  <Setter Property="Stroke" Value="Blue" />
+		  <Setter Property="DrawArrow" Value="true" />
+		  <Setter Property="IsHidden" Value="false" />
+		</Style>
+ 	    <Style TargetType="Link" GroupLabel="Source table" ValueLabel="True">
+		  <Condition Expression="HasCategory('SourceTable')" />
+		  <Setter Property="Stroke" Value="Red" />
+		</Style>
+   </Styles>
+	<Properties>
+		<Property Id="Reference" Label="Source location" Description="Reference" DataType="System.String" IsReference="True" />
+	</Properties>
+</DirectedGraph>

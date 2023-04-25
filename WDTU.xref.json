@@ -1,0 +1,5061 @@
+{
+  "Links": [
+    {
+      "Kind": "References",
+      "SourceNodeId": "No.@Group@Control",
+      "TargetNodeId": "No.@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Playlist Item Rate Test@GlobalVariable",
+      "TargetNodeId": "Playlist Item Rate Test@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Name@Group@Control",
+      "TargetNodeId": "Name@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Description@Group@Control",
+      "TargetNodeId": "Description@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Score@Group@Control",
+      "TargetNodeId": "Score@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "No.2@Group2@Control",
+      "TargetNodeId": "No.@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Name2@Group2@Control",
+      "TargetNodeId": "Name@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Description2@Group2@Control",
+      "TargetNodeId": "Description@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Score2@Group2@Control",
+      "TargetNodeId": "Score@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "No.3@Group3@Control",
+      "TargetNodeId": "No.@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Name3@Group3@Control",
+      "TargetNodeId": "Name@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Description3@Group3@Control",
+      "TargetNodeId": "Description@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Score3@Group3@Control",
+      "TargetNodeId": "Score@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "No.@Group@Control",
+      "TargetNodeId": "No.@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Radio Show List@GlobalVariable",
+      "TargetNodeId": "Radio Show@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Radio Show Type@Group@Control",
+      "TargetNodeId": "Radio Show Type@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Name@Group@Control",
+      "TargetNodeId": "Name@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Run Time@Group@Control",
+      "TargetNodeId": "Run Time@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Host Code@Group@Control",
+      "TargetNodeId": "Host Code@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Host Name@Group@Control",
+      "TargetNodeId": "Host Name@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Average Listeners@Group@Control",
+      "TargetNodeId": "Average Listeners@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Audience Share@Group@Control",
+      "TargetNodeId": "Audience Share@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Advertising Revenue@Group@Control",
+      "TargetNodeId": "Advertising Revenue@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Royalty Cost@Group@Control",
+      "TargetNodeId": "Royalty Cost@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "No.@General@Control",
+      "TargetNodeId": "No.@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Radio Show Card@GlobalVariable",
+      "TargetNodeId": "Radio Show@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Radio Show Type@General@Control",
+      "TargetNodeId": "Radio Show Type@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Name@General@Control",
+      "TargetNodeId": "Name@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Run Time@Requeriments@Control",
+      "TargetNodeId": "Run Time@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Host Code@Requeriments@Control",
+      "TargetNodeId": "Host Code@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Host Name@Requeriments@Control",
+      "TargetNodeId": "Host Name@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Average Listeners@Stadistics@Control",
+      "TargetNodeId": "Average Listeners@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Audience Share@Stadistics@Control",
+      "TargetNodeId": "Audience Share@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Advertising Revenue@Stadistics@Control",
+      "TargetNodeId": "Advertising Revenue@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Royalty Cost@Stadistics@Control",
+      "TargetNodeId": "Royalty Cost@Radio Show@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Code@Group@Control",
+      "TargetNodeId": "Code@Radio Show Type@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Radio Show Type@GlobalVariable",
+      "TargetNodeId": "Radio Show Type@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Description@Group@Control",
+      "TargetNodeId": "Description@Radio Show Type@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Name@GroupName@Control",
+      "TargetNodeId": "No.@Playlist Header@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Playlist Document List@GlobalVariable",
+      "TargetNodeId": "Playlist Header@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Name@GroupName@Control",
+      "TargetNodeId": "Source Type@Playlist Item Rate@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Playlist Item Rates@GlobalVariable",
+      "TargetNodeId": "Playlist Item Rate@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Name@GroupName@Control",
+      "TargetNodeId": "Entry No.@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Radio Show Entries@GlobalVariable",
+      "TargetNodeId": "Radio Show Entry@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Name@GroupName@Control",
+      "TargetNodeId": "Entry No.@Listenership Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Listenership Entries@GlobalVariable",
+      "TargetNodeId": "Listenership Entry@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Code@GroupName@Control",
+      "TargetNodeId": "Code@Publisher@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Publishers@GlobalVariable",
+      "TargetNodeId": "Publisher@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Primary Key@GroupName@Control",
+      "TargetNodeId": "Primary Key@Date Formula@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Date Formula@GlobalVariable",
+      "TargetNodeId": "Date Formula@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Reference for Date Calculation@GroupName@Control",
+      "TargetNodeId": "Reference for Date Calculation@Date Formula@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Date Formula to Test@GroupName@Control",
+      "TargetNodeId": "Date Formula to Test@Date Formula@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Date Result@GroupName@Control",
+      "TargetNodeId": "Date Result@Date Formula@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "No.@GroupName@Control",
+      "TargetNodeId": "No.@Radio Show Fan@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Radio Show Fan Factbox@GlobalVariable",
+      "TargetNodeId": "Radio Show Fan@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Radio Show No.@GroupName@Control",
+      "TargetNodeId": "Radio Show No.@Radio Show Fan@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Name@GroupName@Control",
+      "TargetNodeId": "Name@Radio Show Fan@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "E-Mail@GroupName@Control",
+      "TargetNodeId": "E-Mail@Radio Show Fan@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Last Contacted@GroupName@Control",
+      "TargetNodeId": "Last Contacted@Radio Show Fan@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Radio Show Fans@GlobalVariable",
+      "TargetNodeId": "Radio Show Fan@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Item No.@Group@Control",
+      "TargetNodeId": "Item No.@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Rec@Lot Avail. by Bin@GlobalVariable",
+      "TargetNodeId": "Warehouse Entry@@Record"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Location Code@Group@Control",
+      "TargetNodeId": "Location Code@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Bin Code@Group@Control",
+      "TargetNodeId": "Bin Code@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Serial No.@Group@Control",
+      "TargetNodeId": "Serial No.@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Quantity@Group@Control",
+      "TargetNodeId": "Quantity@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "LotAvail@Lot Avail. by Bin@LocalVariable",
+      "TargetNodeId": "Lot Avail. by Bin@@Query"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Item_No@Item_Ledger_Entry@QueryColumn",
+      "TargetNodeId": "Item No.@Item Ledger Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Location_Code@Warehouse_Entry@QueryColumn",
+      "TargetNodeId": "Location Code@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Bin_Code@Warehouse_Entry@QueryColumn",
+      "TargetNodeId": "Bin Code@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Sum_Quantity@Warehouse_Entry@QueryColumn",
+      "TargetNodeId": "Quantity@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem",
+      "TargetNodeId": "Item Ledger Entry@@Table"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Lot_No@Item_Ledger_Entry@QueryColumn",
+      "TargetNodeId": "Lot No.@Item Ledger Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Warehouse_Entry@Item_Ledger_Entry@QueryDataItem",
+      "TargetNodeId": "Warehouse Entry@@Table"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Entry_No@Warehouse_Entry@QueryColumn",
+      "TargetNodeId": "Entry No.@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Zone_Code@Warehouse_Entry@QueryColumn",
+      "TargetNodeId": "Zone Code@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Bin@Warehouse_Entry@QueryDataItem",
+      "TargetNodeId": "Bin@@Table"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "Bin_Type@Bin@QueryDataItem",
+      "TargetNodeId": "Bin Type@@Table"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "CalculateNewDate@Date Formula@Method",
+      "TargetNodeId": "Date Result@Date Formula@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "CalculateNewDate@Date Formula@Method",
+      "TargetNodeId": "Date Formula to Test@Date Formula@Field"
+    },
+    {
+      "Kind": "References",
+      "SourceNodeId": "CalculateNewDate@Date Formula@Method",
+      "TargetNodeId": "Reference for Date Calculation@Date Formula@Field"
+    },
+    {
+      "Kind": "Calls",
+      "SourceNodeId": "CalculateNewDate@Date Formula@Method",
+      "TargetNodeId": "CalcDate@System@Method"
+    },
+    {
+      "Kind": "Extends",
+      "SourceNodeId": "Item@@TableExtension",
+      "TargetNodeId": "Item@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Playlist Item Rate Test@@Page",
+      "TargetNodeId": "Playlist Item Rate Test@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Radio Show List@@Page",
+      "TargetNodeId": "Radio Show@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Radio Show Card@@Page",
+      "TargetNodeId": "Radio Show@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Radio Show Fan Factbox@@Page",
+      "TargetNodeId": "Radio Show Fan@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Radio Show Type@@Page",
+      "TargetNodeId": "Radio Show Type@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Playlist Document List@@Page",
+      "TargetNodeId": "Playlist Header@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Playlist Item Rates@@Page",
+      "TargetNodeId": "Playlist Item Rate@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Radio Show Entries@@Page",
+      "TargetNodeId": "Radio Show Entry@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Listenership Entries@@Page",
+      "TargetNodeId": "Listenership Entry@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Publishers@@Page",
+      "TargetNodeId": "Publisher@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Date Formula@@Page",
+      "TargetNodeId": "Date Formula@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Radio Show Fans@@Page",
+      "TargetNodeId": "Radio Show Fan@@Table"
+    },
+    {
+      "Kind": "SourceTable",
+      "SourceNodeId": "Lot Avail. by Bin@@Page",
+      "TargetNodeId": "Warehouse Entry@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Playlist Item Rate Test@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Playlist Item Rate Test@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate Test@@Page",
+      "TargetNodeId": "Content@Playlist Item Rate Test@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Playlist Item Rate Test@Control",
+      "TargetNodeId": "Group@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "No.@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate Test@@Table",
+      "TargetNodeId": "No.@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate Test@@Page",
+      "TargetNodeId": "Rec@Playlist Item Rate Test@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Name@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate Test@@Table",
+      "TargetNodeId": "Name@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Description@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate Test@@Table",
+      "TargetNodeId": "Description@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Score@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate Test@@Table",
+      "TargetNodeId": "Score@Playlist Item Rate Test@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Playlist Item Rate Test@Control",
+      "TargetNodeId": "Group2@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group2@Content@Control",
+      "TargetNodeId": "No.2@Group2@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group2@Content@Control",
+      "TargetNodeId": "Name2@Group2@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group2@Content@Control",
+      "TargetNodeId": "Description2@Group2@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group2@Content@Control",
+      "TargetNodeId": "Score2@Group2@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Playlist Item Rate Test@Control",
+      "TargetNodeId": "Group3@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group3@Content@Control",
+      "TargetNodeId": "No.3@Group3@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group3@Content@Control",
+      "TargetNodeId": "Name3@Group3@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group3@Content@Control",
+      "TargetNodeId": "Description3@Group3@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group3@Content@Control",
+      "TargetNodeId": "Score3@Group3@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate Test@@Page",
+      "TargetNodeId": "OnAction@ActionName@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Radio Show List@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Radio Show@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Radio Show Card@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show List@@Page",
+      "TargetNodeId": "Content@Radio Show List@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "No.@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show List@@Page",
+      "TargetNodeId": "Rec@Radio Show List@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Radio Show Type@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Radio Show List@Control",
+      "TargetNodeId": "Group@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Radio Show Type@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Name@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Run Time@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Run Time@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Host Code@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Host Code@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Host Name@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Host Name@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Average Listeners@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Average Listeners@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Audience Share@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Audience Share@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Advertising Revenue@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Advertising Revenue@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Royalty Cost@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Royalty Cost@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show List@@Page",
+      "TargetNodeId": "FactBoxes@Radio Show List@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "FactBoxes@Radio Show List@Control",
+      "TargetNodeId": "Fans@FactBoxes@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Radio Show Fan Factbox@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Fan@@Table",
+      "TargetNodeId": "Radio Show No.@Radio Show Fan@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Radio Show Fan@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Card@@Page",
+      "TargetNodeId": "Content@Radio Show Card@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Radio Show Card@Control",
+      "TargetNodeId": "General@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "General@Content@Control",
+      "TargetNodeId": "No.@General@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Card@@Page",
+      "TargetNodeId": "Rec@Radio Show Card@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "General@Content@Control",
+      "TargetNodeId": "Radio Show Type@General@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "General@Content@Control",
+      "TargetNodeId": "Name@General@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Radio Show Card@Control",
+      "TargetNodeId": "Requeriments@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Requeriments@Content@Control",
+      "TargetNodeId": "Run Time@Requeriments@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Requeriments@Content@Control",
+      "TargetNodeId": "Host Code@Requeriments@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Requeriments@Content@Control",
+      "TargetNodeId": "Host Name@Requeriments@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Radio Show Card@Control",
+      "TargetNodeId": "Stadistics@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Stadistics@Content@Control",
+      "TargetNodeId": "Average Listeners@Stadistics@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Stadistics@Content@Control",
+      "TargetNodeId": "Audience Share@Stadistics@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Stadistics@Content@Control",
+      "TargetNodeId": "Advertising Revenue@Stadistics@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Stadistics@Content@Control",
+      "TargetNodeId": "Royalty Cost@Stadistics@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Radio Show Type@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Radio Show Type@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Type@@Page",
+      "TargetNodeId": "Content@Radio Show Type@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@Content@Control",
+      "TargetNodeId": "Code@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Radio Show Type@Control",
+      "TargetNodeId": "Group@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Type@@Table",
+      "TargetNodeId": "Code@Radio Show Type@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Type@@Page",
+      "TargetNodeId": "Rec@Radio Show Type@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Type@@Table",
+      "TargetNodeId": "Description@Radio Show Type@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Playlist Document List@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Playlist Header@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Document List@@Page",
+      "TargetNodeId": "Content@Playlist Document List@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Playlist Document List@Control",
+      "TargetNodeId": "GroupName@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "GroupName@Content@Control",
+      "TargetNodeId": "Name@GroupName@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Header@@Table",
+      "TargetNodeId": "No.@Playlist Header@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Document List@@Page",
+      "TargetNodeId": "Rec@Playlist Document List@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Playlist Item Rates@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Playlist Item Rate@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rates@@Page",
+      "TargetNodeId": "Content@Playlist Item Rates@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate@@Table",
+      "TargetNodeId": "Source Type@Playlist Item Rate@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rates@@Page",
+      "TargetNodeId": "Rec@Playlist Item Rates@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Radio Show Entries@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Radio Show Entry@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entries@@Page",
+      "TargetNodeId": "Content@Radio Show Entries@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Entry No.@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entries@@Page",
+      "TargetNodeId": "Rec@Radio Show Entries@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Listenership Entries@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Listenership Entry@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entries@@Page",
+      "TargetNodeId": "Content@Listenership Entries@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entry@@Table",
+      "TargetNodeId": "Entry No.@Listenership Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entries@@Page",
+      "TargetNodeId": "Rec@Listenership Entries@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Publishers@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Publisher@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Publishers@@Page",
+      "TargetNodeId": "Content@Publishers@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "GroupName@Content@Control",
+      "TargetNodeId": "Code@GroupName@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Publishers@Control",
+      "TargetNodeId": "GroupName@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Publisher@@Table",
+      "TargetNodeId": "Code@Publisher@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Publishers@@Page",
+      "TargetNodeId": "Rec@Publishers@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Date Formula@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Date Formula@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Date Formula@@Page",
+      "TargetNodeId": "Content@Date Formula@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "GroupName@Content@Control",
+      "TargetNodeId": "Primary Key@GroupName@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Date Formula@Control",
+      "TargetNodeId": "GroupName@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Date Formula@@Table",
+      "TargetNodeId": "Primary Key@Date Formula@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Date Formula@@Page",
+      "TargetNodeId": "Rec@Date Formula@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "GroupName@Content@Control",
+      "TargetNodeId": "Reference for Date Calculation@GroupName@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Date Formula@@Table",
+      "TargetNodeId": "Reference for Date Calculation@Date Formula@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "GroupName@Content@Control",
+      "TargetNodeId": "Date Formula to Test@GroupName@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Date Formula@@Table",
+      "TargetNodeId": "Date Formula to Test@Date Formula@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "GroupName@Content@Control",
+      "TargetNodeId": "Date Result@GroupName@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Date Formula@@Table",
+      "TargetNodeId": "Date Result@Date Formula@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Fan Factbox@@Page",
+      "TargetNodeId": "Content@Radio Show Fan Factbox@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "GroupName@Content@Control",
+      "TargetNodeId": "No.@GroupName@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Content@Radio Show Fan Factbox@Control",
+      "TargetNodeId": "GroupName@Content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Fan@@Table",
+      "TargetNodeId": "No.@Radio Show Fan@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Fan Factbox@@Page",
+      "TargetNodeId": "Rec@Radio Show Fan Factbox@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "GroupName@Content@Control",
+      "TargetNodeId": "Radio Show No.@GroupName@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Fan@@Table",
+      "TargetNodeId": "Name@Radio Show Fan@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "GroupName@Content@Control",
+      "TargetNodeId": "E-Mail@GroupName@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Fan@@Table",
+      "TargetNodeId": "E-Mail@Radio Show Fan@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "GroupName@Content@Control",
+      "TargetNodeId": "Last Contacted@GroupName@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Fan@@Table",
+      "TargetNodeId": "Last Contacted@Radio Show Fan@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Radio Show Fans@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Fans@@Page",
+      "TargetNodeId": "Content@Radio Show Fans@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Fans@@Page",
+      "TargetNodeId": "Rec@Radio Show Fans@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Lot Avail. by Bin@@Page"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Base Application@@Module",
+      "TargetNodeId": "Warehouse Entry@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Lot Avail. by Bin@@Page",
+      "TargetNodeId": "content@Lot Avail. by Bin@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "content@Lot Avail. by Bin@Control",
+      "TargetNodeId": "Group@content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@content@Control",
+      "TargetNodeId": "Item No.@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse Entry@@Table",
+      "TargetNodeId": "Item No.@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Lot Avail. by Bin@@Page",
+      "TargetNodeId": "Rec@Lot Avail. by Bin@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@content@Control",
+      "TargetNodeId": "Location Code@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse Entry@@Table",
+      "TargetNodeId": "Location Code@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@content@Control",
+      "TargetNodeId": "Bin Code@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse Entry@@Table",
+      "TargetNodeId": "Bin Code@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@content@Control",
+      "TargetNodeId": "Serial No.@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse Entry@@Table",
+      "TargetNodeId": "Serial No.@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Group@content@Control",
+      "TargetNodeId": "Quantity@Group@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse Entry@@Table",
+      "TargetNodeId": "Quantity@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Lot Avail. by Bin@@Page",
+      "TargetNodeId": "OnOpenPage@Lot Avail. by Bin@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "OnOpenPage@Lot Avail. by Bin@Method",
+      "TargetNodeId": "LotAvail@Lot Avail. by Bin@LocalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Lot Avail. by Bin@@Query"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "QueryInstance@@Class",
+      "TargetNodeId": "Open@QueryInstance@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "System@@Module",
+      "TargetNodeId": "QueryInstance@@Class"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "QueryInstance@@Class",
+      "TargetNodeId": "Read@QueryInstance@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Table@@Class",
+      "TargetNodeId": "Init@Table@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "System@@Module",
+      "TargetNodeId": "Table@@Class"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem",
+      "TargetNodeId": "Item_No@Item_Ledger_Entry@QueryColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Lot Avail. by Bin@@Query",
+      "TargetNodeId": "Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse_Entry@Item_Ledger_Entry@QueryDataItem",
+      "TargetNodeId": "Location_Code@Warehouse_Entry@QueryColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem",
+      "TargetNodeId": "Warehouse_Entry@Item_Ledger_Entry@QueryDataItem"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse_Entry@Item_Ledger_Entry@QueryDataItem",
+      "TargetNodeId": "Bin_Code@Warehouse_Entry@QueryColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse_Entry@Item_Ledger_Entry@QueryDataItem",
+      "TargetNodeId": "Sum_Quantity@Warehouse_Entry@QueryColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Table@@Class",
+      "TargetNodeId": "Insert@Table@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Base Application@@Module",
+      "TargetNodeId": "Item Ledger Entry@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item Ledger Entry@@Table",
+      "TargetNodeId": "Item No.@Item Ledger Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem",
+      "TargetNodeId": "Lot_No@Item_Ledger_Entry@QueryColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item Ledger Entry@@Table",
+      "TargetNodeId": "Lot No.@Item Ledger Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item Ledger Entry@@Table",
+      "TargetNodeId": "Location Code@Item Ledger Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse Entry@@Table",
+      "TargetNodeId": "Lot No.@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse_Entry@Item_Ledger_Entry@QueryDataItem",
+      "TargetNodeId": "Entry_No@Warehouse_Entry@QueryColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse Entry@@Table",
+      "TargetNodeId": "Entry No.@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse_Entry@Item_Ledger_Entry@QueryDataItem",
+      "TargetNodeId": "Zone_Code@Warehouse_Entry@QueryColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse Entry@@Table",
+      "TargetNodeId": "Zone Code@Warehouse Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Warehouse_Entry@Item_Ledger_Entry@QueryDataItem",
+      "TargetNodeId": "Bin@Warehouse_Entry@QueryDataItem"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Base Application@@Module",
+      "TargetNodeId": "Bin@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Bin@@Table",
+      "TargetNodeId": "Code@Bin@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Bin@Warehouse_Entry@QueryDataItem",
+      "TargetNodeId": "Bin_Type@Bin@QueryDataItem"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Base Application@@Module",
+      "TargetNodeId": "Bin Type@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Bin Type@@Table",
+      "TargetNodeId": "Code@Bin Type@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Bin Type@@Table",
+      "TargetNodeId": "Pick@Bin Type@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Radio Shows@@Report"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Shows@@Report",
+      "TargetNodeId": "Radio Show@Radio Shows@ReportDataItem"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@Radio Shows@ReportDataItem",
+      "TargetNodeId": "No_@Radio Show@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@Radio Shows@ReportDataItem",
+      "TargetNodeId": "Radio_Show_Type@Radio Show@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@Radio Shows@ReportDataItem",
+      "TargetNodeId": "Name@Radio Show@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@Radio Shows@ReportDataItem",
+      "TargetNodeId": "Run_Time@Radio Show@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@Radio Shows@ReportDataItem",
+      "TargetNodeId": "Host_Code@Radio Show@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@Radio Shows@ReportDataItem",
+      "TargetNodeId": "Host_Name@Radio Show@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@Radio Shows@ReportDataItem",
+      "TargetNodeId": "Average_Listeners@Radio Show@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@Radio Shows@ReportDataItem",
+      "TargetNodeId": "Audience_Share@Radio Show@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@Radio Shows@ReportDataItem",
+      "TargetNodeId": "Advertising_Revenue@Radio Show@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@Radio Shows@ReportDataItem",
+      "TargetNodeId": "Royalty_Cost@Radio Show@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Shows by Type@@Report"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Shows by Type@@Report",
+      "TargetNodeId": "Radio Show Type@Shows by Type@ReportDataItem"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Type@Shows by Type@ReportDataItem",
+      "TargetNodeId": "UserComment@Radio Show Type@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Shows by Type@@Report",
+      "TargetNodeId": "UserComment@Shows by Type@GlobalVariable"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Type@Shows by Type@ReportDataItem",
+      "TargetNodeId": "Code_RadioShowType@Radio Show Type@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Type@Shows by Type@ReportDataItem",
+      "TargetNodeId": "Description_RadioShowType@Radio Show Type@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Type@Shows by Type@ReportDataItem",
+      "TargetNodeId": "RadioShow@Radio Show Type@ReportDataItem"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "RadioShow@Radio Show Type@ReportDataItem",
+      "TargetNodeId": "No_RadioShow@RadioShow@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "RadioShow@Radio Show Type@ReportDataItem",
+      "TargetNodeId": "Name_RadioShow@RadioShow@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "RadioShow@Radio Show Type@ReportDataItem",
+      "TargetNodeId": "RunTime_RadioShow@RadioShow@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "RadioShow@Radio Show Type@ReportDataItem",
+      "TargetNodeId": "PlaylistHeader@RadioShow@ReportDataItem"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Header@@Table",
+      "TargetNodeId": "Radio Show No.@Playlist Header@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "PlaylistHeader@RadioShow@ReportDataItem",
+      "TargetNodeId": "PostingDate_PlaylistHeader@PlaylistHeader@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Header@@Table",
+      "TargetNodeId": "Broadcast Date@Playlist Header@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "PlaylistHeader@RadioShow@ReportDataItem",
+      "TargetNodeId": "StartTime_PlaylistHeader@PlaylistHeader@ReportColumn"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Header@@Table",
+      "TargetNodeId": "Start Time@Playlist Header@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "RequestOptionsPage@Shows by Type@RequestPage",
+      "TargetNodeId": "content@RequestOptionsPage@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Shows by Type@@Report",
+      "TargetNodeId": "RequestOptionsPage@Shows by Type@RequestPage"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "content@RequestOptionsPage@Control",
+      "TargetNodeId": "Options@content@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Options@content@Control",
+      "TargetNodeId": "UserComment@Options@Control"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Shows by Type@@Report",
+      "TargetNodeId": "ReportTitle@Shows by Type@ReportLabel"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Demo@@Report"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Demo@@Report",
+      "TargetNodeId": "DataItem1@Demo@ReportDataItem"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "DataItem1@Demo@ReportDataItem",
+      "TargetNodeId": "DataItem2@DataItem1@ReportDataItem"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "DataItem2@DataItem1@ReportDataItem",
+      "TargetNodeId": "DataItem3@DataItem2@ReportDataItem"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Demo@@Report",
+      "TargetNodeId": "OnInitReport@Demo@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Demo@@Report",
+      "TargetNodeId": "OnPreReport@Demo@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Demo@@Report",
+      "TargetNodeId": "OnPostReport@Demo@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Score@Playlist Item Rate Test@Field",
+      "TargetNodeId": "Very Good@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Score@Playlist Item Rate Test@Field",
+      "TargetNodeId": "Good@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Score@Playlist Item Rate Test@Field",
+      "TargetNodeId": "Medium@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Score@Playlist Item Rate Test@Field",
+      "TargetNodeId": "Bad@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate Test@@Table",
+      "TargetNodeId": "PK@Playlist Item Rate Test@Key"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "No.@Radio Show@Field",
+      "TargetNodeId": "OnValidate@No.@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "No.@Radio Show@Field",
+      "TargetNodeId": "OnLookup@No.@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entry@@Table",
+      "TargetNodeId": "Listener Count@Listenership Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entry@@Table",
+      "TargetNodeId": "Radio Show No.@Listenership Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entry@@Table",
+      "TargetNodeId": "Posting Date@Listenership Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Date Filter@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entry@@Table",
+      "TargetNodeId": "Audience Share@Listenership Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Fee Amount@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Radio Show No.@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Data Format@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Data Format@Radio Show Entry@Field",
+      "TargetNodeId": "Advertisement@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Frecuency@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Frecuency@Radio Show@Field",
+      "TargetNodeId": "Hourly@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Frecuency@Radio Show@Field",
+      "TargetNodeId": "Daily@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Frecuency@Radio Show@Field",
+      "TargetNodeId": "Weekly@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Frecuency@Radio Show@Field",
+      "TargetNodeId": "Monthly@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "PSA Planned Quantity@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Ads Planned Quantity@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "News Required@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "News Duration@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Sports Required@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Sports Duration@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Weather Required@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Weather Duration@Radio Show@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "PK@Radio Show@Key"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Name@Radio Show@Key"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "HostName@Radio Show@Key"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "DropDown@Radio Show@FieldGroup"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show@@Table",
+      "TargetNodeId": "Brick@Radio Show@FieldGroup"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Header@@Table",
+      "TargetNodeId": "Description@Playlist Header@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Header@@Table",
+      "TargetNodeId": "Duration@Playlist Header@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Header@@Table",
+      "TargetNodeId": "End Time@Playlist Header@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Playlist Line@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Line@@Table",
+      "TargetNodeId": "Document No.@Playlist Line@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Line@@Table",
+      "TargetNodeId": "Line No.@Playlist Line@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Line@@Table",
+      "TargetNodeId": "Type@Playlist Line@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Type@Playlist Line@Field",
+      "TargetNodeId": "Resource@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Type@Playlist Line@Field",
+      "TargetNodeId": "Show@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Type@Playlist Line@Field",
+      "TargetNodeId": "Item@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Line@@Table",
+      "TargetNodeId": "No.@Playlist Line@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Resource@@Table",
+      "TargetNodeId": "No.@Resource@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Base Application@@Module",
+      "TargetNodeId": "Resource@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item@@Table",
+      "TargetNodeId": "No.@Item@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Base Application@@Module",
+      "TargetNodeId": "Item@@Table"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Line@@Table",
+      "TargetNodeId": "Data Format@Playlist Line@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Data Format@Playlist Line@Field",
+      "TargetNodeId": "Vinyl@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Data Format@Playlist Line@Field",
+      "TargetNodeId": "CD@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Data Format@Playlist Line@Field",
+      "TargetNodeId": "MP3@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Data Format@Playlist Line@Field",
+      "TargetNodeId": "PSA@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Line@@Table",
+      "TargetNodeId": "Publisher@Playlist Line@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Line@@Table",
+      "TargetNodeId": "Description@Playlist Line@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Line@@Table",
+      "TargetNodeId": "Duration@Playlist Line@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Line@@Table",
+      "TargetNodeId": "Start Time@Playlist Line@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Line@@Table",
+      "TargetNodeId": "End Time@Playlist Line@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Line@@Table",
+      "TargetNodeId": "PK@Playlist Line@Key"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Source Type@Playlist Item Rate@Field",
+      "TargetNodeId": "Vendor@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Source Type@Playlist Item Rate@Field",
+      "TargetNodeId": "Customer@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate@@Table",
+      "TargetNodeId": "Source No.@Playlist Item Rate@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate@@Table",
+      "TargetNodeId": "Item No.@Playlist Item Rate@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate@@Table",
+      "TargetNodeId": "Start Time@Playlist Item Rate@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate@@Table",
+      "TargetNodeId": "End Time@Playlist Item Rate@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate@@Table",
+      "TargetNodeId": "Rate Amount@Playlist Item Rate@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Playlist Item Rate@@Table",
+      "TargetNodeId": "Publisher Code@Playlist Item Rate@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Type@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "No.@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Description@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Date@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Time@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Duration@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "ACSAP ID@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Publisher Code@Radio Show Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "PK@Radio Show Entry@Key"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Reporting@Radio Show Entry@Key"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Radio Show Entry@@Table",
+      "TargetNodeId": "Reporting2@Radio Show Entry@Key"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entry@@Table",
+      "TargetNodeId": "Ratings Source Entry No.@Listenership Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entry@@Table",
+      "TargetNodeId": "Start Time@Listenership Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entry@@Table",
+      "TargetNodeId": "End Time@Listenership Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entry@@Table",
+      "TargetNodeId": "Age Demographic@Listenership Entry@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Age Demographic@Listenership Entry@Field",
+      "TargetNodeId": "0-12@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Age Demographic@Listenership Entry@Field",
+      "TargetNodeId": "13-18@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Age Demographic@Listenership Entry@Field",
+      "TargetNodeId": "19-34@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Age Demographic@Listenership Entry@Field",
+      "TargetNodeId": "35-50@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Age Demographic@Listenership Entry@Field",
+      "TargetNodeId": "51+@Option@Option"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entry@@Table",
+      "TargetNodeId": "PK@Listenership Entry@Key"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Listenership Entry@@Table",
+      "TargetNodeId": "Reporting@Listenership Entry@Key"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Publisher@@Table",
+      "TargetNodeId": "Description@Publisher@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Reference for Date Calculation@Date Formula@Field",
+      "TargetNodeId": "OnValidate@Reference for Date Calculation@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Date Formula@@Table",
+      "TargetNodeId": "CalculateNewDate@Date Formula@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Date Formula to Test@Date Formula@Field",
+      "TargetNodeId": "OnValidate@Date Formula to Test@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "System@@Class",
+      "TargetNodeId": "CalcDate@System@Method"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "System@@Module",
+      "TargetNodeId": "System@@Class"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "WDTU@@Module",
+      "TargetNodeId": "Item@@TableExtension"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item@@TableExtension",
+      "TargetNodeId": "Publisher Code@Item@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item@@TableExtension",
+      "TargetNodeId": "ACSAP ID@Item@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item@@TableExtension",
+      "TargetNodeId": "Duration@Item@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item@@TableExtension",
+      "TargetNodeId": "Data Format@Item@Field"
+    },
+    {
+      "Kind": "Contains",
+      "SourceNodeId": "Item@@TableExtension",
+      "TargetNodeId": "MP3 Location@Item@Field"
+    }
+  ],
+  "Nodes": [
+    {
+      "Kind": "Page",
+      "Id": "Playlist Item Rate Test@@Page",
+      "Label": "Playlist Item Rate Test",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Playlist Item Rate Test@@Table",
+      "Label": "Playlist Item Rate Test",
+      "Category": "Table",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50050.PlaylistItemRateTest.al",
+      "Position": "1@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Playlist Item Rate Test@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "10@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Group@Content@Control",
+      "Label": "Group",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "12@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "No.@Group@Control",
+      "Label": "No.",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "14@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "No.@Playlist Item Rate Test@Field",
+      "Label": "No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50050.PlaylistItemRateTest.al",
+      "Position": "5@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Playlist Item Rate Test@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Name@Group@Control",
+      "Label": "Name",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "15@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Name@Playlist Item Rate Test@Field",
+      "Label": "Name",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50050.PlaylistItemRateTest.al",
+      "Position": "6@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Description@Group@Control",
+      "Label": "Description",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "16@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Description@Playlist Item Rate Test@Field",
+      "Label": "Description",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50050.PlaylistItemRateTest.al",
+      "Position": "7@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Score@Group@Control",
+      "Label": "Score",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "17@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Score@Playlist Item Rate Test@Field",
+      "Label": "Score",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50050.PlaylistItemRateTest.al",
+      "Position": "8@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Group2@Content@Control",
+      "Label": "Group2",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "20@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "No.2@Group2@Control",
+      "Label": "No.2",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "22@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Name2@Group2@Control",
+      "Label": "Name2",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "23@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Description2@Group2@Control",
+      "Label": "Description2",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "24@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Score2@Group2@Control",
+      "Label": "Score2",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "25@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Group3@Content@Control",
+      "Label": "Group3",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "28@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "No.3@Group3@Control",
+      "Label": "No.3",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "30@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Name3@Group3@Control",
+      "Label": "Name3",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "31@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Description3@Group3@Control",
+      "Label": "Description3",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "32@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Score3@Group3@Control",
+      "Label": "Score3",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "33@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "OnAction@ActionName@Method",
+      "Label": "OnAction",
+      "Category": "Method",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50050.PlaylistItemRateTest.al",
+      "Position": "46@25",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Radio Show List@@Page",
+      "Label": "Radio Show List",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Radio Show@@Table",
+      "Label": "Radio Show",
+      "Category": "Table",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "1@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Radio Show Card@@Page",
+      "Label": "Radio Show Card",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Radio Show List@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "11@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "No.@Radio Show@Field",
+      "Label": "No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "6@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Radio Show List@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Radio Show Type@Group@Control",
+      "Label": "Radio Show Type",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "16@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Radio Show Type@Radio Show@Field",
+      "Label": "Radio Show Type",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "18@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Name@Radio Show@Field",
+      "Label": "Name",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "19@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Run Time@Group@Control",
+      "Label": "Run Time",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "18@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Run Time@Radio Show@Field",
+      "Label": "Run Time",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "20@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Host Code@Group@Control",
+      "Label": "Host Code",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "19@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Host Code@Radio Show@Field",
+      "Label": "Host Code",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "21@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Host Name@Group@Control",
+      "Label": "Host Name",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "20@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Host Name@Radio Show@Field",
+      "Label": "Host Name",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "22@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Average Listeners@Group@Control",
+      "Label": "Average Listeners",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "21@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Average Listeners@Radio Show@Field",
+      "Label": "Average Listeners",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "23@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Audience Share@Group@Control",
+      "Label": "Audience Share",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "22@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Audience Share@Radio Show@Field",
+      "Label": "Audience Share",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "30@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Advertising Revenue@Group@Control",
+      "Label": "Advertising Revenue",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "23@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Advertising Revenue@Radio Show@Field",
+      "Label": "Advertising Revenue",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "37@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Royalty Cost@Group@Control",
+      "Label": "Royalty Cost",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "24@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Royalty Cost@Radio Show@Field",
+      "Label": "Royalty Cost",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "47@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "FactBoxes@Radio Show List@Control",
+      "Label": "FactBoxes",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "28@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Fans@FactBoxes@Control",
+      "Label": "Fans",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50100.RadioShowList.al",
+      "Position": "30@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Radio Show Fan Factbox@@Page",
+      "Label": "Radio Show Fan Factbox",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50109.RadioShowFanFactbox.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Radio Show No.@Radio Show Fan@Field",
+      "Label": "Radio Show No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50109.RadioShowFan.al",
+      "Position": "8@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Radio Show Card@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "8@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "General@Content@Control",
+      "Label": "General",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "10@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "No.@General@Control",
+      "Label": "No.",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "12@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Radio Show Card@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Radio Show Type@General@Control",
+      "Label": "Radio Show Type",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "13@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Name@General@Control",
+      "Label": "Name",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "14@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Requeriments@Content@Control",
+      "Label": "Requeriments",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "16@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Run Time@Requeriments@Control",
+      "Label": "Run Time",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "18@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Host Code@Requeriments@Control",
+      "Label": "Host Code",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "19@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Host Name@Requeriments@Control",
+      "Label": "Host Name",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "20@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Stadistics@Content@Control",
+      "Label": "Stadistics",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "22@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Average Listeners@Stadistics@Control",
+      "Label": "Average Listeners",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "24@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Audience Share@Stadistics@Control",
+      "Label": "Audience Share",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "25@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Advertising Revenue@Stadistics@Control",
+      "Label": "Advertising Revenue",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "26@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Royalty Cost@Stadistics@Control",
+      "Label": "Royalty Cost",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50101.RadioShowCard.al",
+      "Position": "27@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Radio Show Type@@Page",
+      "Label": "Radio Show Type",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50102.RadioShowType.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Radio Show Type@@Table",
+      "Label": "Radio Show Type",
+      "Category": "Table",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50101.RadioShowType.al",
+      "Position": "5@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Radio Show Type@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50102.RadioShowType.al",
+      "Position": "10@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Code@Group@Control",
+      "Label": "Code",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50102.RadioShowType.al",
+      "Position": "14@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Code@Radio Show Type@Field",
+      "Label": "Code",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50101.RadioShowType.al",
+      "Position": "12@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Radio Show Type@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Description@Radio Show Type@Field",
+      "Label": "Description",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50101.RadioShowType.al",
+      "Position": "13@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Playlist Document List@@Page",
+      "Label": "Playlist Document List",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50103.PlaylistDocumentList.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Playlist Header@@Table",
+      "Label": "Playlist Header",
+      "Category": "Table",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50102.PlaylistHeader.al",
+      "Position": "1@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Playlist Document List@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50103.PlaylistDocumentList.al",
+      "Position": "10@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "GroupName@Content@Control",
+      "Label": "GroupName",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50103.PlaylistDocumentList.al",
+      "Position": "12@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Name@GroupName@Control",
+      "Label": "Name",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50103.PlaylistDocumentList.al",
+      "Position": "14@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "No.@Playlist Header@Field",
+      "Label": "No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50102.PlaylistHeader.al",
+      "Position": "6@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Playlist Document List@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Playlist Item Rates@@Page",
+      "Label": "Playlist Item Rates",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50104.PlaylistItemRates.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Playlist Item Rate@@Table",
+      "Label": "Playlist Item Rate",
+      "Category": "Table",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50104.PlaylistItemRate.al",
+      "Position": "1@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Playlist Item Rates@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50104.PlaylistItemRates.al",
+      "Position": "10@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Source Type@Playlist Item Rate@Field",
+      "Label": "Source Type",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50104.PlaylistItemRate.al",
+      "Position": "5@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Playlist Item Rates@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Radio Show Entries@@Page",
+      "Label": "Radio Show Entries",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50105.RadioShowEntries.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Radio Show Entry@@Table",
+      "Label": "Radio Show Entry",
+      "Category": "Table",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "1@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Radio Show Entries@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50105.RadioShowEntries.al",
+      "Position": "10@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Entry No.@Radio Show Entry@Field",
+      "Label": "Entry No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "5@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Radio Show Entries@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Listenership Entries@@Page",
+      "Label": "Listenership Entries",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50106.ListenershipEntries.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Listenership Entry@@Table",
+      "Label": "Listenership Entry",
+      "Category": "Table",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "1@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Listenership Entries@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50106.ListenershipEntries.al",
+      "Position": "10@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Entry No.@Listenership Entry@Field",
+      "Label": "Entry No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "6@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Listenership Entries@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Publishers@@Page",
+      "Label": "Publishers",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50107.Publishers.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Publisher@@Table",
+      "Label": "Publisher",
+      "Category": "Table",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50107.Publisher.al",
+      "Position": "5@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Publishers@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50107.Publishers.al",
+      "Position": "10@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Code@GroupName@Control",
+      "Label": "Code",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50107.Publishers.al",
+      "Position": "14@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Code@Publisher@Field",
+      "Label": "Code",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50107.Publisher.al",
+      "Position": "9@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Publishers@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Date Formula@@Page",
+      "Label": "Date Formula",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50108.DateFormula.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Date Formula@@Table",
+      "Label": "Date Formula",
+      "Category": "Table",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50108.DateFormula.al",
+      "Position": "1@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Date Formula@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50108.DateFormula.al",
+      "Position": "10@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Primary Key@GroupName@Control",
+      "Label": "Primary Key",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50108.DateFormula.al",
+      "Position": "14@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Primary Key@Date Formula@Field",
+      "Label": "Primary Key",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50108.DateFormula.al",
+      "Position": "6@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Date Formula@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Reference for Date Calculation@GroupName@Control",
+      "Label": "Reference for Date Calculation",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50108.DateFormula.al",
+      "Position": "15@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Reference for Date Calculation@Date Formula@Field",
+      "Label": "Reference for Date Calculation",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50108.DateFormula.al",
+      "Position": "7@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Date Formula to Test@GroupName@Control",
+      "Label": "Date Formula to Test",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50108.DateFormula.al",
+      "Position": "16@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Date Formula to Test@Date Formula@Field",
+      "Label": "Date Formula to Test",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50108.DateFormula.al",
+      "Position": "14@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Date Result@GroupName@Control",
+      "Label": "Date Result",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50108.DateFormula.al",
+      "Position": "17@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Date Result@Date Formula@Field",
+      "Label": "Date Result",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50108.DateFormula.al",
+      "Position": "21@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Radio Show Fan@@Table",
+      "Label": "Radio Show Fan",
+      "Category": "Table",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50109.RadioShowFan.al",
+      "Position": "1@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Radio Show Fan Factbox@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50109.RadioShowFanFactbox.al",
+      "Position": "10@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "No.@GroupName@Control",
+      "Label": "No.",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50109.RadioShowFanFactbox.al",
+      "Position": "14@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "No.@Radio Show Fan@Field",
+      "Label": "No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50109.RadioShowFan.al",
+      "Position": "7@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Radio Show Fan Factbox@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Radio Show No.@GroupName@Control",
+      "Label": "Radio Show No.",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50109.RadioShowFanFactbox.al",
+      "Position": "15@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Name@Radio Show Fan@Field",
+      "Label": "Name",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50109.RadioShowFan.al",
+      "Position": "9@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "E-Mail@GroupName@Control",
+      "Label": "E-Mail",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50109.RadioShowFanFactbox.al",
+      "Position": "17@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "E-Mail@Radio Show Fan@Field",
+      "Label": "E-Mail",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50109.RadioShowFan.al",
+      "Position": "10@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Last Contacted@GroupName@Control",
+      "Label": "Last Contacted",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50109.RadioShowFanFactbox.al",
+      "Position": "18@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Last Contacted@Radio Show Fan@Field",
+      "Label": "Last Contacted",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50109.RadioShowFan.al",
+      "Position": "11@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Radio Show Fans@@Page",
+      "Label": "Radio Show Fans",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50110.RadioShowFans.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Content@Radio Show Fans@Control",
+      "Label": "Content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50110.RadioShowFans.al",
+      "Position": "10@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Radio Show Fans@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Page",
+      "Id": "Lot Avail. by Bin@@Page",
+      "Label": "Lot Avail. by Bin",
+      "Category": "Page",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50141.LotAvailbyBin.al",
+      "Position": "1@12",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Warehouse Entry@@Table",
+      "Label": "Warehouse Entry",
+      "Category": "Table",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "content@Lot Avail. by Bin@Control",
+      "Label": "content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50141.LotAvailbyBin.al",
+      "Position": "9@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Group@content@Control",
+      "Label": "Group",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50141.LotAvailbyBin.al",
+      "Position": "11@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Item No.@Group@Control",
+      "Label": "Item No.",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50141.LotAvailbyBin.al",
+      "Position": "13@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Item No.@Warehouse Entry@Field",
+      "Label": "Item No.",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "Rec@Lot Avail. by Bin@GlobalVariable",
+      "Label": "Rec",
+      "Category": "GlobalVariable",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Location Code@Group@Control",
+      "Label": "Location Code",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50141.LotAvailbyBin.al",
+      "Position": "14@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Location Code@Warehouse Entry@Field",
+      "Label": "Location Code",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Bin Code@Group@Control",
+      "Label": "Bin Code",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50141.LotAvailbyBin.al",
+      "Position": "15@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Bin Code@Warehouse Entry@Field",
+      "Label": "Bin Code",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Serial No.@Group@Control",
+      "Label": "Serial No.",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50141.LotAvailbyBin.al",
+      "Position": "16@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Serial No.@Warehouse Entry@Field",
+      "Label": "Serial No.",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Quantity@Group@Control",
+      "Label": "Quantity",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50141.LotAvailbyBin.al",
+      "Position": "17@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Quantity@Warehouse Entry@Field",
+      "Label": "Quantity",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "OnOpenPage@Lot Avail. by Bin@Method",
+      "Label": "OnOpenPage",
+      "Category": "Method",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50141.LotAvailbyBin.al",
+      "Position": "22@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "LocalVariable",
+      "Id": "LotAvail@Lot Avail. by Bin@LocalVariable",
+      "Label": "LotAvail",
+      "Category": "LocalVariable",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50141.LotAvailbyBin.al",
+      "Position": "24@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Query",
+      "Id": "Lot Avail. by Bin@@Query",
+      "Label": "Lot Avail. by Bin",
+      "Category": "Query",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "1@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "Open@QueryInstance@Method",
+      "Label": "Open",
+      "Category": "Method",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "Read@QueryInstance@Method",
+      "Label": "Read",
+      "Category": "Method",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "Init@Table@Method",
+      "Label": "Init",
+      "Category": "Method",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "QueryColumn",
+      "Id": "Item_No@Item_Ledger_Entry@QueryColumn",
+      "Label": "Item_No",
+      "Category": "QueryColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "9@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "QueryColumn",
+      "Id": "Location_Code@Warehouse_Entry@QueryColumn",
+      "Label": "Location_Code",
+      "Category": "QueryColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "18@24",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "QueryColumn",
+      "Id": "Bin_Code@Warehouse_Entry@QueryColumn",
+      "Label": "Bin_Code",
+      "Category": "QueryColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "20@24",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "QueryColumn",
+      "Id": "Sum_Quantity@Warehouse_Entry@QueryColumn",
+      "Label": "Sum_Quantity",
+      "Category": "QueryColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "21@24",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "Insert@Table@Method",
+      "Label": "Insert",
+      "Category": "Method",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "QueryDataItem",
+      "Id": "Item_Ledger_Entry@Lot Avail. by Bin@QueryDataItem",
+      "Label": "Item_Ledger_Entry",
+      "Category": "QueryDataItem",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "7@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Item Ledger Entry@@Table",
+      "Label": "Item Ledger Entry",
+      "Category": "Table",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Item No.@Item Ledger Entry@Field",
+      "Label": "Item No.",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "QueryColumn",
+      "Id": "Lot_No@Item_Ledger_Entry@QueryColumn",
+      "Label": "Lot_No",
+      "Category": "QueryColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "10@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Lot No.@Item Ledger Entry@Field",
+      "Label": "Lot No.",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "QueryDataItem",
+      "Id": "Warehouse_Entry@Item_Ledger_Entry@QueryDataItem",
+      "Label": "Warehouse_Entry",
+      "Category": "QueryDataItem",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "11@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Location Code@Item Ledger Entry@Field",
+      "Label": "Location Code",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Lot No.@Warehouse Entry@Field",
+      "Label": "Lot No.",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "QueryColumn",
+      "Id": "Entry_No@Warehouse_Entry@QueryColumn",
+      "Label": "Entry_No",
+      "Category": "QueryColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "17@24",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Entry No.@Warehouse Entry@Field",
+      "Label": "Entry No.",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "QueryColumn",
+      "Id": "Zone_Code@Warehouse_Entry@QueryColumn",
+      "Label": "Zone_Code",
+      "Category": "QueryColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "19@24",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Zone Code@Warehouse Entry@Field",
+      "Label": "Zone Code",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "QueryDataItem",
+      "Id": "Bin@Warehouse_Entry@QueryDataItem",
+      "Label": "Bin",
+      "Category": "QueryDataItem",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "22@26",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Bin@@Table",
+      "Label": "Bin",
+      "Category": "Table",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Code@Bin@Field",
+      "Label": "Code",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "QueryDataItem",
+      "Id": "Bin_Type@Bin@QueryDataItem",
+      "Label": "Bin_Type",
+      "Category": "QueryDataItem",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\query\\Que50100.LotAvailbyBin.al",
+      "Position": "25@30",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Bin Type@@Table",
+      "Label": "Bin Type",
+      "Category": "Table",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Code@Bin Type@Field",
+      "Label": "Code",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Pick@Bin Type@Field",
+      "Label": "Pick",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Report",
+      "Id": "Radio Shows@@Report",
+      "Label": "Radio Shows",
+      "Category": "Report",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "1@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportDataItem",
+      "Id": "Radio Show@Radio Shows@ReportDataItem",
+      "Label": "Radio Show",
+      "Category": "ReportDataItem",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "11@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "No_@Radio Show@ReportColumn",
+      "Label": "No_",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "13@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Radio_Show_Type@Radio Show@ReportColumn",
+      "Label": "Radio_Show_Type",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "14@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Name@Radio Show@ReportColumn",
+      "Label": "Name",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "15@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Run_Time@Radio Show@ReportColumn",
+      "Label": "Run_Time",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "16@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Host_Code@Radio Show@ReportColumn",
+      "Label": "Host_Code",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "17@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Host_Name@Radio Show@ReportColumn",
+      "Label": "Host_Name",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "18@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Average_Listeners@Radio Show@ReportColumn",
+      "Label": "Average_Listeners",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "19@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Audience_Share@Radio Show@ReportColumn",
+      "Label": "Audience_Share",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "20@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Advertising_Revenue@Radio Show@ReportColumn",
+      "Label": "Advertising_Revenue",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "21@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Royalty_Cost@Radio Show@ReportColumn",
+      "Label": "Royalty_Cost",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50100.RadioShows.al",
+      "Position": "22@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Report",
+      "Id": "Shows by Type@@Report",
+      "Label": "Shows by Type",
+      "Category": "Report",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "1@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportDataItem",
+      "Id": "Radio Show Type@Shows by Type@ReportDataItem",
+      "Label": "Radio Show Type",
+      "Category": "ReportDataItem",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "9@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "UserComment@Radio Show Type@ReportColumn",
+      "Label": "UserComment",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "11@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "GlobalVariable",
+      "Id": "UserComment@Shows by Type@GlobalVariable",
+      "Label": "UserComment",
+      "Category": "GlobalVariable",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "61@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Code_RadioShowType@Radio Show Type@ReportColumn",
+      "Label": "Code_RadioShowType",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "12@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Description_RadioShowType@Radio Show Type@ReportColumn",
+      "Label": "Description_RadioShowType",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "13@20",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportDataItem",
+      "Id": "RadioShow@Radio Show Type@ReportDataItem",
+      "Label": "RadioShow",
+      "Category": "ReportDataItem",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "14@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "No_RadioShow@RadioShow@ReportColumn",
+      "Label": "No_RadioShow",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "19@24",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "Name_RadioShow@RadioShow@ReportColumn",
+      "Label": "Name_RadioShow",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "20@24",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "RunTime_RadioShow@RadioShow@ReportColumn",
+      "Label": "RunTime_RadioShow",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "21@24",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportDataItem",
+      "Id": "PlaylistHeader@RadioShow@ReportDataItem",
+      "Label": "PlaylistHeader",
+      "Category": "ReportDataItem",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "22@26",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Radio Show No.@Playlist Header@Field",
+      "Label": "Radio Show No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50102.PlaylistHeader.al",
+      "Position": "7@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "PostingDate_PlaylistHeader@PlaylistHeader@ReportColumn",
+      "Label": "PostingDate_PlaylistHeader",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "26@28",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Broadcast Date@Playlist Header@Field",
+      "Label": "Broadcast Date",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50102.PlaylistHeader.al",
+      "Position": "9@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportColumn",
+      "Id": "StartTime_PlaylistHeader@PlaylistHeader@ReportColumn",
+      "Label": "StartTime_PlaylistHeader",
+      "Category": "ReportColumn",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "27@28",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Start Time@Playlist Header@Field",
+      "Label": "Start Time",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50102.PlaylistHeader.al",
+      "Position": "11@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "content@RequestOptionsPage@Control",
+      "Label": "content",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "37@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "Options@content@Control",
+      "Label": "Options",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "39@23",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Control",
+      "Id": "UserComment@Options@Control",
+      "Label": "UserComment",
+      "Category": "Control",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "41@27",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportLabel",
+      "Id": "ReportTitle@Shows by Type@ReportLabel",
+      "Label": "ReportTitle",
+      "Category": "ReportLabel",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "57@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Report",
+      "Id": "Demo@@Report",
+      "Label": "Demo",
+      "Category": "Report",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50102.Demo.al",
+      "Position": "1@14",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportDataItem",
+      "Id": "DataItem1@Demo@ReportDataItem",
+      "Label": "DataItem1",
+      "Category": "ReportDataItem",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50102.Demo.al",
+      "Position": "5@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportDataItem",
+      "Id": "DataItem2@DataItem1@ReportDataItem",
+      "Label": "DataItem2",
+      "Category": "ReportDataItem",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50102.Demo.al",
+      "Position": "7@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "ReportDataItem",
+      "Id": "DataItem3@DataItem2@ReportDataItem",
+      "Label": "DataItem3",
+      "Category": "ReportDataItem",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50102.Demo.al",
+      "Position": "9@26",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "OnInitReport@Demo@Method",
+      "Label": "OnInitReport",
+      "Category": "Method",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50102.Demo.al",
+      "Position": "29@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "OnPreReport@Demo@Method",
+      "Label": "OnPreReport",
+      "Category": "Method",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50102.Demo.al",
+      "Position": "34@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "OnPostReport@Demo@Method",
+      "Label": "OnPostReport",
+      "Category": "Method",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50102.Demo.al",
+      "Position": "39@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Very Good@Option@Option",
+      "Label": "Very Good",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50050.PlaylistItemRateTest.al",
+      "Position": "8@51",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Good@Option@Option",
+      "Label": "Good",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50050.PlaylistItemRateTest.al",
+      "Position": "8@51",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Medium@Option@Option",
+      "Label": "Medium",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50050.PlaylistItemRateTest.al",
+      "Position": "8@51",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Bad@Option@Option",
+      "Label": "Bad",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50050.PlaylistItemRateTest.al",
+      "Position": "8@51",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Key",
+      "Id": "PK@Playlist Item Rate Test@Key",
+      "Label": "PK",
+      "Category": "Key",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50050.PlaylistItemRateTest.al",
+      "Position": "13@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "OnValidate@No.@Method",
+      "Label": "OnValidate",
+      "Category": "Method",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "8@21",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "OnLookup@No.@Method",
+      "Label": "OnLookup",
+      "Category": "Method",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "13@21",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Listener Count@Listenership Entry@Field",
+      "Label": "Listener Count",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "12@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Radio Show No.@Listenership Entry@Field",
+      "Label": "Radio Show No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "11@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Posting Date@Listenership Entry@Field",
+      "Label": "Posting Date",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "8@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Date Filter@Radio Show@Field",
+      "Label": "Date Filter",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "57@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Audience Share@Listenership Entry@Field",
+      "Label": "Audience Share",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "13@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Fee Amount@Radio Show Entry@Field",
+      "Label": "Fee Amount",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "14@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Radio Show No.@Radio Show Entry@Field",
+      "Label": "Radio Show No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "6@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Data Format@Radio Show Entry@Field",
+      "Label": "Data Format",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "9@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Advertisement@Option@Option",
+      "Label": "Advertisement",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "9@59",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Frecuency@Radio Show@Field",
+      "Label": "Frecuency",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "48@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Hourly@Option@Option",
+      "Label": "Hourly",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "48@58",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Daily@Option@Option",
+      "Label": "Daily",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "48@58",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Weekly@Option@Option",
+      "Label": "Weekly",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "48@58",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Monthly@Option@Option",
+      "Label": "Monthly",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "48@58",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "PSA Planned Quantity@Radio Show@Field",
+      "Label": "PSA Planned Quantity",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "49@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Ads Planned Quantity@Radio Show@Field",
+      "Label": "Ads Planned Quantity",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "50@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "News Required@Radio Show@Field",
+      "Label": "News Required",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "51@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "News Duration@Radio Show@Field",
+      "Label": "News Duration",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "52@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Sports Required@Radio Show@Field",
+      "Label": "Sports Required",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "53@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Sports Duration@Radio Show@Field",
+      "Label": "Sports Duration",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "54@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Weather Required@Radio Show@Field",
+      "Label": "Weather Required",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "55@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Weather Duration@Radio Show@Field",
+      "Label": "Weather Duration",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "56@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Key",
+      "Id": "PK@Radio Show@Key",
+      "Label": "PK",
+      "Category": "Key",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "61@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Key",
+      "Id": "Name@Radio Show@Key",
+      "Label": "Name",
+      "Category": "Key",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "62@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Key",
+      "Id": "HostName@Radio Show@Key",
+      "Label": "HostName",
+      "Category": "Key",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "63@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "FieldGroup",
+      "Id": "DropDown@Radio Show@FieldGroup",
+      "Label": "DropDown",
+      "Category": "FieldGroup",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "67@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "FieldGroup",
+      "Id": "Brick@Radio Show@FieldGroup",
+      "Label": "Brick",
+      "Category": "FieldGroup",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50100.RadioShow.al",
+      "Position": "68@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Description@Playlist Header@Field",
+      "Label": "Description",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50102.PlaylistHeader.al",
+      "Position": "8@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Duration@Playlist Header@Field",
+      "Label": "Duration",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50102.PlaylistHeader.al",
+      "Position": "10@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "End Time@Playlist Header@Field",
+      "Label": "End Time",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50102.PlaylistHeader.al",
+      "Position": "12@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Playlist Line@@Table",
+      "Label": "Playlist Line",
+      "Category": "Table",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "1@13",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Document No.@Playlist Line@Field",
+      "Label": "Document No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "6@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Line No.@Playlist Line@Field",
+      "Label": "Line No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "7@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Type@Playlist Line@Field",
+      "Label": "Type",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "8@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Resource@Option@Option",
+      "Label": "Resource",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "8@50",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Show@Option@Option",
+      "Label": "Show",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "8@50",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Item@Option@Option",
+      "Label": "Item",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "8@50",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "No.@Playlist Line@Field",
+      "Label": "No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "9@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "No.@Resource@Field",
+      "Label": "No.",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Resource@@Table",
+      "Label": "Resource",
+      "Category": "Table",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "No.@Item@Field",
+      "Label": "No.",
+      "Category": "Field",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Table",
+      "Id": "Item@@Table",
+      "Label": "Item",
+      "Category": "Table",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Data Format@Playlist Line@Field",
+      "Label": "Data Format",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "17@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Vinyl@Option@Option",
+      "Label": "Vinyl",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "17@59",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "CD@Option@Option",
+      "Label": "CD",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "17@59",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "MP3@Option@Option",
+      "Label": "MP3",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "17@59",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "PSA@Option@Option",
+      "Label": "PSA",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "17@59",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Publisher@Playlist Line@Field",
+      "Label": "Publisher",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "18@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Description@Playlist Line@Field",
+      "Label": "Description",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "19@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Duration@Playlist Line@Field",
+      "Label": "Duration",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "20@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Start Time@Playlist Line@Field",
+      "Label": "Start Time",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "21@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "End Time@Playlist Line@Field",
+      "Label": "End Time",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "22@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Key",
+      "Id": "PK@Playlist Line@Key",
+      "Label": "PK",
+      "Category": "Key",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50103.PlaylistLine.al",
+      "Position": "27@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Vendor@Option@Option",
+      "Label": "Vendor",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50104.PlaylistItemRate.al",
+      "Position": "5@59",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "Customer@Option@Option",
+      "Label": "Customer",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50104.PlaylistItemRate.al",
+      "Position": "5@59",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Source No.@Playlist Item Rate@Field",
+      "Label": "Source No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50104.PlaylistItemRate.al",
+      "Position": "6@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Item No.@Playlist Item Rate@Field",
+      "Label": "Item No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50104.PlaylistItemRate.al",
+      "Position": "7@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Start Time@Playlist Item Rate@Field",
+      "Label": "Start Time",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50104.PlaylistItemRate.al",
+      "Position": "8@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "End Time@Playlist Item Rate@Field",
+      "Label": "End Time",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50104.PlaylistItemRate.al",
+      "Position": "9@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Rate Amount@Playlist Item Rate@Field",
+      "Label": "Rate Amount",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50104.PlaylistItemRate.al",
+      "Position": "10@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Publisher Code@Playlist Item Rate@Field",
+      "Label": "Publisher Code",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50104.PlaylistItemRate.al",
+      "Position": "11@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Type@Radio Show Entry@Field",
+      "Label": "Type",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "7@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "No.@Radio Show Entry@Field",
+      "Label": "No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "8@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Description@Radio Show Entry@Field",
+      "Label": "Description",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "10@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Date@Radio Show Entry@Field",
+      "Label": "Date",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "11@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Time@Radio Show Entry@Field",
+      "Label": "Time",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "12@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Duration@Radio Show Entry@Field",
+      "Label": "Duration",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "13@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "ACSAP ID@Radio Show Entry@Field",
+      "Label": "ACSAP ID",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "15@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Publisher Code@Radio Show Entry@Field",
+      "Label": "Publisher Code",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "16@19",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Key",
+      "Id": "PK@Radio Show Entry@Key",
+      "Label": "PK",
+      "Category": "Key",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "20@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Key",
+      "Id": "Reporting@Radio Show Entry@Key",
+      "Label": "Reporting",
+      "Category": "Key",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "21@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Key",
+      "Id": "Reporting2@Radio Show Entry@Key",
+      "Label": "Reporting2",
+      "Category": "Key",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50105.RadioShowEntry.al",
+      "Position": "22@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Ratings Source Entry No.@Listenership Entry@Field",
+      "Label": "Ratings Source Entry No.",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "7@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Start Time@Listenership Entry@Field",
+      "Label": "Start Time",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "9@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "End Time@Listenership Entry@Field",
+      "Label": "End Time",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "10@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Age Demographic@Listenership Entry@Field",
+      "Label": "Age Demographic",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "14@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "0-12@Option@Option",
+      "Label": "0-12",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "14@63",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "13-18@Option@Option",
+      "Label": "13-18",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "14@63",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "19-34@Option@Option",
+      "Label": "19-34",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "14@63",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "35-50@Option@Option",
+      "Label": "35-50",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "14@63",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Option",
+      "Id": "51+@Option@Option",
+      "Label": "51+",
+      "Category": "Option",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "14@63",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Key",
+      "Id": "PK@Listenership Entry@Key",
+      "Label": "PK",
+      "Category": "Key",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "19@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Key",
+      "Id": "Reporting@Listenership Entry@Key",
+      "Label": "Reporting",
+      "Category": "Key",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50106.ListenershipEntry.al",
+      "Position": "20@9",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Description@Publisher@Field",
+      "Label": "Description",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50107.Publisher.al",
+      "Position": "10@18",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "OnValidate@Reference for Date Calculation@Method",
+      "Label": "OnValidate",
+      "Category": "Method",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50108.DateFormula.al",
+      "Position": "9@21",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "CalculateNewDate@Date Formula@Method",
+      "Label": "CalculateNewDate",
+      "Category": "Method",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50108.DateFormula.al",
+      "Position": "25@21",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "OnValidate@Date Formula to Test@Method",
+      "Label": "OnValidate",
+      "Category": "Method",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\table\\Tab50108.DateFormula.al",
+      "Position": "16@21",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Method",
+      "Id": "CalcDate@System@Method",
+      "Label": "CalcDate",
+      "Category": "Method",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "TableExtension",
+      "Id": "Item@@TableExtension",
+      "Label": "Item",
+      "Category": "TableExtension",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\tableextension\\Tab-Ext50100.Item.al",
+      "Position": "1@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Publisher Code@Item@Field",
+      "Label": "Publisher Code",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\tableextension\\Tab-Ext50100.Item.al",
+      "Position": "5@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "ACSAP ID@Item@Field",
+      "Label": "ACSAP ID",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\tableextension\\Tab-Ext50100.Item.al",
+      "Position": "6@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Duration@Item@Field",
+      "Label": "Duration",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\tableextension\\Tab-Ext50100.Item.al",
+      "Position": "7@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "Data Format@Item@Field",
+      "Label": "Data Format",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\tableextension\\Tab-Ext50100.Item.al",
+      "Position": "8@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Field",
+      "Id": "MP3 Location@Item@Field",
+      "Label": "MP3 Location",
+      "Category": "Field",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\tableextension\\Tab-Ext50100.Item.al",
+      "Position": "9@22",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Record",
+      "Id": "Playlist Item Rate Test@@Record",
+      "Label": "Playlist Item Rate Test",
+      "Category": "Record",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Record",
+      "Id": "Radio Show@@Record",
+      "Label": "Radio Show",
+      "Category": "Record",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Record",
+      "Id": "Radio Show Type@@Record",
+      "Label": "Radio Show Type",
+      "Category": "Record",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Record",
+      "Id": "Playlist Header@@Record",
+      "Label": "Playlist Header",
+      "Category": "Record",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Record",
+      "Id": "Playlist Item Rate@@Record",
+      "Label": "Playlist Item Rate",
+      "Category": "Record",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Record",
+      "Id": "Radio Show Entry@@Record",
+      "Label": "Radio Show Entry",
+      "Category": "Record",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Record",
+      "Id": "Listenership Entry@@Record",
+      "Label": "Listenership Entry",
+      "Category": "Record",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Record",
+      "Id": "Publisher@@Record",
+      "Label": "Publisher",
+      "Category": "Record",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Record",
+      "Id": "Date Formula@@Record",
+      "Label": "Date Formula",
+      "Category": "Record",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Record",
+      "Id": "Radio Show Fan@@Record",
+      "Label": "Radio Show Fan",
+      "Category": "Record",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Record",
+      "Id": "Warehouse Entry@@Record",
+      "Label": "Warehouse Entry",
+      "Category": "Record",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Module",
+      "Id": "WDTU@@Module",
+      "Label": "WDTU",
+      "Category": "Module",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\page\\Pag50106.ListenershipEntries.al",
+      "Position": "1@1",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Module",
+      "Id": "Base Application@@Module",
+      "Label": "Base Application",
+      "Category": "Module",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Class",
+      "Id": "QueryInstance@@Class",
+      "Label": "QueryInstance",
+      "Category": "Class",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Module",
+      "Id": "System@@Module",
+      "Label": "System",
+      "Category": "Module",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Class",
+      "Id": "Table@@Class",
+      "Label": "Table",
+      "Category": "Class",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "RequestPage",
+      "Id": "RequestOptionsPage@Shows by Type@RequestPage",
+      "Label": "RequestOptionsPage",
+      "Category": "RequestPage",
+      "SourceLocation": "c:\\Users\\if\\Desktop\\OneDrive - TIPSA SL\\Workspace\\AL\\WDTU\\src\\report\\Rep50101.ShowsbyType.al",
+      "Position": "33@5",
+      "IsDeprecated": false
+    },
+    {
+      "Kind": "Class",
+      "Id": "System@@Class",
+      "Label": "System",
+      "Category": "Class",
+      "SourceLocation": null,
+      "Position": null,
+      "IsDeprecated": false
+    }
+  ]
+}
