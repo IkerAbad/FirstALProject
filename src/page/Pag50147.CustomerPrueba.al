@@ -14,29 +14,9 @@ page 50147 "Customer Prueba"
                 field("No."; Rec."No.") { ApplicationArea = All; }
                 field(Name; Rec.Name) { ApplicationArea = All; }
                 field("Balance (LCY)"; Rec."Balance (LCY)") { ApplicationArea = All; }
-                field("Balance Due"; Rec."Balance Due") { ApplicationArea = All; }
-                field("Balance Due (LCY)"; Rec."Balance Due (LCY)") { ApplicationArea = All; }
+                //field("Balance Due"; Rec."Balance Due") { ApplicationArea = All; }
+                //field("Balance Due (LCY)"; Rec."Balance Due (LCY)") { ApplicationArea = All; }
 
-            }
-        }
-        area(Factboxes)
-        {
-
-        }
-    }
-
-    actions
-    {
-        area(Processing)
-        {
-            action(ActionName)
-            {
-                ApplicationArea = All;
-
-                trigger OnAction();
-                begin
-
-                end;
             }
         }
     }

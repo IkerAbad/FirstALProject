@@ -132,9 +132,11 @@ codeunit 50149 "CodeEjemplo"
     * Función, con el Item 1000 filtrar en Item Ledger Entry por Item,
     * sumar su quantity sin recorrer este registro y mostrarlo en mensaje.
     */
-    procedure CALCSUMS(NumeroCliente: Code[20])
+    procedure CALCSUMS(NumeroProducto: Decimal)
     begin
-
+        MovimientosProducto.SetFilter("Item No.", '');
+        CALCSUMS(MovimientosProducto.Quantity);
+        Message('El balance total de todos los clientes es %1 €., %2', Total, Cliente.CalcOverdueBalance());
     end;
 
     /*
