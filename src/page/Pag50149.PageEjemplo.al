@@ -122,7 +122,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.CALCSUMS('10000');
+                    mycodeunit.CALCSUMS('1896-S');
                 end;
             }
             action("FIELDERROR")

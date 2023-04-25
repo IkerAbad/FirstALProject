@@ -87,7 +87,10 @@ codeunit 50149 "CodeEjemplo"
         ClienteCopia.Init();
         ClienteCopia."No." := '0004';
         ClienteCopia.Name := 'Iker4';
-        ClienteCopia.Insert();
+        if ClienteCopia.Insert() then
+            Message(CustomerInserted, ClienteCopia."No.")
+        else
+            Message(CustomerExists, ClienteCopia."No.");
     end;
 
     /*
@@ -97,11 +100,11 @@ codeunit 50149 "CodeEjemplo"
     procedure ModificarRegistros(NumeroCliente: Code[20])
     begin
         while ClienteCopia.Find() do begin
-            ClienteCopia.Init;
+            ClienteCopia.Init();
             ClienteCopia."No." := ClienteCopia."No.";
             ClienteCopia.Name := ClienteCopia.Name;
             ClienteCopia."Name 2" := ClienteCopia."Name" + ClienteCopia."Name";
-            ClienteCopia.Insert;
+            ClienteCopia.Insert();
         end;
 
     end;
@@ -132,11 +135,14 @@ codeunit 50149 "CodeEjemplo"
     * Función, con el Item 1000 filtrar en Item Ledger Entry por Item,
     * sumar su quantity sin recorrer este registro y mostrarlo en mensaje.
     */
-    procedure CALCSUMS(NumeroProducto: Decimal)
+    procedure CALCSUMS(NumeroProducto: Code[20])
     begin
-        MovimientosProducto.SetFilter("Item No.", '');
-        CALCSUMS(MovimientosProducto.Quantity);
-        Message('El balance total de todos los clientes es %1 €., %2', Total, Cliente.CalcOverdueBalance());
+        // Filtramos por item
+        MovimientosProducto.SetFilter("Item No.", NumeroProducto);
+
+        //Sumamos su Quantity con la función CALCSUMS
+        //Total := CALCSUMS(MovimientosProducto.Quantity);
+        Message('El total de la columna Quantity, de los productos con número "%1", es %2.', NumeroProducto, Total);
     end;
 
     /*
@@ -197,6 +203,10 @@ codeunit 50149 "CodeEjemplo"
         MovimientosClienteDetallada: Record "Detailed Cust. Ledg. Entry";
         QuerySumBalance: Query SumBalance;
         MovimientosProducto: Record "Item Ledger Entry";
+
+        // Messages
+        CustomerInserted: Label 'Customer no: %1 inserted.';
+        CustomerExists: Label 'Customer no: %1 already exists.';
 
 
     /*
