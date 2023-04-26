@@ -8,15 +8,11 @@ query 50149 SumBalance
         {
             column(No_; "No.") { }
             column(Name; Name) { }
-            column(Amount; Amount) { Method = sum; }
+            //dataitem(Detailed_Cust_Ledg_Entry,"Detailed Cust. Ledg. Entry")
+            //{
+            //DataItemLink = "Amount" = Customer."Amount","No." = Customer."No.","Name" = Customer."Name";
+            column(Sum_Amount; Amount) { Method = sum; }
+            //}
         }
     }
-
-    var
-        myInt: Integer;
-
-    trigger OnBeforeOpen()
-    begin
-
-    end;
 }

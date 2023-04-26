@@ -41,7 +41,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.BuclesRegistros('10000');
+                    mycodeunit.BuclesRegistros();
                 end;
             }
             action("Query")
@@ -86,7 +86,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.ModificarRegistros('10000');
+                    mycodeunit.ModificarRegistros();
                 end;
             }
             action("Borrado")
@@ -104,7 +104,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.ManipularDatos2('10000');
+                    mycodeunit.ManipularDatos2();
                 end;
             }
             action("Campos calculados")
@@ -113,7 +113,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.CamposCalculados('40000');
+                    mycodeunit.CamposCalculados();
                 end;
             }
             action("CALCSUMS")
@@ -131,7 +131,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.FuncionFIELDERROR('10000');
+                    mycodeunit.FuncionFIELDERROR();
                 end;
             }
             action("Triggers")

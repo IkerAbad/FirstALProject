@@ -35,7 +35,7 @@ codeunit 50149 "CodeEjemplo"
     * Función, recorrer los “Detailed Cust. Ledg. Entry” con un No. cliente,
     * sumar su importe (Amount) en una variable y mostrarla al final en un mensaje.
     */
-    procedure BuclesRegistros(NumeroCliente: Code[20])
+    procedure BuclesRegistros()
     begin
         // Si encuentra el cliente con No. cliente y recorre la tabla "Detailed Cust. Ledg. Entry", luego suma la columna Amount del cliente y muestra el Total.
         if Cliente.get(NumeroCliente) then
@@ -49,9 +49,11 @@ codeunit 50149 "CodeEjemplo"
     * Función, hacer una query sobre los “Detailed Cust. Ledg. Entry” de cliente.
     * Recorrerlo igual que en el ejercicio anterior con la tabla y ver las diferencias entre recorrer una query y un record.
     */
-    procedure FuncionQuery(NumeroCliente: Code[20])
+    procedure FuncionQuery()
     begin
+        QuerySumBalance.Open();
 
+        QuerySumBalance.Close();
     end;
 
     /*++
@@ -85,8 +87,8 @@ codeunit 50149 "CodeEjemplo"
         // Añadimos los siguientes datos a la tabla Customer Copy
         // Si ejecutamos esta función por segunda vez, nos saltará un error "The record in table Customer Copy already exists"
         ClienteCopia.Init();
-        ClienteCopia."No." := '0004';
-        ClienteCopia.Name := 'Iker4';
+        ClienteCopia."No." := '40000';
+        ClienteCopia.Name := 'ParaEliminar4';
         if ClienteCopia.Insert() then
             Message(CustomerInserted, ClienteCopia."No.")
         else
@@ -97,7 +99,7 @@ codeunit 50149 "CodeEjemplo"
     * Función, crear el campo “Name 2” en la nueva tabla.
     * Recorrer customer y actualizar en Customer Copy ese campo “Name 2”.
     */
-    procedure ModificarRegistros(NumeroCliente: Code[20])
+    procedure ModificarRegistros()
     begin
         while ClienteCopia.Find() do begin
             ClienteCopia.Init();
@@ -113,7 +115,7 @@ codeunit 50149 "CodeEjemplo"
     * Función, crear en la nueva tabla Fecha alta, Fecha modificación,
     * Usuario. Hacer que cada vez que se modifica o inserta estos campos se rellenen automáticamente.
     */
-    procedure ManipularDatos2(NumeroCliente: Code[20])
+    procedure ManipularDatos2()
     begin
         ClienteCopia."Fecha alta" := CurrentDateTime;
         ClienteCopia."Fecha modificación" := CurrentDateTime;
@@ -123,7 +125,7 @@ codeunit 50149 "CodeEjemplo"
     * Función, recorrer todos los clientes, calcular Balance y 
     * mostrar el total de Balance de todos los clientes en mensaje.
     */
-    procedure CamposCalculados(NumeroCliente: Code[20])
+    procedure CamposCalculados()
     begin
         if Cliente.FindSet() then
             repeat
@@ -151,13 +153,13 @@ codeunit 50149 "CodeEjemplo"
     * Si al recorrer Item vemos alguno Blocked, recorrer los registros Item.
     *Con un Testfield comprobar que todos los Item tienen Sales unit of Measure.
     */
-    procedure FuncionFIELDERROR(NumeroCliente: Code[20])
+    procedure FuncionFIELDERROR()
     begin
         MovimientosProducto."Item No." := '';
         MovimientosProducto.FieldError("Item No.", 'is not valid');
     end;
 
-    /*
+    /*++
     * Función, diferencia en entre fieldCaption y FieldName. ¿Por qué es importante?
     */
     /*
@@ -171,11 +173,10 @@ codeunit 50149 "CodeEjemplo"
     */
     procedure FuncionTriggers(NumeroCliente: Code[20])
     begin
-
-
+        ClienteCopia.City := ClienteCopia."Post Code";
     end;
 
-    /*
+    /*++
     * Función, recorrer Customer, con Country/Region Code vacío y borrarlos en Customer Copy.
     */
     procedure Borrado()
@@ -183,10 +184,13 @@ codeunit 50149 "CodeEjemplo"
         Cliente.SetRange("Country/Region Code", '');
         if Cliente.FindSet() then
             repeat
-                ClienteCopia."No." := Cliente."No.";
-                ClienteCopia.Name := Cliente.Name;
-                ClienteCopia.Delete();
+                if (ClienteCopia."No." = Cliente."No.") then
+                    ClienteCopia.Delete();
+                if (ClienteCopia."No." = Cliente."No.") then
+                    Total := Total + 1;
             until Cliente.Next() = 0;
+
+        Message('Líneas eliminadas: %1', Total);
         //ClienteCopia.DeleteAll();
     end;
 
