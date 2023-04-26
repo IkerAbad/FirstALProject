@@ -2,13 +2,13 @@ codeunit 50149 "CodeEjemplo"
 {
 
     /*++
-    * Función, devuelve el nombre del cliente introduciendo su No.
+    * Función, devuelve el nombre del Customer introduciendo su No.
     */
-    procedure RegistroPorClavePrimaria(NumeroCliente: Code[20])
+    procedure RegistroPorClavePrimaria(NoCustomer: Code[20])
     begin
         // Si el número de clave primaria No. se encuentra, devuelve su nombre por pantalla.
-        if Cliente.get(NumeroCliente) then
-            Message('El nombre del cliente, con número %1, es %2.', NumeroCliente, Cliente.Name);
+        if Customer.get(NoCustomer) then
+            Message('El nombre del cliente, con número %1, es %2.', NoCustomer, Customer.Name);
     end;
 
     /*++
@@ -17,36 +17,36 @@ codeunit 50149 "CodeEjemplo"
     procedure PrimerRegistroConjunto()
     begin
         // Si se encuentra el primer Customer, devuelve su nombre por pantalla.
-        if Cliente.FindFirst() then
-            Message('El nombre del primer cliente es %1.', Cliente.Name);
+        if Customer.FindFirst() then
+            Message('El nombre del primer cliente es %1.', Customer.Name);
     end;
 
     /*++
     * Función, por No. Customer, ir a su último movimiento y mostrar su Posting date.
     */
-    procedure UltimoRegistro(NumeroCliente: Code[20])
+    procedure UltimoRegistro(NoCustomer: Code[20])
     begin
-        // Si encuentra el cliente con No. cliente y su último movimiento, muestra el Posting Date.
-        if Cliente.get(NumeroCliente) and MovimientosCliente.FindLast() then
-            Message('Del cliente %1, el "Posting Date" de su último movimiento es el %2.', NumeroCliente, MovimientosCliente."Posting Date");
+        // Si encuentra el Customer con No. Customer y su último movimiento, muestra el Posting Date.
+        if Customer.get(NoCustomer) and CustomerEntries.FindLast() then
+            Message('Del cliente %1, el "Posting Date" de su último movimiento es el %2.', NoCustomer, CustomerEntries."Posting Date");
     end;
 
     /*++
     * Función, recorrer los “Detailed Cust. Ledg. Entry” con un No. cliente,
     * sumar su importe (Amount) en una variable y mostrarla al final en un mensaje.
     */
-    procedure BuclesRegistros(NumeroCliente: Code[20])
+    procedure BuclesRegistros(NoCustomer: Code[20])
     begin
-        // Si encuentra el cliente con No. cliente y recorre la tabla "Detailed Cust. Ledg. Entry", luego suma la columna Amount del cliente y muestra el Total.
-        if Cliente.get(NumeroCliente) then
+        // Si encuentra el Customer con No. Customer y recorre la tabla "Detailed Cust. Ledg. Entry", luego suma la columna Amount del Customer y muestra el Total.
+        if Customer.get(NoCustomer) then
             repeat
-                Total := Total + MovimientosClienteDetallada.Amount;
-            until MovimientosClienteDetallada.Next = 0;
-        Message('El cantidad total de la columna "Amount", del cliente %1, es %2 €.', NumeroCliente, Total);
+                Total := Total + CustomerDetailedEntries.Amount;
+            until CustomerDetailedEntries.Next = 0;
+        Message('El cantidad total de la columna "Amount", del Customer %1, es %2 €.', NoCustomer, Total);
     end;
 
     /*
-    * Función, hacer una query sobre los “Detailed Cust. Ledg. Entry” de cliente.
+    * Función, hacer una query sobre los “Detailed Cust. Ledg. Entry” de Customer.
     * Recorrerlo igual que en el ejercicio anterior con la tabla y ver las diferencias entre recorrer una query y un record.
     */
     procedure FuncionQuery()
@@ -58,13 +58,13 @@ codeunit 50149 "CodeEjemplo"
 
     /*++
     * Función, filtrar a todos los Customer con Country Code vacío,recorrerlos
-    * y sacar un mensaje con el contador final de cuantos clientes resultan.
+    * y sacar un mensaje con el contador final de cuantos Customers resultan.
     */
     procedure Filtros()
     begin
         // Filtra los campos vacíos de Country Code
-        Cliente.SetRange("Country/Region Code", '');
-        Message('Clientes que tienen el Country Code vacío: %1.', Cliente.Count());
+        Customer.SetRange("Country/Region Code", '');
+        Message('Customers que tienen el Country Code vacío: %1.', Customer.Count());
     end;
 
     /*++
@@ -73,26 +73,26 @@ codeunit 50149 "CodeEjemplo"
     procedure MostrarFiltros()
     begin
         // Creamos un filtro y lo mostrarmos por pantalla
-        Cliente.SetRange("Country/Region Code", '');
-        Message('Filtros activos:\%1', Cliente.GetFilters);
+        Customer.SetRange("Country/Region Code", '');
+        Message('Filtros activos:\%1', Customer.GetFilters);
 
     end;
 
     /*++
-    * Función, crea nueva tabla Copia Customer (Customer Copy), Campos No. Y Name.
+    * Función, crea nueva tabla Copy Customer (Customer Copy), Campos No. Y Name.
     * Recorrer Customer y crear en la nueva tabla los registros.
     */
     procedure ManipularDatos1()
     begin
         // Añadimos los siguientes datos a la tabla Customer Copy
         // Si ejecutamos esta función por segunda vez, nos saltará un error "The record in table Customer Copy already exists"
-        ClienteCopia.Init();
-        ClienteCopia."No." := '40000';
-        ClienteCopia.Name := 'ParaEliminar4';
-        if ClienteCopia.Insert() then
-            Message(CustomerInserted, ClienteCopia."No.")
+        CustomerCopy.Init();
+        CustomerCopy."No." := '40000';
+        CustomerCopy.Name := 'ParaEliminar4';
+        if CustomerCopy.Insert() then
+            Message(CustomerInserted, CustomerCopy."No.")
         else
-            Message(CustomerExists, ClienteCopia."No.");
+            Message(CustomerExists, CustomerCopy."No.");
     end;
 
     /*
@@ -101,12 +101,10 @@ codeunit 50149 "CodeEjemplo"
     */
     procedure ModificarRegistros()
     begin
-        while ClienteCopia.Find() do begin
-            ClienteCopia.Init();
-            ClienteCopia."No." := ClienteCopia."No.";
-            ClienteCopia.Name := ClienteCopia.Name;
-            ClienteCopia."Name 2" := ClienteCopia."Name" + ClienteCopia."Name";
-            ClienteCopia.Insert();
+        while Customer.Find() do begin
+            CustomerCopy.Init();
+            CustomerCopy."Name 2" := Customer."Name";
+            CustomerCopy.Insert();
         end;
 
     end;
@@ -117,46 +115,47 @@ codeunit 50149 "CodeEjemplo"
     */
     procedure ManipularDatos2()
     begin
-        ClienteCopia."Fecha alta" := CurrentDateTime;
-        ClienteCopia."Fecha modificación" := CurrentDateTime;
+        CustomerCopy."Fecha alta" := CurrentDateTime;
+        CustomerCopy."Fecha modificación" := CurrentDateTime;
     end;
 
-    /*
-    * Función, recorrer todos los clientes, calcular Balance y 
-    * mostrar el total de Balance de todos los clientes en mensaje.
+    /*++
+    * Función, recorrer todos los Customers, calcular Balance y 
+    * mostrar el total de Balance de todos los Customers en mensaje.
     */
     procedure CamposCalculados()
     begin
-        if Cliente.FindSet() then
+        if Customer.FindSet() then
             repeat
-                Total := Total + Cliente.CalcOverdueBalance();
-            until Cliente.Next() = 0;
-        Message('El balance total de todos los clientes es %1 €., %2', Total, Cliente.CalcOverdueBalance());
+                Customer.Calcfields("Balance (LCY)");
+                Total := Total + Customer."Balance (LCY)";
+            until Customer.Next() = 0;
+        Message('El balance total de todos los clientes es %1 €.', Total);
     end;
 
     /*
     * Función, con el Item 1000 filtrar en Item Ledger Entry por Item,
     * sumar su quantity sin recorrer este registro y mostrarlo en mensaje.
     */
-    procedure FuncionCALCSUMS(NumeroProducto: Code[20])
+    procedure FuncionCALCSUMS(ProductNum: Code[20])
     begin
         // Filtramos por item
-        MovimientosProducto.SetFilter("Item No.", NumeroProducto);
+        ProductEntries.SetFilter("Item No.", ProductNum);
 
         //Sumamos su Quantity con la función CALCSUMS
-        //Total := CALCSUMS(MovimientosProducto.Quantity);
-        Message('El total de la columna Quantity, de los productos con número "%1", es %2.', NumeroProducto, Total);
+        //Total := CALCSUMS(ProductEntries.Quantity);
+        Message('El total de la columna Quantity, de los productos con número "%1", es %2.', ProductNum, Total);
     end;
 
-    /*
+    /*--
     * Función, sacar un error con la instrucción FieldErrorf.
     * Si al recorrer Item vemos alguno Blocked, recorrer los registros Item.
     *Con un Testfield comprobar que todos los Item tienen Sales unit of Measure.
     */
     procedure FuncionFIELDERROR()
     begin
-        MovimientosProducto."Item No." := '';
-        MovimientosProducto.FieldError("Item No.", 'is not valid');
+        ProductEntries."Item No." := '';
+        ProductEntries.FieldError("Item No.", 'is not valid');
     end;
 
     /*++
@@ -171,9 +170,9 @@ codeunit 50149 "CodeEjemplo"
     * Cuando se rellene campo "Post Code" se grabe en "City".
     * La primera City de la tabla "Post Code", donde "Code" sea igual al "Post Code" introducido.
     */
-    procedure FuncionTriggers(NumeroCliente: Code[20])
+    procedure FuncionTriggers(NoCustomer: Code[20])
     begin
-        ClienteCopia.City := ClienteCopia."Post Code";
+        CustomerCopy.City := CustomerCopy."Post Code";
     end;
 
     /*++
@@ -181,39 +180,39 @@ codeunit 50149 "CodeEjemplo"
     */
     procedure Borrado()
     begin
-        Cliente.SetRange("Country/Region Code", '');
-        if Cliente.FindSet() then
+        Customer.SetRange("Country/Region Code", '');
+        if Customer.FindSet() then
             repeat
-                if (ClienteCopia."No." = Cliente."No.") then
-                    ClienteCopia.Delete();
-                if (ClienteCopia."No." = Cliente."No.") then
+                if (CustomerCopy."No." = Customer."No.") then
+                    CustomerCopy.Delete();
+                if (CustomerCopy."No." = Customer."No.") then
                     Total := Total + 1;
-            until Cliente.Next() = 0;
+            until Customer.Next() = 0;
 
         Message('Líneas eliminadas: %1', Total);
-        //ClienteCopia.DeleteAll();
+        //CustomerCopy.DeleteAll();
     end;
 
     /*++
-    * Función, por No. Producto, mostrar el número de movimientos de ese producto.
+    * Función, por No. Product, mostrar el número de movimientos de ese Product.
     */
-    procedure Laboratorio(NumeroProducto: Code[20])
+    procedure Laboratorio(ProductNum: Code[20])
     begin
-        // Filtramos el "Item No", por nuestro numero de producto introducido.
-        MovimientosProducto.SetFilter("Item No.", NumeroProducto);
+        // Filtramos el "Item No", por nuestro No de Product introducido.
+        ProductEntries.SetFilter("Item No.", ProductNum);
 
         // Pintamos el resultado de contar los movimientos con ese filtro
-        Message('Número de movimientos del producto %1: %2 movimientos.', NumeroProducto, MovimientosProducto.Count());
+        Message('Número de movimientos del producto %1: %2 movimientos.', ProductNum, ProductEntries.Count());
     end;
 
     var
         Total: Decimal;
-        Cliente: Record Customer;
-        ClienteCopia: Record "Customer Copy";
-        MovimientosCliente: Record "Cust. Ledger Entry";
-        MovimientosClienteDetallada: Record "Detailed Cust. Ledg. Entry";
+        Customer: Record Customer;
+        CustomerCopy: Record "Customer Copy";
+        CustomerEntries: Record "Cust. Ledger Entry";
+        CustomerDetailedEntries: Record "Detailed Cust. Ledg. Entry";
         QuerySumBalance: Query SumBalance;
-        MovimientosProducto: Record "Item Ledger Entry";
+        ProductEntries: Record "Item Ledger Entry";
 
         // Messages
         CustomerInserted: Label 'Customer no: %1 inserted.';
