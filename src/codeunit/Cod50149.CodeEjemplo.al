@@ -35,7 +35,7 @@ codeunit 50149 "CodeEjemplo"
     * Función, recorrer los “Detailed Cust. Ledg. Entry” con un No. cliente,
     * sumar su importe (Amount) en una variable y mostrarla al final en un mensaje.
     */
-    procedure BuclesRegistros()
+    procedure BuclesRegistros(NumeroCliente: Code[20])
     begin
         // Si encuentra el cliente con No. cliente y recorre la tabla "Detailed Cust. Ledg. Entry", luego suma la columna Amount del cliente y muestra el Total.
         if Cliente.get(NumeroCliente) then
