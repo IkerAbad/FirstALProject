@@ -122,7 +122,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.CALCSUMS('1896-S');
+                    mycodeunit.FuncionCALCSUMS('1896-S');
                 end;
             }
             action("FIELDERROR")
@@ -131,16 +131,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.FIELDERROR('10000');
-                end;
-            }
-            action("FIELDCAPTION")
-            {
-                ApplicationArea = All;
-
-                trigger OnAction();
-                begin
-                    mycodeunit.FIELDCAPTION('10000');
+                    mycodeunit.FuncionFIELDERROR('10000');
                 end;
             }
             action("Triggers")
@@ -149,7 +140,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.Triggers('10000');
+                    mycodeunit.FuncionTriggers('10000');
                 end;
             }
             action("Laboratorio")

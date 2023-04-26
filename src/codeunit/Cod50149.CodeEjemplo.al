@@ -115,7 +115,8 @@ codeunit 50149 "CodeEjemplo"
     */
     procedure ManipularDatos2(NumeroCliente: Code[20])
     begin
-
+        ClienteCopia."Fecha alta" := CurrentDateTime;
+        ClienteCopia."Fecha modificación" := CurrentDateTime;
     end;
 
     /*
@@ -135,7 +136,7 @@ codeunit 50149 "CodeEjemplo"
     * Función, con el Item 1000 filtrar en Item Ledger Entry por Item,
     * sumar su quantity sin recorrer este registro y mostrarlo en mensaje.
     */
-    procedure CALCSUMS(NumeroProducto: Code[20])
+    procedure FuncionCALCSUMS(NumeroProducto: Code[20])
     begin
         // Filtramos por item
         MovimientosProducto.SetFilter("Item No.", NumeroProducto);
@@ -150,25 +151,25 @@ codeunit 50149 "CodeEjemplo"
     * Si al recorrer Item vemos alguno Blocked, recorrer los registros Item.
     *Con un Testfield comprobar que todos los Item tienen Sales unit of Measure.
     */
-    procedure FIELDERROR(NumeroCliente: Code[20])
+    procedure FuncionFIELDERROR(NumeroCliente: Code[20])
     begin
-
+        MovimientosProducto."Item No." := '';
+        MovimientosProducto.FieldError("Item No.", 'is not valid');
     end;
 
     /*
     * Función, diferencia en entre fieldCaption y FieldName. ¿Por qué es importante?
     */
-    procedure FIELDCAPTION(NumeroCliente: Code[20])
-    begin
-
-    end;
+    /*
+    * FieldCaption permite la funcionalidad de tener múltiples lenguajes, tanto ahora como en el futuro. Se debe usar FieldCaption en vez de FieldName
+    */
 
     /*
     * Función, añadir en la tabla "Customer Copy" unos campos nuevos, "Post Code" y "City".
     * Cuando se rellene campo "Post Code" se grabe en "City".
     * La primera City de la tabla "Post Code", donde "Code" sea igual al "Post Code" introducido.
     */
-    procedure Triggers(NumeroCliente: Code[20])
+    procedure FuncionTriggers(NumeroCliente: Code[20])
     begin
 
 
@@ -180,7 +181,13 @@ codeunit 50149 "CodeEjemplo"
     procedure Borrado()
     begin
         Cliente.SetRange("Country/Region Code", '');
-        ClienteCopia.DeleteAll();
+        if Cliente.FindSet() then
+            repeat
+                ClienteCopia."No." := Cliente."No.";
+                ClienteCopia.Name := Cliente.Name;
+                ClienteCopia.Delete();
+            until Cliente.Next() = 0;
+        //ClienteCopia.DeleteAll();
     end;
 
     /*++
