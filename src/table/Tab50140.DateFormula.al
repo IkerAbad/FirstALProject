@@ -23,10 +23,11 @@ table 50140 "Date Formula"
 
     }
 
-    // local procedure CalculateNewDate()
-    // begin
-    //     "Date Result" := CalcDate("Date Formula to Test", "Reference for Date Calculation");
-    // end;
+    local procedure CalculateNewDate()
+    begin
+        "Date Result" := CalcDate("Date Formula to Test", "Reference for Date Calculation");
+    end;
+
     var
         DateFormMgt: Codeunit "Date Formula Mgt.";
 
