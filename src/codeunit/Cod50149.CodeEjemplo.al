@@ -56,7 +56,7 @@ codeunit 50149 "CodeEjemplo"
         Message('El cantidad total de la columna "Amount", del Customer %1, es %2 €.', NoCustomer, Total);
     end;
 
-    /*
+    /*++
     * 5. Función, hacer una query sobre los “Detailed Cust. Ledg. Entry” de Customer.
     * Recorrer los “Detailed Cust. Ledg. Entry” con un No. cliente, sumar su importe (Amount) en una variable y mostrarla al final en un mensaje.
     */
@@ -64,12 +64,21 @@ codeunit 50149 "CodeEjemplo"
     var
         QuerySumBalance: Query SumBalance;
         DetailedCustomerLedgerEntry: Record "Detailed Cust. Ledg. Entry";
+
         Customer: Record Customer;
 
     begin
-        QuerySumBalance.Open();
-        //QuerySumBalance.No_
-        //QuerySumBalance.Close();
+        // Sets a filter to display only sales quantities greater than 20.  
+        QuerySumBalance.SETFILTER(QuerySumBalance.No_, NoCustomer);
+        // Runs the query.  
+        QuerySumBalance.OPEN;
+        // Reads each row in the dataset and displays message with column values.  
+        // Stops reading when there are no more rows remaining in the dataset (READ is FALSE).  
+        WHILE QuerySumBalance.READ DO BEGIN
+            MESSAGE('Client Number: %1\Name: %2\Sum Amount: %3', NoCustomer, QuerySumBalance.Name, QuerySumBalance.Sum_Amount);
+        END;
+        // Closes the query.  
+        QuerySumBalance.CLOSE;
     end;
 
     /*++
@@ -120,7 +129,7 @@ codeunit 50149 "CodeEjemplo"
             Message(CustomerExists, CustomerCopy."No.");
     end;
 
-    /* ++
+    /*++
     * 9. Función, crear el campo “Name 2” en la nueva tabla.
     * Recorrer customer y actualizar en Customer Copy ese campo “Name 2”.
     */
@@ -143,7 +152,7 @@ codeunit 50149 "CodeEjemplo"
         Message('%1, %2, %3', Customer."No.", Customer.Name, Customer."Name 2");
     end;
 
-    /*
+    /*++
     * 10. Función, crear en la nueva tabla Fecha alta, Fecha modificación,
     * Usuario. Hacer que cada vez que se modifica o inserta estos campos se rellenen automáticamente.
     */
@@ -151,8 +160,14 @@ codeunit 50149 "CodeEjemplo"
     var
         CustomerCopy: Record "Customer Copy";
     begin
-        CustomerCopy."Fecha alta" := CurrentDateTime;
-        CustomerCopy."Fecha modificación" := CurrentDateTime;
+        if CustomerCopy.FindSet() then
+            repeat
+                Message('Cliente: %1\Fecha alta: %2\Fecha modificación: %3', CustomerCopy.Name, CustomerCopy."Fecha alta", CustomerCopy."Fecha modificación");
+                CustomerCopy."Fecha alta" := CurrentDateTime;
+                CustomerCopy."Fecha modificación" := CurrentDateTime;
+                CustomerCopy.Modify();
+                Message('Cliente: %1\Fecha alta: %2\Fecha modificación: %3', CustomerCopy.Name, CustomerCopy."Fecha alta", CustomerCopy."Fecha modificación");
+            until CustomerCopy.Next() = 0;
     end;
 
     /*++
@@ -260,38 +275,4 @@ codeunit 50149 "CodeEjemplo"
     begin
         CustomerCopy.City := CustomerCopy."Post Code";
     end;
-
-
-    var
-    /*
-        Total: Decimal;
-        Customer: Record Customer;
-        CustomerCopy: Record "Customer Copy";
-        CustomerLedgerEntry: Record "Cust. Ledger Entry";
-        DetailedCustomerLedgerEntry: Record "Detailed Cust. Ledg. Entry";
-        QuerySumBalance: Query SumBalance;
-        ItemLedgerEntry: Record "Item Ledger Entry";
-
-        // Messages
-        CustomerInserted: Label 'Customer no: %1 inserted.';
-        CustomerExists: Label 'Customer no: %1 already exists.';
-*/
-
-    /*
-    trigger OnOpenPage()
-        var
-        LotAvail: Query "Lot Avail. by Bin";
-        begin
-            LotAvail.Open;
-            while LotAvail.Read do begin
-            Rec.Init;
-            Rec."Entry No." := Rec."Entry No." + 1;
-            Rec."Item No." := LotAvail.Item_No;
-            Rec."Location Code" := LotAvail.Location_Code;
-            Rec."Bin Code" := LotAvail.Bin_Code;
-            Rec.Quantity := LotAvail.Sum_Quantity;
-            Rec.Insert;
-        end;
-    end;
-    */
 }

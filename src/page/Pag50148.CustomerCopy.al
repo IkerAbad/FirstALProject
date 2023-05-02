@@ -16,7 +16,7 @@ page 50148 "Customer Copy"
                 field("Name 2"; Rec."Name 2") { ApplicationArea = All; }
                 field("Fecha alta"; Rec."Fecha alta") { ApplicationArea = All; }
                 field("Fecha modificación"; Rec."Fecha modificación") { ApplicationArea = All; }
-                field("Post Code"; Rec."Post Code") { ApplicationArea = All; }
+                field("Post Code"; Rec."Post Code") { }
                 field(City; Rec.City) { ApplicationArea = All; }
             }
         }

@@ -50,7 +50,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.PrimerRegistroConjunto();
+                    mycodeunit.FuncionQuery('40000');
                 end;
             }
             action("Filtros")
