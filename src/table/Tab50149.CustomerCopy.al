@@ -12,21 +12,18 @@ table 50149 "Customer Copy"
         field(6; "Post Code"; Code[10])
         {
             DataClassification = ToBeClassified;
+            // Trigger OnValidate
         }
         field(7; City; Text[20])
         {
             DataClassification = ToBeClassified;
-            trigger OnValidate()
-            var
-                PostCode: Record "Post Code";
-                stringCity: Text[50];
-            begin
-                if (CustomerCopy.City.Contains('')) then
-                    Message('');
-            end;
+
+            //TableRelation = IF ("" = CONST('')) "Post Code".City ELSE
+            //IF ("Country/Region Code" = FILTER(<> '')) "Post Code".Code WHERE("" = FIELD(""));
+            //This property is currently not supported
 
             /*
-                        Caption = 'City';
+            Caption = 'City';
             TableRelation = IF ("Country/Region Code" = CONST('')) "Post Code".City
             ELSE
             IF ("Country/Region Code" = FILTER(<> '')) "Post Code".City WHERE("Country/Region Code" = FIELD("Country/Region Code"));
@@ -66,18 +63,15 @@ table 50149 "Customer Copy"
         }
     }
 
-    var
-        CustomerCopy: Record "Customer Copy";
-
     trigger OnInsert()
     begin
-        CustomerCopy."Fecha alta" := CurrentDateTime;
+        "Fecha alta" := CurrentDateTime;
     end;
 
     trigger OnModify()
     begin
 
-        CustomerCopy."Fecha modificación" := CurrentDateTime;
+        "Fecha modificación" := CurrentDateTime;
     end;
 
     trigger OnDelete()

@@ -4,13 +4,14 @@ codeunit 50149 "CodeEjemplo"
     /*++
     * 1. Función, devuelve el nombre del Customer introduciendo su No.
     */
-    procedure RegistroPorClavePrimaria(NoCustomer: Code[20])
+    procedure RegistroPorClavePrimaria(CustomerNo: Code[20])
     var
         Customer: Record Customer;
     begin
         // Si el número de clave primaria No. se encuentra, devuelve su nombre por pantalla.
-        if Customer.get(NoCustomer) then
-            Message('El nombre del cliente, con número %1, es %2.', NoCustomer, Customer.Name);
+        if Customer.get(CustomerNo) then
+            // Mensaje por pantalla
+            Message('El nombre del cliente, con número %1, es %2.', CustomerNo, Customer.Name);
     end;
 
     /*++
@@ -19,65 +20,70 @@ codeunit 50149 "CodeEjemplo"
     procedure PrimerRegistroConjunto()
     var
         Customer: Record Customer;
+        newLabel: Label 'El nombre del primer cliente es %1.';
+
     begin
         // Si se encuentra el primer Customer, devuelve su nombre por pantalla.
         if Customer.FindFirst() then
-            Message('El nombre del primer cliente es %1.', Customer.Name);
+            // Mensaje por pantalla
+            Message(newLabel, Customer.Name);
     end;
 
     /*++
     * 3. Función, por No. Customer, ir a su último movimiento y mostrar su Posting date.
     */
-    procedure UltimoRegistro(NoCustomer: Code[20])
+    procedure UltimoRegistro(CustomerNo: Code[20])
     var
         Customer: Record Customer;
         CustomerLedgerEntry: Record "Cust. Ledger Entry";
     begin
-        // Si encuentra el Customer con No. Customer y su último movimiento, muestra el Posting Date.
-        if Customer.get(NoCustomer) and CustomerLedgerEntry.FindLast() then
-            Message('Del cliente %1, el "Posting Date" de su último movimiento es el %2.', NoCustomer, CustomerLedgerEntry."Posting Date");
+        // Si encuentra el Customer, con No. Customer, y su último movimiento, muestra el Posting Date.
+        if Customer.get(CustomerNo) and CustomerLedgerEntry.FindLast() then
+            // Mensaje por pantalla
+            Message('Del cliente %1, el "Posting Date" de su último movimiento es el %2.', CustomerNo, CustomerLedgerEntry."Posting Date");
     end;
 
     /*++
     * 4. Función, recorrer los “Detailed Cust. Ledg. Entry” con un No. cliente,
     * sumar su importe (Amount) en una variable y mostrarla al final en un mensaje.
     */
-    procedure BuclesRegistros(NoCustomer: Code[20])
+    procedure BuclesRegistros(CustomerNo: Code[20])
     var
         Total: Decimal;
         Customer: Record Customer;
         DetailedCustomerLedgerEntry: Record "Detailed Cust. Ledg. Entry";
     begin
-        // Si encuentra el Customer con No. Customer y recorre la tabla "Detailed Cust. Ledg. Entry", luego suma la columna Amount del Customer y muestra el Total.
-        if Customer.get(NoCustomer) then
+        // Busca el Customer con No. Customer y recorre la tabla "Detailed Cust. Ledg. Entry"
+        // Luego suma la columna Amount del Customer y muestra el Total.
+        if Customer.get(CustomerNo) then
             repeat
                 Total := Total + DetailedCustomerLedgerEntry.Amount;
             until DetailedCustomerLedgerEntry.Next = 0;
-        Message('El cantidad total de la columna "Amount", del Customer %1, es %2 €.', NoCustomer, Total);
+        // Mensaje por pantalla
+        Message('El cantidad total de la columna "Amount", del Customer %1, es %2 €.', CustomerNo, Total);
     end;
 
     /*++
     * 5. Función, hacer una query sobre los “Detailed Cust. Ledg. Entry” de Customer.
     * Recorrer los “Detailed Cust. Ledg. Entry” con un No. cliente, sumar su importe (Amount) en una variable y mostrarla al final en un mensaje.
     */
-    procedure FuncionQuery(NoCustomer: Code[20])
+    procedure FuncionQuery(CustomerNo: Code[20])
     var
         QuerySumBalance: Query SumBalance;
         DetailedCustomerLedgerEntry: Record "Detailed Cust. Ledg. Entry";
-
         Customer: Record Customer;
 
     begin
-        // Sets a filter to display only sales quantities greater than 20.  
-        QuerySumBalance.SETFILTER(QuerySumBalance.No_, NoCustomer);
-        // Runs the query.  
+        // Filtrar por No Customer
+        QuerySumBalance.SETFILTER(QuerySumBalance.No_, CustomerNo);
+        // Ejecuta la query
         QuerySumBalance.OPEN;
-        // Reads each row in the dataset and displays message with column values.  
-        // Stops reading when there are no more rows remaining in the dataset (READ is FALSE).  
+        // Lee cada fila y muestra un mensaje con los valores de columna.
+        // El bucle finaliza cuando no se encuentran más filas.
         WHILE QuerySumBalance.READ DO BEGIN
-            MESSAGE('Client Number: %1\Name: %2\Sum Amount: %3', NoCustomer, QuerySumBalance.Name, QuerySumBalance.Sum_Amount);
+            MESSAGE('Client Number: %1\Name: %2\Sum Amount: %3', CustomerNo, QuerySumBalance.Name, QuerySumBalance.Sum_Amount);
         END;
-        // Closes the query.  
+        // Cierra la query
         QuerySumBalance.CLOSE;
     end;
 
@@ -91,6 +97,7 @@ codeunit 50149 "CodeEjemplo"
     begin
         // Filtra los campos vacíos de Country Code
         Customer.SetRange("Country/Region Code", '');
+        // Mensaje por pantalla
         Message('Customers que tienen el Country Code vacío: %1.', Customer.Count());
     end;
 
@@ -101,7 +108,7 @@ codeunit 50149 "CodeEjemplo"
     var
         Customer: Record Customer;
     begin
-        // Creamos un filtro y lo mostrarmos por pantalla
+        // Creamos un filtro, los valores vacíos de la columna "Country/Region Code", y lo mostramos por pantalla
         Customer.SetRange("Country/Region Code", '');
         Message('Filtros activos:\%1', Customer.GetFilters);
 
@@ -114,15 +121,15 @@ codeunit 50149 "CodeEjemplo"
     procedure ManipularDatos1()
     var
         CustomerCopy: Record "Customer Copy";
-        // Messages
+        // Mensages
         CustomerInserted: Label 'Customer no: %1 inserted.';
         CustomerExists: Label 'Customer no: %1 already exists.';
     begin
         // Añadimos los siguientes datos a la tabla Customer Copy
         // Si ejecutamos esta función por segunda vez, nos saltará un error "The record in table Customer Copy already exists"
         CustomerCopy.Init();
-        CustomerCopy."No." := '40000';
-        CustomerCopy.Name := 'ParaEliminar4';
+        CustomerCopy."No." := '50000';
+        CustomerCopy.Name := 'Iker5';
         if CustomerCopy.Insert() then
             Message(CustomerInserted, CustomerCopy."No.")
         else
@@ -142,14 +149,14 @@ codeunit 50149 "CodeEjemplo"
         Customer.Find('-');
 
         // Mostrar cliente
-        Message('%1, %2, %3', Customer."No.", Customer.Name, Customer."Name 2");
+        Message('Nº Cliente: %1\Nombre: %2\Segundo nombre: %3', Customer."No.", Customer.Name, Customer."Name 2");
 
         // Modificar name 2 de cliente
         Customer."Name 2" := 'Nombre 2 Modificado';
         Customer.Modify;
 
         // Mostrar name 2 modificado
-        Message('%1, %2, %3', Customer."No.", Customer.Name, Customer."Name 2");
+        Message('Nº Cliente: %1\Nombre: %2\Segundo nombre: %3', Customer."No.", Customer.Name, Customer."Name 2");
     end;
 
     /*++
@@ -160,12 +167,14 @@ codeunit 50149 "CodeEjemplo"
     var
         CustomerCopy: Record "Customer Copy";
     begin
+        // Recorre cada cliente de la tabla "Customer Copy"
         if CustomerCopy.FindSet() then
             repeat
+                // Muestra el cliente actual
                 Message('Cliente: %1\Fecha alta: %2\Fecha modificación: %3', CustomerCopy.Name, CustomerCopy."Fecha alta", CustomerCopy."Fecha modificación");
-                CustomerCopy."Fecha alta" := CurrentDateTime;
-                CustomerCopy."Fecha modificación" := CurrentDateTime;
-                CustomerCopy.Modify();
+                CustomerCopy.Modify(true);
+                CustomerCopy.Insert(true);
+                // Muestra el cliente modificado
                 Message('Cliente: %1\Fecha alta: %2\Fecha modificación: %3', CustomerCopy.Name, CustomerCopy."Fecha alta", CustomerCopy."Fecha modificación");
             until CustomerCopy.Next() = 0;
     end;
@@ -181,7 +190,9 @@ codeunit 50149 "CodeEjemplo"
     begin
         if Customer.FindSet() then
             repeat
+                // Campo calculado
                 Customer.Calcfields("Balance (LCY)");
+                // Sumatorio
                 Total := Total + Customer."Balance (LCY)";
             until Customer.Next() = 0;
         Message('El balance total de todos los clientes es %1 €.', Total);
@@ -228,7 +239,7 @@ codeunit 50149 "CodeEjemplo"
     */
 
 
-    /*++
+    /*
     * 15. Función, recorrer Customer, con Country/Region Code vacío y borrarlos en Customer Copy.
     */
     procedure Borrado()
@@ -247,10 +258,9 @@ codeunit 50149 "CodeEjemplo"
             until Customer.Next() = 0;
 
         Message('Líneas eliminadas: %1', Total);
-        //CustomerCopy.DeleteAll();
     end;
 
-    /*++
+    /*
     * 16. Función, por No. Product, mostrar el número de movimientos de ese Product.
     */
     procedure Laboratorio(ItemNo: Code[20])
@@ -269,7 +279,7 @@ codeunit 50149 "CodeEjemplo"
     * Cuando se rellene campo "Post Code" se grabe en "City".
     * La primera City de la tabla "Post Code", donde "Code" sea igual al "Post Code" introducido.
     */
-    procedure FuncionTriggers(NoCustomer: Code[20])
+    procedure FuncionTriggers(CustomerNo: Code[20])
     var
         CustomerCopy: Record "Customer Copy";
     begin
