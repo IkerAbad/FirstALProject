@@ -11,7 +11,11 @@ codeunit 50149 "CodeEjemplo"
         // Si el número de clave primaria No. se encuentra, devuelve su nombre por pantalla.
         if Customer.get(CustomerNo) then
             // Mensaje por pantalla
-            Message('El nombre del cliente, con número %1, es %2.', CustomerNo, Customer.Name);
+            Message(NombreClienteLbl, CustomerNo, Customer.Name);
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -20,13 +24,16 @@ codeunit 50149 "CodeEjemplo"
     procedure PrimerRegistroConjunto()
     var
         Customer: Record Customer;
-        newLabel: Label 'El nombre del primer cliente es %1.';
 
     begin
         // Si se encuentra el primer Customer, devuelve su nombre por pantalla.
         if Customer.FindFirst() then
             // Mensaje por pantalla
-            Message(newLabel, Customer.Name);
+            Message(PrimerClienteLbl, Customer.Name);
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -36,11 +43,16 @@ codeunit 50149 "CodeEjemplo"
     var
         Customer: Record Customer;
         CustomerLedgerEntry: Record "Cust. Ledger Entry";
+
     begin
         // Si encuentra el Customer, con No. Customer, y su último movimiento, muestra el Posting Date.
         if Customer.get(CustomerNo) and CustomerLedgerEntry.FindLast() then
             // Mensaje por pantalla
-            Message('Del cliente %1, el "Posting Date" de su último movimiento es el %2.', CustomerNo, CustomerLedgerEntry."Posting Date");
+            Message(UltimoRegistroLbl, CustomerNo, CustomerLedgerEntry."Posting Date");
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -52,6 +64,7 @@ codeunit 50149 "CodeEjemplo"
         Total: Decimal;
         Customer: Record Customer;
         DetailedCustomerLedgerEntry: Record "Detailed Cust. Ledg. Entry";
+
     begin
         // Busca el Customer con No. Customer y recorre la tabla "Detailed Cust. Ledg. Entry"
         // Luego suma la columna Amount del Customer y muestra el Total.
@@ -61,6 +74,10 @@ codeunit 50149 "CodeEjemplo"
             until DetailedCustomerLedgerEntry.Next = 0;
         // Mensaje por pantalla
         Message('El cantidad total de la columna "Amount", del Customer %1, es %2 €.', CustomerNo, Total);
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -85,6 +102,10 @@ codeunit 50149 "CodeEjemplo"
         END;
         // Cierra la query
         QuerySumBalance.CLOSE;
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -99,6 +120,10 @@ codeunit 50149 "CodeEjemplo"
         Customer.SetRange("Country/Region Code", '');
         // Mensaje por pantalla
         Message('Customers que tienen el Country Code vacío: %1.', Customer.Count());
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -112,6 +137,9 @@ codeunit 50149 "CodeEjemplo"
         Customer.SetRange("Country/Region Code", '');
         Message('Filtros activos:\%1', Customer.GetFilters);
 
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -134,6 +162,10 @@ codeunit 50149 "CodeEjemplo"
             Message(CustomerInserted, CustomerCopy."No.")
         else
             Message(CustomerExists, CustomerCopy."No.");
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -157,6 +189,10 @@ codeunit 50149 "CodeEjemplo"
 
         // Mostrar name 2 modificado
         Message('Nº Cliente: %1\Nombre: %2\Segundo nombre: %3', Customer."No.", Customer.Name, Customer."Name 2");
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -177,6 +213,10 @@ codeunit 50149 "CodeEjemplo"
                 // Muestra el cliente modificado
                 Message('Cliente: %1\Fecha alta: %2\Fecha modificación: %3', CustomerCopy.Name, CustomerCopy."Fecha alta", CustomerCopy."Fecha modificación");
             until CustomerCopy.Next() = 0;
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -196,6 +236,10 @@ codeunit 50149 "CodeEjemplo"
                 Total := Total + Customer."Balance (LCY)";
             until Customer.Next() = 0;
         Message('El balance total de todos los clientes es %1 €.', Total);
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -216,6 +260,9 @@ codeunit 50149 "CodeEjemplo"
         // Imprimimos su valor
         Message('El total de la columna Quantity, de los productos con número "%1", es %2.', ItemNo, ItemLedgerEntry.Quantity);
 
+        /* Justificación
+        * 
+        */
     end;
 
     /*--
@@ -229,6 +276,10 @@ codeunit 50149 "CodeEjemplo"
     begin
         ItemLedgerEntry."Item No." := '';
         ItemLedgerEntry.FieldError("Item No.", 'is not valid');
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*++
@@ -258,6 +309,10 @@ codeunit 50149 "CodeEjemplo"
             until Customer.Next() = 0;
 
         Message('Líneas eliminadas: %1', Total);
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*
@@ -272,6 +327,10 @@ codeunit 50149 "CodeEjemplo"
 
         // Pintamos el resultado de contar los movimientos con ese filtro
         Message('Número de movimientos del producto %1: %2 movimientos.', ItemNo, ItemLedgerEntry.Count());
+
+        /* Justificación
+        * 
+        */
     end;
 
     /*
@@ -284,5 +343,14 @@ codeunit 50149 "CodeEjemplo"
         CustomerCopy: Record "Customer Copy";
     begin
         CustomerCopy.City := CustomerCopy."Post Code";
+
+        /* Justificación
+        * 
+        */
     end;
+
+    var
+        NombreClienteLbl: Label 'El nombre del cliente, con número %1, es %2.';
+        PrimerClienteLbl: Label 'El nombre del primer cliente es %1.';
+        UltimoRegistroLbl: Label 'Del cliente %1, el "Posting Date" de su último movimiento es el %2.';
 }
