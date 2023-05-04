@@ -41,7 +41,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.BuclesRegistros('10000');
+                    mycodeunit.BuclesRegistros('20000');
                 end;
             }
             action("Query")

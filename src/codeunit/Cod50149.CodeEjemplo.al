@@ -42,13 +42,12 @@ codeunit 50149 "CodeEjemplo"
     */
     procedure UltimoRegistro(CustomerNo: Code[20])
     var
-        Customer: Record Customer;
         CustomerLedgerEntry: Record "Cust. Ledger Entry";
 
     begin
         // Filtramos por No de cliente
         CustomerLedgerEntry.SetFilter("Customer No.", CustomerNo);
-        // Buscamos el último moviemiento
+        // Buscamos el último movimiento
         if CustomerLedgerEntry.FindLast() then
             // Mensaje por pantalla
             Message(UltimoRegistroLbl, CustomerNo, CustomerLedgerEntry."Posting Date");
@@ -60,25 +59,34 @@ codeunit 50149 "CodeEjemplo"
         */
     end;
 
-    /*++
+    /*
     * 4. Función, recorrer los “Detailed Cust. Ledg. Entry” con un No. cliente,
     * sumar su importe (Amount) en una variable y mostrarla al final en un mensaje.
     */
+
+    // SETCURRENTKEY
+    // SETRANGE
     procedure BuclesRegistros(CustomerNo: Code[20])
     var
         Total: Decimal;
-        Customer: Record Customer;
         DetailedCustomerLedgerEntry: Record "Detailed Cust. Ledg. Entry";
 
     begin
-        // Busca el Customer con No. Customer y recorre la tabla "Detailed Cust. Ledg. Entry"
-        // Luego suma la columna Amount del Customer y muestra el Total.
-        if Customer.get(CustomerNo) then
-            repeat
-                Total := Total + DetailedCustomerLedgerEntry.Amount;
-            until DetailedCustomerLedgerEntry.Next = 0;
-        // Mensaje por pantalla
-        Message('El cantidad total de la columna "Amount", del Customer %1, es %2 €.', CustomerNo, Total);
+
+
+
+        /*
+                // Bucle que recorre la tabla "Detailed Cust. Ledg. Entry"
+                if DetailedCustomerLedgerEntry.FindSet() then
+                    repeat
+                        // Si encuentra que un dato, en valor de No Cliente, coincide con el No Cliente introducido,
+                        // suma su valor Amount y lo guarda en una variable.
+                        if DetailedCustomerLedgerEntry."Customer No." = CustomerNo then
+                            Total := Total + DetailedCustomerLedgerEntry.Amount;
+                    until DetailedCustomerLedgerEntry.Next = 0;
+                // Mensaje por pantalla
+                Message(CustomerSumAmountLbl, CustomerNo, Total);
+        */
 
         /* Justificación
         * 
@@ -358,4 +366,6 @@ codeunit 50149 "CodeEjemplo"
         NombreClienteLbl: Label 'El nombre del cliente, con número %1, es %2.';
         PrimerClienteLbl: Label 'El nombre del primer cliente es %1.';
         UltimoRegistroLbl: Label 'Del cliente %1, el "Posting Date" de su último movimiento es el %2.';
+        CustomerSumAmountLbl: Label 'La cantidad total de la columna "Amount", del Customer %1, es %2 €.';
+
 }
