@@ -14,7 +14,8 @@ codeunit 50149 "CodeEjemplo"
             Message(NombreClienteLbl, CustomerNo, Customer.Name);
 
         /* Justificación
-        * 
+        * Uso el método "Record.get("Clave primaria")" porque devuelve un Record con los datos que tengan esa clave primaria.
+        * Este método omite cualquier filtro aplicado, excepto los Security Filters.
         */
     end;
 
@@ -32,7 +33,7 @@ codeunit 50149 "CodeEjemplo"
             Message(PrimerClienteLbl, Customer.Name);
 
         /* Justificación
-        * 
+        * Uso el método "Record.FindFirst()" porque devuelve el primer valor que encuentra en la tabla customer, lo primero que lee.
         */
     end;
 
@@ -45,13 +46,17 @@ codeunit 50149 "CodeEjemplo"
         CustomerLedgerEntry: Record "Cust. Ledger Entry";
 
     begin
-        // Si encuentra el Customer, con No. Customer, y su último movimiento, muestra el Posting Date.
-        if Customer.get(CustomerNo) and CustomerLedgerEntry.FindLast() then
+        // Filtramos por No de cliente
+        CustomerLedgerEntry.SetFilter("Customer No.", CustomerNo);
+        // Buscamos el último moviemiento
+        if CustomerLedgerEntry.FindLast() then
             // Mensaje por pantalla
             Message(UltimoRegistroLbl, CustomerNo, CustomerLedgerEntry."Posting Date");
 
         /* Justificación
-        * 
+        * Aplico el método "Record.SetFilter("Columna", "Filtro")" porque me filtra, dentro de mi variable, todos los movimientos
+        * con esa clave primera de Customer.
+        * Una vez aplicado, busca el último movimiento con la función Record.FindLast()
         */
     end;
 

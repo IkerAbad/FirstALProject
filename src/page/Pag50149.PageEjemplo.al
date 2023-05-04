@@ -32,7 +32,7 @@ page 50149 "PageEjemplo"
 
                 trigger OnAction();
                 begin
-                    mycodeunit.UltimoRegistro('10000');
+                    mycodeunit.UltimoRegistro('30000');
                 end;
             }
             action("Bucles con registros")
